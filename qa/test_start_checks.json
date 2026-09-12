@@ -1,0 +1,19 @@
+{
+  "readback": true,
+  "skills": 33,
+  "skill_value": 100,
+  "cats": 1000000,
+  "spawn": "Heft",
+  "supplies": {
+    "580-gamedata.base": 200,
+    "42159-gamedata.base": 200,
+    "579-gamedata.base": 100,
+    "42164-gamedata.base": 100,
+    "1965-gamedata.base": 200,
+    "1230-gamedata.base": 200,
+    "1-420_Smoking.mod": 200,
+    "2-420_Smoking.mod": 100,
+    "43959-rebirth.mod": 20
+  },
+  "in_game_verified": false
+}

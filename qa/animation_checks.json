@@ -1,0 +1,14 @@
+{
+  "chillum": {
+    "duration_seconds": 8,
+    "max_right_wrist_target_error": 1.3405745836846354e-05,
+    "finger_bones_present": false,
+    "in_game_verified": false
+  },
+  "joint": {
+    "duration_seconds": 8,
+    "max_right_wrist_target_error": 1.3320004546519382e-05,
+    "finger_bones_present": false,
+    "in_game_verified": false
+  }
+}

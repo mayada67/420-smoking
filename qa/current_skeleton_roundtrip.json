@@ -1,0 +1,16 @@
+{
+  "420_smoke_chillum": {
+    "max_bone_position_error": 5.754549869459771e-06,
+    "sampled_frames": 201,
+    "duration_seconds": 8,
+    "passed": true
+  },
+  "420_smoke_joint": {
+    "max_bone_position_error": 3.948329725665854e-06,
+    "sampled_frames": 201,
+    "duration_seconds": 8,
+    "passed": true
+  },
+  "skeleton_sha256": "fc8bf106447e9a22e9ba4384bc19fe1c4852ad92d3cdc5192b3036a057b3fcbf",
+  "in_game_verified": false
+}

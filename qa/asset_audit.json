@@ -1,0 +1,109 @@
+{
+  "binary_custom_references_exist": true,
+  "png_crc_and_decompression": true,
+  "files": {
+    "items/icons/420_paper_icon.png": {
+      "bytes": 14266,
+      "sha256": "8ad132b8a9890b3a30e1536849c4bb132aafe00e505564e7bbcea11ff9d87ebe",
+      "png_header": [
+        128,
+        128,
+        8,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    "assets/420_paper.mesh": {
+      "bytes": 68552,
+      "sha256": "e4e9ec720f1f047725460daf42753fe19784f1b33025e330692ffeba2d9fe8e1"
+    },
+    "items/icons/420_joint_icon.png": {
+      "bytes": 8258,
+      "sha256": "6c0d15761d4030f2b819dda5bb0f9e58a8f1da6dca439db9b873c8ccd7d16d58",
+      "png_header": [
+        128,
+        128,
+        8,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    "assets/420_joint.mesh": {
+      "bytes": 48128,
+      "sha256": "cec2524a3f50824eed9e55f1d8a9adeaca61300cc652c856d9bd5da9f04aa0fb"
+    },
+    "assets/420_normal.png": {
+      "bytes": 187,
+      "sha256": "0d5a2196cabedcc81dd79588492110cd3fe069c37af2a2502b1ba713761dbc73",
+      "png_header": [
+        8,
+        8,
+        8,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    "assets/420_surfaces.png": {
+      "bytes": 458076,
+      "sha256": "3e23032d64f398c5c7acfefb42af11d19a1f358fffa8513eb59ee2f6bdf29ee1",
+      "png_header": [
+        512,
+        512,
+        8,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    "assets/420_metalness.png": {
+      "bytes": 187,
+      "sha256": "c10bc0a49820fead2ce52b5a420133ac701030cae05097e33d753fe4c227b411",
+      "png_header": [
+        8,
+        8,
+        8,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    "items/icons/420_chillum_icon.png": {
+      "bytes": 11365,
+      "sha256": "c389452e655d37deb70579907d525003df082e3e466b6ffdd10c9e597dbb8df7",
+      "png_header": [
+        128,
+        128,
+        8,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    "assets/420_chillum.mesh": {
+      "bytes": 198034,
+      "sha256": "119c454158388d906dace09b7e3af3b04fc182f66d405a462f723fc626b73a77"
+    },
+    "assets/420_smoking_male.skeleton": {
+      "bytes": 40025,
+      "sha256": "86235e7ee5acba25c9ab86d1003769ab10a4438f010abd80df562f0442c3b0ae"
+    },
+    "assets/420_smoking_seat.mesh": {
+      "bytes": 276855,
+      "sha256": "6a21677e7a1f5bc48f035202c4d982c2f3557d3a2172772d297d5ab624dab4b6"
+    },
+    "assets/420_smoking_seat.xml": {
+      "bytes": 2755,
+      "sha256": "ac62f6596550e06fc1fdc9cae9cda31d75ac5674dd1e19f5e7837ee99facc5ee"
+    }
+  },
+  "in_game_verified": false
+}

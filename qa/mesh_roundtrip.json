@@ -1,0 +1,22 @@
+{
+  "420_chillum": {
+    "vertices": 960,
+    "polygons": 1344,
+    "imported_objects": 1
+  },
+  "420_joint": {
+    "vertices": 161,
+    "polygons": 336,
+    "imported_objects": 1
+  },
+  "420_paper": {
+    "vertices": 220,
+    "polygons": 420,
+    "imported_objects": 1
+  },
+  "420_smoking_seat": {
+    "vertices": 976,
+    "polygons": 1848,
+    "imported_objects": 1
+  }
+}

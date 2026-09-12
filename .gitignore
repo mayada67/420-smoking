@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.blend
+*.blend1
+/build/base_records.json
+/qa/base_candidates.json
+/build/fcs_lab/
+/qa/before_*/
+/qa/original_*.cfg
+/qa/test_launch_kenshi.cfg
