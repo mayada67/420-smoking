@@ -1,10 +1,10 @@
 {
-  "record_count": 33,
+  "record_count": 63,
   "binary_readback": true,
   "references_resolve": true,
   "hemp_and_hashish_unmodified": true,
   "release_ready": false,
-  "in_game_qa": "pending",
-  "female_and_other_races": "pending",
-  "consumption_without_output": "experimental"
+  "humanoid_race_registrations": 31,
+  "both_gender_slots": true,
+  "in_game_qa": "Prior user confirmation; expanded race registration pending visual QA"
 }

@@ -1282,7 +1282,7 @@
         "repeat mult": 1.0
       },
       "int": {
-        "level": 0,
+        "level": 3,
         "money": 0,
         "power capacity increase": 0,
         "power increase": 0,
@@ -1333,6 +1333,18 @@
         ],
         "2-420_Smoking_Prototype.mod": [
           0,
+          0,
+          0
+        ]
+      },
+      "cost": {
+        "16855-nodes_otto1.mod": [
+          3,
+          0,
+          0
+        ],
+        "1965-gamedata.base": [
+          3,
           0,
           0
         ]

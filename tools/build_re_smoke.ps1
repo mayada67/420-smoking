@@ -16,3 +16,5 @@ New-Item -ItemType Directory -Force $outPath,$objPath | Out-Null
 if ($LASTEXITCODE -ne 0) { throw "Compiler exited with $LASTEXITCODE" }
 & "$vc64\bin\amd64\dumpbin.exe" /exports "$outPath\SmokingSmoke.dll"
 if ($LASTEXITCODE -ne 0) { throw 'DLL inspection failed' }
+Copy-Item -LiteralPath (Join-Path $rootPath 'src\re_smoke\SmokingSmoke.cpp') -Destination $outPath -Force
+Copy-Item -LiteralPath (Join-Path $rootPath 'src\re_smoke\README.md') -Destination $outPath -Force

@@ -75,9 +75,10 @@ joint_storage=clone('55236-rebirth.mod',sid(26),'420 Storage: Joints')
 joint_storage['fields']['string']['Description']='Dedicated storage for crafted joints used at the joint smoking seat.'
 joint_storage['extra']['limit inventory']={sid(2):[0,0,0]}
 tech=clone('2263-gamedata.base',sid(30),'420 Smoking Prototype')
-tech['fields']['int'].update({'level':0,'time':0})
+tech['fields']['int'].update({'level':3,'time':0})
 tech['fields']['string']['description']='Prototype test facilities; not a completed mod.'
 tech['extra']={'enable buildings':{sid(i):[0,0,0] for i in [21,23,24,25,26]},'enable item':{sid(i):[0,0,0] for i in [1,2]}}
+tech['extra']['cost']={'16855-nodes_otto1.mod':[3,0,0],'1965-gamedata.base':[3,0,0]} # 3 ordinary Books + 3 hemp.
 path=OUT/'420_Smoking_Prototype.mod'
 writer=kenshi.ModFileWriter(path,1,'420 project','EXPERIMENTAL consumption prototype. Not release-ready.','gamedata.base,Newwworld.mod,Dialogue.mod,rebirth.mod','')
 writer.records(records)

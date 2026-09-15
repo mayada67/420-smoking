@@ -1,0 +1,735 @@
+{
+  "mods": {
+    "420_Smoking": {
+      "version": 1,
+      "author": "420 project",
+      "description": "420 Smoking: furniture, crafting and humanoid smoking animations. Use with RE_Kenshi and load 420_Smoking_RE after this mod.",
+      "dependencies": [
+        "gamedata.base",
+        "Newwworld.mod",
+        "Dialogue.mod",
+        "rebirth.mod"
+      ],
+      "record_count": 63
+    },
+    "420_Smoking_RE": {
+      "version": 1,
+      "author": "420 project",
+      "description": "420 Smoking: animated mouth and tip smoke. Requires RE_Kenshi; load after 420_Smoking.",
+      "dependencies": [
+        "gamedata.base",
+        "Newwworld.mod",
+        "Dialogue.mod",
+        "rebirth.mod",
+        "420_Smoking.mod"
+      ],
+      "record_count": 3
+    }
+  },
+  "missing_references": [],
+  "missing_files": [],
+  "custom_files": [
+    "420_Smoking/assets/420_beanbag.mesh",
+    "420_Smoking/assets/420_beanbag.xml",
+    "420_Smoking/assets/420_beanbag_cloth.png",
+    "420_Smoking/assets/420_chillum.mesh",
+    "420_Smoking/assets/420_chillum_lit.mesh",
+    "420_Smoking/assets/420_joint.mesh",
+    "420_Smoking/assets/420_joint_lit.mesh",
+    "420_Smoking/assets/420_metalness.png",
+    "420_Smoking/assets/420_normal.png",
+    "420_Smoking/assets/420_paper.mesh",
+    "420_Smoking/assets/420_reclined_female.skeleton",
+    "420_Smoking/assets/420_reclined_male.skeleton",
+    "420_Smoking/assets/420_smoke_prop_diffuse.png",
+    "420_Smoking/assets/420_smoke_prop_normal.png",
+    "420_Smoking/assets/420_smoking_female.skeleton",
+    "420_Smoking/assets/420_smoking_male.skeleton",
+    "420_Smoking/assets/420_smoking_seat.mesh",
+    "420_Smoking/assets/420_smoking_seat.xml",
+    "420_Smoking/assets/420_surfaces.png",
+    "420_Smoking/items/icons/420_chillum_icon.png",
+    "420_Smoking/items/icons/420_joint_icon.png",
+    "420_Smoking/items/icons/420_paper_icon.png"
+  ],
+  "installed_differences": [
+    "420_Smoking/records.json",
+    "420_Smoking_RE/README.md",
+    "420_Smoking_RE/records.json",
+    "420_Smoking_RE/SmokingSmoke.cpp"
+  ],
+  "names_and_descriptions": [
+    {
+      "mod": "420_Smoking",
+      "id": "1-420_Smoking.mod",
+      "name": "420 Hemp Paper",
+      "strings": {
+        "description": "Paper made from hemp. Used with hemp to craft joints."
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "2-420_Smoking.mod",
+      "name": "420 Joint",
+      "strings": {
+        "description": "Made from hemp and paper. Supply to the joint smoking seat. No stat effects."
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "11-420_Smoking.mod",
+      "name": "420 Paper and Joint crafting",
+      "strings": {
+        "string": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "12-420_Smoking.mod",
+      "name": "420 Paper and Joint crafting",
+      "strings": {
+        "string": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "13-420_Smoking.mod",
+      "name": "420 Hashish smoking gimmick - single item",
+      "strings": {
+        "string": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "14-420_Smoking.mod",
+      "name": "420 Joint smoking gimmick - single item",
+      "strings": {
+        "string": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "21-420_Smoking.mod",
+      "name": "420 Smoking Workbench",
+      "strings": {
+        "building category": "420 SMOKING",
+        "building group": "",
+        "Description": "Craft hemp paper and joints at this workbench. Queue paper first (1 hemp), then joints (1 hemp + 1 paper).",
+        "inventory content name": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "22-420_Smoking.mod",
+      "name": "420 Smoking Workbench (Legacy)",
+      "strings": {
+        "building category": "420 SMOKING",
+        "building group": "",
+        "Description": "Craft hemp paper and joints at this workbench. Queue paper first (1 hemp), then joints (1 hemp + 1 paper).",
+        "inventory content name": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "23-420_Smoking.mod",
+      "name": "420 Chillum Seat",
+      "strings": {
+        "building category": "420 SMOKING",
+        "building group": "",
+        "Description": "Smoking gimmick. Place one hashish in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.",
+        "inventory content name": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "24-420_Smoking.mod",
+      "name": "420 Joint Seat",
+      "strings": {
+        "building category": "420 SMOKING",
+        "building group": "",
+        "Description": "Smoking gimmick. Place one joint in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.",
+        "inventory content name": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "25-420_Smoking.mod",
+      "name": "420 Storage: Paper",
+      "strings": {
+        "building category": "STORAGE",
+        "building group": "",
+        "Description": "Dedicated storage for hemp paper used to craft joints.",
+        "inventory content name": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "26-420_Smoking.mod",
+      "name": "420 Storage: Joints",
+      "strings": {
+        "building category": "STORAGE",
+        "building group": "",
+        "Description": "Dedicated storage for crafted joints used at the joint smoking seat.",
+        "inventory content name": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "30-420_Smoking.mod",
+      "name": "420 Smoking",
+      "strings": {
+        "category": "Crafting",
+        "description": "Unlock smoking seats, hemp paper and joint crafting, and dedicated storage. Requires research level 3, 3 Books and 3 hemp. No stat effects."
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "50-420_Smoking.mod",
+      "name": "420 Surface material 50",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "51-420_Smoking.mod",
+      "name": "420 Surface material 51",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "3-420_Smoking.mod",
+      "name": "420 Chillum prop",
+      "strings": {
+        "description": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "53-420_Smoking.mod",
+      "name": "420 Display prop material",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "54-420_Smoking.mod",
+      "name": "420 Chillum display prop",
+      "strings": {
+        "description": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "55-420_Smoking.mod",
+      "name": "420 Joint display prop",
+      "strings": {
+        "description": "Made from hemp and paper. Supply to the joint smoking seat. No stat effects."
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "40-420_Smoking.mod",
+      "name": "420_smoke_chillum",
+      "strings": {
+        "anim name": "420_smoke_chillum",
+        "layer": "all",
+        "slave anim": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "41-420_Smoking.mod",
+      "name": "420_smoke_joint",
+      "strings": {
+        "anim name": "420_smoke_joint",
+        "layer": "all",
+        "slave anim": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "42-420_Smoking.mod",
+      "name": "420 Smoking animations",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "17-gamedata.quack",
+      "name": "Greenlander",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "52-420_Smoking.mod",
+      "name": "420 Smoking seat mesh",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "57-420_Smoking.mod",
+      "name": "420 Worn beanbag cloth",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "56-420_Smoking.mod",
+      "name": "420 Patched beanbag mesh",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "27-420_Smoking.mod",
+      "name": "420 Worn Beanbag: Chillum",
+      "strings": {
+        "building category": "420 SMOKING",
+        "building group": "",
+        "Description": "Smoking gimmick. Place one hashish in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.",
+        "inventory content name": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "28-420_Smoking.mod",
+      "name": "420 Worn Beanbag: Joint",
+      "strings": {
+        "building category": "420 SMOKING",
+        "building group": "",
+        "Description": "Smoking gimmick. Place one joint in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.",
+        "inventory content name": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "60-420_Smoking.mod",
+      "name": "420_recline_chillum",
+      "strings": {
+        "anim name": "420_recline_chillum",
+        "layer": "all",
+        "slave anim": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "58-420_Smoking.mod",
+      "name": "420 Reclined chillum",
+      "strings": {
+        "string": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "61-420_Smoking.mod",
+      "name": "420_recline_joint",
+      "strings": {
+        "anim name": "420_recline_joint",
+        "layer": "all",
+        "slave anim": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "59-420_Smoking.mod",
+      "name": "420 Reclined joint",
+      "strings": {
+        "string": ""
+      }
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "62-420_Smoking.mod",
+      "name": "420 Beanbag reclined animations",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "17946-stick_people.mod",
+      "name": "Skeleton",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "18961-gamedata.base",
+      "name": "Hive Soldier Drone",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "5346-stick_people.mod",
+      "name": "Hive Prince",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "5276-chareditor.mod",
+      "name": "Shek",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "18915-small_changes_otto.mod",
+      "name": "Deadhive Prince",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "18019-gamedata.base",
+      "name": "Scorchlander",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "18960-gamedata.base",
+      "name": "Hive Worker Drone",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "18917-small_changes_otto.mod",
+      "name": "Hive Tall Head",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "2603-gamedata.base",
+      "name": "Cannibal",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "55396-gamedata.base",
+      "name": "Fishman",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "57335-Newwworld.mod",
+      "name": "Hive Queen",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "57770-Newwworld.mod",
+      "name": "Hive Prince South Hive",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "57771-Newwworld.mod",
+      "name": "Hive Soldier Drone South Hive",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "57772-Newwworld.mod",
+      "name": "Hive Worker Drone South Hive",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "57773-Newwworld.mod",
+      "name": "----edad",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "57774-Newwworld.mod",
+      "name": "Screamer MkI",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "57778-Newwworld.mod",
+      "name": "P4 Unit",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "57782-Newwworld.mod",
+      "name": "Soldierbot",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "65266-Newwworld.mod",
+      "name": "Skeleton P4MkII",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "66529-Newwworld.mod",
+      "name": "Skeleton Log-Head MKII",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "95870-Newwworld.mod",
+      "name": "Skeleton No-Head MkII ",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "96800-Newwworld.mod",
+      "name": "Flayed Man",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "96904-Newwworld.mod",
+      "name": "Flayed Woman",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "1533504-Newwworld.mod",
+      "name": "Skeleton MKII Screamer",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "42031-rebirth.mod",
+      "name": "Deadhive Soldier",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "50523-rebirth.mod",
+      "name": "Cannibal Skav",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "42027-rebirth.mod",
+      "name": "Deadhive Worker",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "1532523-rebirth.mod",
+      "name": "Alpha Fishman",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "1532524-rebirth.mod",
+      "name": "King Fishman",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking",
+      "id": "1532526-Newwworld Plus.mod",
+      "name": "Alpha Fishman",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking_RE",
+      "id": "54-420_Smoking.mod",
+      "name": "420 Chillum display prop",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking_RE",
+      "id": "55-420_Smoking.mod",
+      "name": "420 Joint display prop",
+      "strings": {}
+    },
+    {
+      "mod": "420_Smoking_RE",
+      "id": "53-420_Smoking.mod",
+      "name": "420 Display prop material",
+      "strings": {}
+    }
+  ],
+  "development_labels": [],
+  "not_directly_referenced_files": [
+    "420_Smoking/420_Smoking.mod",
+    "420_Smoking/assets/420_chillum_icon.png",
+    "420_Smoking/assets/420_joint_icon.png",
+    "420_Smoking/assets/420_paper_icon.png",
+    "420_Smoking/records.json",
+    "420_Smoking_RE/420_Smoking_RE.mod",
+    "420_Smoking_RE/LICENSE",
+    "420_Smoking_RE/RE_Kenshi.json",
+    "420_Smoking_RE/README.md",
+    "420_Smoking_RE/records.json",
+    "420_Smoking_RE/SmokingSmoke.cpp",
+    "420_Smoking_RE/SmokingSmoke.dll"
+  ],
+  "plugin_files_exist": true,
+  "plugin_source_matches": true,
+  "enabled_mods": [
+    "420_Smoking.mod",
+    "420_QA.mod",
+    "420_Smoking_RE.mod"
+  ],
+  "research_unlock": {
+    "instance_count": 0,
+    "type_id": 21,
+    "type": "RESEARCH",
+    "name": "420 Smoking",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "blueprint only": false,
+        "is level upgrade": false
+      },
+      "float": {
+        "production mult": 1.0,
+        "repeat mult": 1.0
+      },
+      "int": {
+        "level": 3,
+        "money": 0,
+        "power capacity increase": 0,
+        "power increase": 0,
+        "repeats": 0,
+        "time": 4
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "category": "Crafting",
+        "description": "Unlock smoking seats, hemp paper and joint crafting, and dedicated storage. Requires research level 3, 3 Books and 3 hemp. No stat effects."
+      },
+      "filename": {}
+    },
+    "extra": {
+      "enable buildings": {
+        "21-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "23-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "24-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "25-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "26-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "27-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "28-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "enable item": {
+        "1-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "2-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cost": {
+        "16855-nodes_otto1.mod": [
+          3,
+          0,
+          0
+        ],
+        "1965-gamedata.base": [
+          3,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "animation_registration": {
+    "race_overrides": [
+      "17-gamedata.quack",
+      "17946-stick_people.mod",
+      "18961-gamedata.base",
+      "5346-stick_people.mod",
+      "5276-chareditor.mod",
+      "18915-small_changes_otto.mod",
+      "18019-gamedata.base",
+      "18960-gamedata.base",
+      "18917-small_changes_otto.mod",
+      "2603-gamedata.base",
+      "55396-gamedata.base",
+      "57335-Newwworld.mod",
+      "57770-Newwworld.mod",
+      "57771-Newwworld.mod",
+      "57772-Newwworld.mod",
+      "57773-Newwworld.mod",
+      "57774-Newwworld.mod",
+      "57778-Newwworld.mod",
+      "57782-Newwworld.mod",
+      "65266-Newwworld.mod",
+      "66529-Newwworld.mod",
+      "95870-Newwworld.mod",
+      "96800-Newwworld.mod",
+      "96904-Newwworld.mod",
+      "1533504-Newwworld.mod",
+      "42031-rebirth.mod",
+      "50523-rebirth.mod",
+      "42027-rebirth.mod",
+      "1532523-rebirth.mod",
+      "1532524-rebirth.mod",
+      "1532526-Newwworld Plus.mod"
+    ],
+    "files": {
+      "42-420_Smoking.mod": {
+        "male animation": ".\\mods\\420_Smoking\\assets\\420_smoking_male.skeleton",
+        "female animation": ".\\mods\\420_Smoking\\assets\\420_smoking_female.skeleton"
+      },
+      "62-420_Smoking.mod": {
+        "male animation": ".\\mods\\420_Smoking\\assets\\420_reclined_male.skeleton",
+        "female animation": ".\\mods\\420_Smoking\\assets\\420_reclined_female.skeleton"
+      }
+    }
+  },
+  "animation_routes": [
+    {
+      "building": "23-420_Smoking.mod",
+      "animation": "420_smoke_chillum",
+      "valid": true
+    },
+    {
+      "building": "24-420_Smoking.mod",
+      "animation": "420_smoke_joint",
+      "valid": true
+    },
+    {
+      "building": "27-420_Smoking.mod",
+      "animation": "420_recline_chillum",
+      "valid": true
+    },
+    {
+      "building": "28-420_Smoking.mod",
+      "animation": "420_recline_joint",
+      "valid": true
+    }
+  ],
+  "json_matches_binary": {
+    "420_Smoking": true,
+    "420_Smoking_RE": true
+  },
+  "json_binary_differences": {
+    "420_Smoking": [],
+    "420_Smoking_RE": []
+  }
+}

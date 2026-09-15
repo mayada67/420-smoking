@@ -3,7 +3,7 @@
     "instance_count": 0,
     "type_id": 4,
     "type": "ITEM",
-    "name": "420 Hemp Paper [ALPHA]",
+    "name": "420 Hemp Paper",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -73,7 +73,7 @@
     "instance_count": 0,
     "type_id": 4,
     "type": "ITEM",
-    "name": "420 Joint [ALPHA]",
+    "name": "420 Joint",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -390,7 +390,7 @@
     "instance_count": 0,
     "type_id": 0,
     "type": "BUILDING",
-    "name": "420 Smoking Workbench [ALPHA]",
+    "name": "420 Smoking Workbench",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -458,7 +458,7 @@
       "vec3f": {},
       "vec4f": {},
       "string": {
-        "building category": "420 SMOKING TEST",
+        "building category": "420 SMOKING",
         "building group": "",
         "Description": "Craft hemp paper and joints at this workbench. Queue paper first (1 hemp), then joints (1 hemp + 1 paper).",
         "inventory content name": ""
@@ -514,7 +514,7 @@
     "instance_count": 0,
     "type_id": 0,
     "type": "BUILDING",
-    "name": "420 Smoking Workbench (Legacy) [ALPHA]",
+    "name": "420 Smoking Workbench (Legacy)",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -582,7 +582,7 @@
       "vec3f": {},
       "vec4f": {},
       "string": {
-        "building category": "420 SMOKING TEST",
+        "building category": "420 SMOKING",
         "building group": "",
         "Description": "Craft hemp paper and joints at this workbench. Queue paper first (1 hemp), then joints (1 hemp + 1 paper).",
         "inventory content name": ""
@@ -638,7 +638,7 @@
     "instance_count": 0,
     "type_id": 0,
     "type": "BUILDING",
-    "name": "420 Chillum Seat [ALPHA]",
+    "name": "420 Chillum Seat",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -706,7 +706,7 @@
       "vec3f": {},
       "vec4f": {},
       "string": {
-        "building category": "420 SMOKING TEST",
+        "building category": "420 SMOKING",
         "building group": "",
         "Description": "Smoking gimmick. Place one hashish in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.",
         "inventory content name": ""
@@ -762,7 +762,7 @@
     "instance_count": 0,
     "type_id": 0,
     "type": "BUILDING",
-    "name": "420 Joint Seat [ALPHA]",
+    "name": "420 Joint Seat",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -830,7 +830,7 @@
       "vec3f": {},
       "vec4f": {},
       "string": {
-        "building category": "420 SMOKING TEST",
+        "building category": "420 SMOKING",
         "building group": "",
         "Description": "Smoking gimmick. Place one joint in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.",
         "inventory content name": ""
@@ -1284,7 +1284,7 @@
     "instance_count": 0,
     "type_id": 21,
     "type": "RESEARCH",
-    "name": "420 Smoking Prototype",
+    "name": "420 Smoking",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -1298,18 +1298,18 @@
         "repeat mult": 1.0
       },
       "int": {
-        "level": 0,
+        "level": 3,
         "money": 0,
         "power capacity increase": 0,
         "power increase": 0,
         "repeats": 0,
-        "time": 0
+        "time": 4
       },
       "vec3f": {},
       "vec4f": {},
       "string": {
         "category": "Crafting",
-        "description": "Prototype test facilities; not a completed mod."
+        "description": "Unlock smoking seats, hemp paper and joint crafting, and dedicated storage. Requires research level 3, 3 Books and 3 hemp. No stat effects."
       },
       "filename": {}
     },
@@ -1359,6 +1359,18 @@
         ],
         "2-420_Smoking.mod": [
           0,
+          0,
+          0
+        ]
+      },
+      "cost": {
+        "16855-nodes_otto1.mod": [
+          3,
+          0,
+          0
+        ],
+        "1965-gamedata.base": [
+          3,
           0,
           0
         ]
@@ -1497,7 +1509,7 @@
     "instance_count": 0,
     "type_id": 47,
     "type": "MATERIAL_SPECS_CLOTHING",
-    "name": "420 Static tip wisp alpha material",
+    "name": "420 Display prop material",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -1527,7 +1539,7 @@
     "instance_count": 0,
     "type_id": 4,
     "type": "ITEM",
-    "name": "420 chillum lit display prop [STATIC WISP]",
+    "name": "420 Chillum display prop",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -1590,7 +1602,7 @@
     "instance_count": 0,
     "type_id": 4,
     "type": "ITEM",
-    "name": "420 joint lit display prop [STATIC WISP]",
+    "name": "420 Joint display prop",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -1835,7 +1847,7 @@
     "instance_count": 0,
     "type_id": 112,
     "type": "BASE_ANIMATIONS",
-    "name": "420 Smoking animations [ALPHA male only]",
+    "name": "420 Smoking animations",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -1850,7 +1862,7 @@
       "string": {},
       "filename": {
         "male animation": ".\\mods\\420_Smoking\\assets\\420_smoking_male.skeleton",
-        "female animation": ""
+        "female animation": ".\\mods\\420_Smoking\\assets\\420_smoking_female.skeleton"
       }
     },
     "extra": {},
@@ -2045,7 +2057,7 @@
     "instance_count": 0,
     "type_id": 0,
     "type": "BUILDING",
-    "name": "420 Worn Beanbag: Hashish",
+    "name": "420 Worn Beanbag: Chillum",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -2113,7 +2125,7 @@
       "vec3f": {},
       "vec4f": {},
       "string": {
-        "building category": "420 SMOKING TEST",
+        "building category": "420 SMOKING",
         "building group": "",
         "Description": "Smoking gimmick. Place one hashish in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.",
         "inventory content name": ""
@@ -2237,7 +2249,7 @@
       "vec3f": {},
       "vec4f": {},
       "string": {
-        "building category": "420 SMOKING TEST",
+        "building category": "420 SMOKING",
         "building group": "",
         "Description": "Smoking gimmick. Place one joint in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.",
         "inventory content name": ""
@@ -2602,10 +2614,1000 @@
       "string": {},
       "filename": {
         "male animation": ".\\mods\\420_Smoking\\assets\\420_reclined_male.skeleton",
-        "female animation": ""
+        "female animation": ".\\mods\\420_Smoking\\assets\\420_reclined_female.skeleton"
       }
     },
     "extra": {},
+    "instances": {}
+  },
+  "17946-stick_people.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Skeleton",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "18961-gamedata.base": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Soldier Drone",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "5346-stick_people.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Prince",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "5276-chareditor.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Shek",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "18915-small_changes_otto.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Deadhive Prince",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "18019-gamedata.base": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Scorchlander",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "18960-gamedata.base": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Worker Drone",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "18917-small_changes_otto.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Tall Head",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "2603-gamedata.base": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Cannibal",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "55396-gamedata.base": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Fishman",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57335-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Queen",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57770-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Prince South Hive",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57771-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Soldier Drone South Hive",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57772-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Worker Drone South Hive",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57773-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "----edad",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57774-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Screamer MkI",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57778-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "P4 Unit",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57782-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Soldierbot",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "65266-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Skeleton P4MkII",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "66529-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Skeleton Log-Head MKII",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "95870-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Skeleton No-Head MkII ",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "96800-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Flayed Man",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "96904-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Flayed Woman",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "1533504-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Skeleton MKII Screamer",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "42031-rebirth.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Deadhive Soldier",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "50523-rebirth.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Cannibal Skav",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "42027-rebirth.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Deadhive Worker",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "1532523-rebirth.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Alpha Fishman",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "1532524-rebirth.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "King Fishman",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "1532526-Newwworld Plus.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Alpha Fishman",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
     "instances": {}
   }
 }

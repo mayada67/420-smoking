@@ -27,7 +27,7 @@ for category in ['filename','int','float']:
 material['extra']={};material['instances']={}
 records['53-420_Smoking.mod']=material
 path=out/'420_Smoking_RE.mod'
-writer=kenshi.ModFileWriter(path,1,'420 project','EXPERIMENTAL: animated mouth and tip smoke. Requires RE_Kenshi and 420_Smoking.','gamedata.base,Newwworld.mod,Dialogue.mod,rebirth.mod,420_Smoking.mod','')
+writer=kenshi.ModFileWriter(path,1,'420 project','420 Smoking: animated mouth and tip smoke. Requires RE_Kenshi; load after 420_Smoking.','gamedata.base,Newwworld.mod,Dialogue.mod,rebirth.mod,420_Smoking.mod','')
 writer.records(records);writer.handle.close()
 reader=kenshi.ModFileReader(path)
 assert set(reader.records)==set(records)

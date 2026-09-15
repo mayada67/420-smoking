@@ -26,7 +26,9 @@
 
 namespace {
 const char* kMaterial = "420/ExhaledSmoke";
-const unsigned kMaxPuffs = 768;
+const unsigned kMaxPuffs = 2304;
+const float kExhaleAmountMultiplier = 3.0f;
+const float kExhaleSpreadMultiplier = 3.0f;
 struct Puff {
     Ogre::Vector3 position, velocity;
     float age, life, size, opacity;
@@ -100,9 +102,10 @@ void spawn(const Ogre::Vector3& position, const Ogre::Vector3& forward, bool mou
     Puff p;
     p.position = position;
     p.velocity = mouth ? forward * 2.0f : Ogre::Vector3::ZERO;
-    p.velocity += Ogre::Vector3((random01()-.5f)*.18f, mouth ? .35f : .55f, (random01()-.5f)*.18f);
+    const float spread = mouth ? kExhaleSpreadMultiplier : 1.0f;
+    p.velocity += Ogre::Vector3((random01()-.5f)*.18f*spread, mouth ? .35f : .55f, (random01()-.5f)*.18f*spread);
     p.age = 0; p.life = mouth ? 1.8f : 2.5f;
-    p.size = mouth ? .52f : .17f; p.opacity = mouth ? .18f : .08f;
+    p.size = mouth ? .52f*kExhaleSpreadMultiplier : .17f; p.opacity = mouth ? .18f : .08f;
     puffs.push_back(p);
 }
 
@@ -128,10 +131,10 @@ void updateSmoke(GameWorld* world, float elapsed) {
         if (!character || world->getIsInKillList(character)) continue;
         AnimationClassBase* animation = character->getAnimationClass();
         if (!animation || !animation->getVisible()) continue;
-        const char* names[] = { "420_smoke_chillum", "420_smoke_joint" };
+        const char* names[] = { "420_smoke_chillum", "420_smoke_joint", "420_recline_chillum", "420_recline_joint" };
         int kind = -1;
         AnimationClassBase::SingleAnimation* playing = 0;
-        for (int i=0; i<2; ++i) {
+        for (int i=0; i<4; ++i) {
             playing = animation->getAnimationPlaying_animName(names[i]);
             if (playing && playing->mainState && diagnosticClock >= 2 && diagnosticCount < 12) {
                 std::ostringstream message;
@@ -149,13 +152,13 @@ void updateSmoke(GameWorld* world, float elapsed) {
                 DebugLog(message.str()); diagnosticClock=0; ++diagnosticCount;
             }
             if (playing && playing->mainState && playing->mainState->getEnabled()
-                && playing->weight > .05f && !playing->msgHardStop) { kind=i; break; }
+                && playing->weight > .05f && !playing->msgHardStop) { kind=i%2; break; }
         }
         if (kind < 0 || !animation->getHasBone("Bip01 Head")) continue;
         Emitter state = emitters[character];
         float t = playing->mainState->getTimePosition();
         bool exhaling = t >= 8.0f && t < 11.0f;
-        if (exhaling) state.mouthCredit += dt * 24.0f;
+        if (exhaling) state.mouthCredit += dt * 24.0f*kExhaleAmountMultiplier;
         else state.mouthCredit = 0;
         Ogre::Quaternion headRotation = animation->getBoneWorldOrientation("Bip01 Head");
         // Lucius exporter converts Blender bone axes with fix * rot.
@@ -185,7 +188,8 @@ void updateSmoke(GameWorld* world, float elapsed) {
 void (*originalAnimationUpdate)(AnimationClassBase::SingleAnimation*,float,float,bool) = 0;
 void animationUpdateHook(AnimationClassBase::SingleAnimation* animation, float masterTime, float frameTime, bool sounds) {
     // Apply immediately before advancement; furniture resets speed each frame.
-    if (animation->animName == "420_smoke_chillum" || animation->animName == "420_smoke_joint")
+    if (animation->animName == "420_smoke_chillum" || animation->animName == "420_smoke_joint"
+        || animation->animName == "420_recline_chillum" || animation->animName == "420_recline_joint")
         animation->speed = 1.0f;
     originalAnimationUpdate(animation, masterTime, frameTime, sounds);
 }

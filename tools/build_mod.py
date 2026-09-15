@@ -1,4 +1,4 @@
-"""Assemble the visual alpha. This is NOT a release until in-game QA passes."""
+"""Assemble the RE_Kenshi release candidate, retaining existing record IDs."""
 import copy,json,runpy,sys,shutil
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).parent/'vendor'))
@@ -6,7 +6,7 @@ import kenshi
 prototype=runpy.run_path(str(Path(__file__).parent/'build_prototype.py'))
 BASE=prototype['BASE'];OUT=Path('build/420_Smoking');OUT.mkdir(exist_ok=True)
 def remap(v):
-    if isinstance(v,str):return v.replace('420_Smoking_Prototype.mod','420_Smoking.mod').replace('[PROTOTYPE]','[ALPHA]')
+    if isinstance(v,str):return v.replace('420_Smoking_Prototype.mod','420_Smoking.mod').replace(' [PROTOTYPE]','')
     if isinstance(v,dict):return {remap(k):remap(x) for k,x in v.items()}
     if isinstance(v,list):return [remap(x) for x in v]
     return v
@@ -37,13 +37,13 @@ chillum=clone('46981-Newwworld.mod',3,'420 Chillum prop')
 chillum['fields']['filename'].update({'mesh':asset('420_chillum.mesh'),'icon':icon('420_chillum_icon.png')});chillum['extra']['material']={sid(50):[0,0,0]}
 chillum['fields']['bool']['auto icon']=False
 # Display-only lit props: keep crafted inventory/ground items smoke-free.
-smoke_material=clone('5263-lanterns_otto.mod',53,'420 Static tip wisp alpha material')
+smoke_material=clone('5263-lanterns_otto.mod',53,'420 Display prop material')
 smoke_material['fields']['filename'].update({'texture map':asset('420_smoke_prop_diffuse.png'),'normal map':asset('420_smoke_prop_normal.png')})
 smoke_material['fields']['int']['material type']=1 # ItemShader.ALPHA
 smoke_material['fields']['float']['specular mult']=0.0
 for n,source,kind in [(54,3,'chillum'),(55,2,'joint')]:
     r=copy.deepcopy(records[sid(source)])
-    r.update(name='420 '+kind+' lit display prop [STATIC WISP]')
+    r.update(name='420 '+kind.title()+' display prop')
     r['fields']['filename']['mesh']=asset('420_'+kind+'_lit.mesh')
     r['extra']['material']={sid(53):[0,0,0]}
     records[sid(n)]=r
@@ -53,8 +53,8 @@ for n,kind in [(40,'chillum'),(41,'joint')]:
     r['fields']['float']['play speed']=1.0
     r['fields']['bool'].update({'delete weapons':False,'uses right arm':True,'uses left arm':kind=='chillum','unarmed':True,'is action':True,'loop':True})
     r['fields']['int']['has weapon R']=0
-animfile=clone('1533847-gamedata.base',42,'420 Smoking animations [ALPHA male only]')
-animfile['fields']['filename']={'male animation':asset('420_smoking_male.skeleton'),'female animation':''}
+animfile=clone('1533847-gamedata.base',42,'420 Smoking animations')
+animfile['fields']['filename']={'male animation':asset('420_smoking_male.skeleton'),'female animation':asset('420_smoking_female.skeleton')}
 animfile['fields']['bool']['preprocess']=True
 # Additive race reference only: no stats or existing animation entries replaced.
 human=copy.deepcopy(BASE['17-gamedata.quack'])
@@ -78,7 +78,7 @@ beanpart=copy.deepcopy(records[sid(52)]);records[sid(56)]=beanpart
 beanpart['name']='420 Patched beanbag mesh'
 beanpart['fields']['filename'].update({'phs or mesh':asset('420_beanbag.mesh'),'xml collision':asset('420_beanbag.xml')})
 beanpart['extra']['material']={sid(57):[0,0,0]}
-for n,source,label in [(27,23,'Hashish'),(28,24,'Joint')]:
+for n,source,label in [(27,23,'Chillum'),(28,24,'Joint')]:
     seat=copy.deepcopy(records[sid(source)]);records[sid(n)]=seat
     seat['name']='420 Worn Beanbag: '+label
     seat['extra']['parts']={sid(56):[0,100,0]}
@@ -99,9 +99,26 @@ for fn,anim,source_fn,source_anim,building,kind in [(58,60,13,40,27,'chillum'),(
 records[sid(62)]=copy.deepcopy(records[sid(42)])
 records[sid(62)]['name']='420 Beanbag reclined animations'
 records[sid(62)]['fields']['filename']['male animation']=asset('420_reclined_male.skeleton')
-records['17-gamedata.quack']['extra']['animation files'][sid(62)]=[0,0,0]
+records[sid(62)]['fields']['filename']['female animation']=asset('420_reclined_female.skeleton')
+# Register both animation sets additively on vanilla humanoids, including NPC
+# variants. The reviewed manifest excludes animals; do not change race stats.
+race_manifest=json.loads(Path('src/vanilla_humanoid_races.json').read_text(encoding='utf-8'))
+for race_id, race_name in race_manifest.items():
+    race=copy.deepcopy(BASE[race_id])
+    assert race['type']=='RACE' and race['name']==race_name
+    race.update(instance_count=0,id=0,datatype_id=-2147483647,datatype='CHANGED')
+    race['fields']={category:{} for category in race['fields']}
+    race['extra']={'animation files':{sid(42):[0,0,0],sid(62):[0,0,0]}}
+    race['instances']={}
+    records[race_id]=race
+for record in records.values():
+    if record['fields']['string'].get('building category')=='420 SMOKING TEST':
+        record['fields']['string']['building category']='420 SMOKING'
+records[sid(30)]['name']='420 Smoking'
+records[sid(30)]['fields']['int']['time']=4
+records[sid(30)]['fields']['string']['description']='Unlock smoking seats, hemp paper and joint crafting, and dedicated storage. Requires research level 3, 3 Books and 3 hemp. No stat effects.'
 path=OUT/'420_Smoking.mod'
-w=kenshi.ModFileWriter(path,1,'420 project','UNFINISHED ALPHA. Male human animation trial. In-game consumption, attachment, interruption and save/load NOT VERIFIED.','gamedata.base,Newwworld.mod,Dialogue.mod,rebirth.mod','');w.records(records);w.handle.close()
+w=kenshi.ModFileWriter(path,1,'420 project','420 Smoking: furniture, crafting and humanoid smoking animations. Use with RE_Kenshi and load 420_Smoking_RE after this mod.','gamedata.base,Newwworld.mod,Dialogue.mod,rebirth.mod','');w.records(records);w.handle.close()
 r=kenshi.ModFileReader(path);assert len(r.records)==len(records);r.handle.close()
 missing=[]
 for k,v in records.items():
@@ -111,6 +128,6 @@ for k,v in records.items():
 assert not missing,missing
 assert '1965-gamedata.base' not in records and '1230-gamedata.base' not in records
 (OUT/'records.json').write_text(json.dumps(records,indent=2,ensure_ascii=False),encoding='utf-8')
-report={'record_count':len(records),'binary_readback':True,'references_resolve':True,'hemp_and_hashish_unmodified':True,'release_ready':False,'in_game_qa':'pending','female_and_other_races':'pending','consumption_without_output':'experimental'}
+report={'record_count':len(records),'binary_readback':True,'references_resolve':True,'hemp_and_hashish_unmodified':True,'release_ready':False,'humanoid_race_registrations':len(race_manifest),'both_gender_slots':True,'in_game_qa':'Prior user confirmation; expanded race registration pending visual QA'}
 Path('qa/mod_checks.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 print(json.dumps(report))

@@ -1,0 +1,32 @@
+{
+  "male": {
+    "smoking": {
+      "missing_bones": [],
+      "parent_mismatches": []
+    },
+    "reclined": {
+      "missing_bones": [],
+      "parent_mismatches": []
+    }
+  },
+  "female": {
+    "smoking_female": {
+      "missing_bones": [],
+      "parent_mismatches": []
+    },
+    "reclined_female": {
+      "missing_bones": [],
+      "parent_mismatches": []
+    }
+  },
+  "queen": {
+    "smoking": {
+      "missing_bones": [],
+      "parent_mismatches": []
+    },
+    "reclined": {
+      "missing_bones": [],
+      "parent_mismatches": []
+    }
+  }
+}
