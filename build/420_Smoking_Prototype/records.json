@@ -146,29 +146,28 @@
     "instance_count": 0,
     "type_id": 62,
     "type": "BUILDING_FUNCTIONALITY",
-    "name": "420 Paper production",
+    "name": "420 Paper and Joint crafting",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
     "fields": {
       "bool": {
-        "has progress bar when used": true,
-        "is production building": true,
+        "has progress bar when used": false,
         "occupant selection": false,
-        "output per day": true,
-        "overrides ingredients": true,
+        "output per day": false,
+        "overrides ingredients": false,
         "restrains movement": false
       },
       "float": {
         "hunger rate": 1.0,
-        "production mult": 48.0,
-        "use range": 20.0
+        "production mult": 3.2051282051282053,
+        "use range": 15.0
       },
       "int": {
         "flags": 0,
-        "function": 4,
+        "function": 10,
         "max operators": 1,
-        "stat used": 0,
+        "stat used": 13,
         "tech level": 0,
         "world resource mining": 0
       },
@@ -180,13 +179,6 @@
       "filename": {}
     },
     "extra": {
-      "consumes": {
-        "1965-gamedata.base": [
-          20,
-          100,
-          0
-        ]
-      },
       "animation": {
         "43871-rebirth.mod": [
           0,
@@ -194,8 +186,13 @@
           0
         ]
       },
-      "produces": {
+      "item crafts": {
         "1-420_Smoking_Prototype.mod": [
+          20,
+          0,
+          0
+        ],
+        "2-420_Smoking_Prototype.mod": [
           20,
           0,
           0
@@ -208,29 +205,28 @@
     "instance_count": 0,
     "type_id": 62,
     "type": "BUILDING_FUNCTIONALITY",
-    "name": "420 Joint production",
+    "name": "420 Paper and Joint crafting",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
     "fields": {
       "bool": {
-        "has progress bar when used": true,
-        "is production building": true,
+        "has progress bar when used": false,
         "occupant selection": false,
-        "output per day": true,
-        "overrides ingredients": true,
+        "output per day": false,
+        "overrides ingredients": false,
         "restrains movement": false
       },
       "float": {
         "hunger rate": 1.0,
-        "production mult": 48.0,
-        "use range": 20.0
+        "production mult": 3.2051282051282053,
+        "use range": 15.0
       },
       "int": {
         "flags": 0,
-        "function": 4,
+        "function": 10,
         "max operators": 1,
-        "stat used": 0,
+        "stat used": 13,
         "tech level": 0,
         "world resource mining": 0
       },
@@ -242,18 +238,6 @@
       "filename": {}
     },
     "extra": {
-      "consumes": {
-        "1965-gamedata.base": [
-          20,
-          100,
-          0
-        ],
-        "1-420_Smoking_Prototype.mod": [
-          20,
-          100,
-          0
-        ]
-      },
       "animation": {
         "43871-rebirth.mod": [
           0,
@@ -261,7 +245,12 @@
           0
         ]
       },
-      "produces": {
+      "item crafts": {
+        "1-420_Smoking_Prototype.mod": [
+          20,
+          0,
+          0
+        ],
         "2-420_Smoking_Prototype.mod": [
           20,
           0,
@@ -275,13 +264,13 @@
     "instance_count": 0,
     "type_id": 62,
     "type": "BUILDING_FUNCTIONALITY",
-    "name": "420 Hashish consumption - NO OUTPUT EXPERIMENT",
+    "name": "420 Hashish smoking gimmick - single item",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
     "fields": {
       "bool": {
-        "has progress bar when used": true,
+        "has progress bar when used": false,
         "is production building": true,
         "occupant selection": false,
         "output per day": true,
@@ -311,7 +300,7 @@
     "extra": {
       "consumes": {
         "1230-gamedata.base": [
-          20,
+          1,
           100,
           0
         ]
@@ -330,13 +319,13 @@
     "instance_count": 0,
     "type_id": 62,
     "type": "BUILDING_FUNCTIONALITY",
-    "name": "420 Joint consumption - NO OUTPUT EXPERIMENT",
+    "name": "420 Joint smoking gimmick - single item",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
     "fields": {
       "bool": {
-        "has progress bar when used": true,
+        "has progress bar when used": false,
         "is production building": true,
         "occupant selection": false,
         "output per day": true,
@@ -366,7 +355,7 @@
     "extra": {
       "consumes": {
         "2-420_Smoking_Prototype.mod": [
-          20,
+          1,
           100,
           0
         ]
@@ -385,7 +374,7 @@
     "instance_count": 0,
     "type_id": 0,
     "type": "BUILDING",
-    "name": "420 Paper Workbench [PROTOTYPE]",
+    "name": "420 Smoking Workbench [PROTOTYPE]",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -455,7 +444,7 @@
       "string": {
         "building category": "420 SMOKING TEST",
         "building group": "",
-        "Description": "Experimental prototype. Supply the required ingredients and assign one operator. No stat effects. Consumption behavior is not yet verified.",
+        "Description": "Craft hemp paper and joints at this workbench. Queue paper first (1 hemp), then joints (1 hemp + 1 paper).",
         "inventory content name": ""
       },
       "filename": {
@@ -509,7 +498,7 @@
     "instance_count": 0,
     "type_id": 0,
     "type": "BUILDING",
-    "name": "420 Joint Workbench [PROTOTYPE]",
+    "name": "420 Smoking Workbench (Legacy) [PROTOTYPE]",
     "id": 0,
     "datatype_id": -2147483646,
     "datatype": "NEW",
@@ -579,7 +568,7 @@
       "string": {
         "building category": "420 SMOKING TEST",
         "building group": "",
-        "Description": "Experimental prototype. Supply the required ingredients and assign one operator. No stat effects. Consumption behavior is not yet verified.",
+        "Description": "Craft hemp paper and joints at this workbench. Queue paper first (1 hemp), then joints (1 hemp + 1 paper).",
         "inventory content name": ""
       },
       "filename": {
@@ -597,7 +586,7 @@
         ]
       },
       "functionality": {
-        "12-420_Smoking_Prototype.mod": [
+        "11-420_Smoking_Prototype.mod": [
           0,
           0,
           0
@@ -1076,6 +1065,205 @@
       }
     }
   },
+  "26-420_Smoking_Prototype.mod": {
+    "instance_count": 0,
+    "type_id": 0,
+    "type": "BUILDING",
+    "name": "420 Storage: Joints",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "allow animals": false,
+        "always locks": false,
+        "cavernous": false,
+        "ceiling placement": false,
+        "creates player town": true,
+        "destroyed navmesh": false,
+        "enforce ceiling": false,
+        "has inventory": true,
+        "has lock": false,
+        "interior terrain": false,
+        "is exterior furniture": false,
+        "is feature": false,
+        "is foliage": false,
+        "is gateway": false,
+        "is interior furniture": true,
+        "is node": false,
+        "is shelter": false,
+        "is sign": false,
+        "is wall gate": false,
+        "links together": false,
+        "match slope": false
+      },
+      "float": {
+        "build speed mult": 1.0,
+        "build threshold": 0.0,
+        "building height": 10.0,
+        "door comes out": 0.0,
+        "door move dist": 30.0,
+        "door move speed": 1.0,
+        "hardness": 30.0,
+        "interior integrity": 100.0,
+        "link length": 0.0,
+        "max slope": 25.0,
+        "output rate": 1.0,
+        "scale": 1.0,
+        "stackable bonus mult": 50.0,
+        "vertical position tolerance": 20.0
+      },
+      "int": {
+        "build materials": 1,
+        "desirability": 0,
+        "door axis": 0,
+        "door navmesh axis": 0,
+        "door type": 0,
+        "exterior material": 2,
+        "interior ambience": 0,
+        "interior material": 3,
+        "itemtype limit": 4,
+        "link type": 0,
+        "lock level bonus": 0,
+        "max operators": -1,
+        "node type": 1,
+        "path mode": 2,
+        "power capacity": 0,
+        "power output": 0,
+        "select sound": 15,
+        "storage size height": 5,
+        "storage size width": 5
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "building category": "STORAGE",
+        "building group": "",
+        "Description": "Dedicated storage for crafted joints used at the joint smoking seat.",
+        "inventory content name": ""
+      },
+      "filename": {
+        "destroyed boundary": "",
+        "distant mesh": "",
+        "icon": ""
+      }
+    },
+    "extra": {
+      "functionality": {
+        "1518-gamedata.base": [
+          0,
+          100,
+          0
+        ]
+      },
+      "limit inventory": {
+        "2-420_Smoking_Prototype.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "parts": {
+        "5349-furniture_otto.mod": [
+          0,
+          100,
+          0
+        ]
+      }
+    },
+    "instances": {
+      "usenode003": {
+        "target": "1183-gamedata.base",
+        "position": [
+          5.96235990524292,
+          -1.2869899590484124e-09,
+          -0.0294428002089262
+        ],
+        "rotation": [
+          0.9991860389709473,
+          -2.271970167555537e-08,
+          0.04034470394253731,
+          -2.271970167555537e-08
+        ],
+        "states": []
+      },
+      "usenode004": {
+        "target": "1183-gamedata.base",
+        "position": [
+          -0.1035429984331131,
+          3.359290019488981e-07,
+          7.685150146484375
+        ],
+        "rotation": [
+          0.6545769572257996,
+          2.21657536769726e-09,
+          -0.7559954524040222,
+          2.21657536769726e-09
+        ],
+        "states": []
+      },
+      "usenode005": {
+        "target": "1183-gamedata.base",
+        "position": [
+          -6.124030113220215,
+          1.2411500271980458e-08,
+          0.2839429974555969
+        ],
+        "rotation": [
+          0.011995376087725163,
+          2.1591935350784297e-08,
+          -0.9999285340309143,
+          2.1591935350784297e-08
+        ],
+        "states": []
+      },
+      "usenode006": {
+        "target": "1183-gamedata.base",
+        "position": [
+          -0.3678770065307617,
+          -3.0876000778334856e-07,
+          -7.063620090484619
+        ],
+        "rotation": [
+          0.6947771310806274,
+          -3.0903972714213523e-08,
+          0.7192261815071106,
+          -3.0903972714213523e-08
+        ],
+        "states": []
+      },
+      "usenode008": {
+        "target": "1183-gamedata.base",
+        "position": [
+          -2.207550048828125,
+          2.5081101284740726e-07,
+          5.737889766693115
+        ],
+        "rotation": [
+          0.6606476306915283,
+          1.9680910234853854e-09,
+          -0.7506968975067139,
+          1.9680910234853854e-09
+        ],
+        "states": []
+      },
+      "usenode009": {
+        "target": "1183-gamedata.base",
+        "position": [
+          3.0826399326324463,
+          2.6312301315556397e-07,
+          6.019539833068848
+        ],
+        "rotation": [
+          0.7071070075035095,
+          0.0,
+          -0.7071070075035095,
+          0.0
+        ],
+        "states": []
+      }
+    }
+  },
   "30-420_Smoking_Prototype.mod": {
     "instance_count": 0,
     "type_id": 21,
@@ -1116,11 +1304,6 @@
           0,
           0
         ],
-        "22-420_Smoking_Prototype.mod": [
-          0,
-          0,
-          0
-        ],
         "23-420_Smoking_Prototype.mod": [
           0,
           0,
@@ -1132,6 +1315,11 @@
           0
         ],
         "25-420_Smoking_Prototype.mod": [
+          0,
+          0,
+          0
+        ],
+        "26-420_Smoking_Prototype.mod": [
           0,
           0,
           0

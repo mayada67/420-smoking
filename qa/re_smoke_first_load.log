@@ -1,0 +1,25 @@
+0.000 RE_Kenshi: RE_Kenshi 0.3.5
+0.000 RE_Kenshi: UEF registered successfully
+0.010 RE_Kenshi: Loading settings file...
+0.010 RE_Kenshi: Saving settings...
+0.011 KenshiLib: KenshiLib 0.5.1
+0.011 RE_Kenshi: Checking latest version...
+0.022 KenshiLib: RVAs loaded
+0.138 RE_Kenshi: VirtualAlloc2 found.
+0.139 RE_Kenshi: Shader cache file doesn't exist
+0.490 RE_Kenshi: Latest public release: v0.3.5
+0.490 RE_Kenshi: We are up to date.
+0.536 RE_Kenshi: Finished synchronous init stage
+0.536 RE_Kenshi: Waiting for mod setup.
+1.642 RE_Kenshi: Loading preload plugins...
+29.317 RE_Kenshi: First shader compile request
+29.331 RE_Kenshi: Regenerating shader cache file
+29.995 RE_Kenshi: Queueing Boot_Up_Game event
+31.070 RE_Kenshi: Load mod hook
+31.070 RE_Kenshi: Loading post-load plugins...
+31.072 RE_Kenshi: 420_Smoking_RE -> SmokingSmoke.dll
+Error 31.074 KenshiLib: Assertion failed: Incorrect address in KenshiLib::GetRealAddress()
+The address you provided appears to be in your own module, try enabling "whole program optimization" in your compilation settings.
+Function address: SmokingSmoke.dll+0x4c3c
+KenshiLib::GetRealAddress() should only be called on KensihLib-exported function stubs with addresses in KenshiLib.dll
+ in Source\core\Functions.cpp line: 174

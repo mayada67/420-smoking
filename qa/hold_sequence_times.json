@@ -1,0 +1,86 @@
+[
+  {
+    "i": 0,
+    "start": 1789457566059,
+    "end": 1789457566248,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_00.png"
+  },
+  {
+    "i": 1,
+    "start": 1789457567064,
+    "end": 1789457567236,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_01.png"
+  },
+  {
+    "i": 2,
+    "start": 1789457568077,
+    "end": 1789457568269,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_02.png"
+  },
+  {
+    "i": 3,
+    "start": 1789457569082,
+    "end": 1789457569253,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_03.png"
+  },
+  {
+    "i": 4,
+    "start": 1789457570088,
+    "end": 1789457570301,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_04.png"
+  },
+  {
+    "i": 5,
+    "start": 1789457571089,
+    "end": 1789457571271,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_05.png"
+  },
+  {
+    "i": 6,
+    "start": 1789457572090,
+    "end": 1789457572286,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_06.png"
+  },
+  {
+    "i": 7,
+    "start": 1789457573095,
+    "end": 1789457573266,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_07.png"
+  },
+  {
+    "i": 8,
+    "start": 1789457574099,
+    "end": 1789457574284,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_08.png"
+  },
+  {
+    "i": 9,
+    "start": 1789457575104,
+    "end": 1789457575284,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_09.png"
+  },
+  {
+    "i": 10,
+    "start": 1789457576110,
+    "end": 1789457576289,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_10.png"
+  },
+  {
+    "i": 11,
+    "start": 1789457577113,
+    "end": 1789457577321,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_11.png"
+  },
+  {
+    "i": 12,
+    "start": 1789457578119,
+    "end": 1789457578286,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_12.png"
+  },
+  {
+    "i": 13,
+    "start": 1789457579129,
+    "end": 1789457579318,
+    "path": "E:/AI_Playground/420/qa/hold_sequence_13.png"
+  }
+]

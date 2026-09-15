@@ -3,6 +3,13 @@ from pathlib import Path
 from mathutils import Vector, Matrix, Quaternion
 ROOT=Path(r'E:\AI_Playground\420');OUT=ROOT/'build'/'420_Smoking'/'assets'
 scene=bpy.data.scenes['420_Animation_Lab'];bpy.context.window.scene=scene
+scene.render.fps=25;scene.render.fps_base=1
+END_FRAME=300
+# Finish inhaling, lower the prop, then wait three full seconds before exhaling.
+TIMING={'raise':[1,2],'inhale':[2,4],'lower':[4,5],'hold':[5,8],'exhale':[8,11],'settle':[11,12]}
+if 'sitting chair' not in bpy.data.actions:
+    with bpy.data.libraries.load(str(ROOT/'assets'/'animation_lab.blend')) as (source,target):
+        target.actions=['sitting chair']
 rig=bpy.data.objects['male_skeleton'];rig.animation_data.action=bpy.data.actions['sitting chair']
 rig.animation_data.action_slot=rig.animation_data.action.slots[0]
 for tr in rig.animation_data.nla_tracks:tr.mute=True
@@ -25,10 +32,10 @@ def arm(side,target,pole):
     return hand
 def smooth(v):return v*v*(3-2*v)
 def phase(f):
-    if f<35:return 0
-    if f<65:return smooth((f-35)/30)
-    if f<105:return 1
-    if f<140:return 1-smooth((f-105)/35)
+    if f<25:return 0
+    if f<50:return smooth((f-25)/25)
+    if f<100:return 1
+    if f<125:return 1-smooth((f-100)/25)
     return 0
 restR=Vector((-1.8,-2.5,7.3));restL=Vector((1.65,-2.3,7.4))
 for old_action_name in ['420_smoke_chillum','420_smoke_joint']:
@@ -36,11 +43,11 @@ for old_action_name in ['420_smoke_chillum','420_smoke_joint']:
     if old_action:bpy.data.actions.remove(old_action)
 actions=[];qa={}
 for kind in ['chillum','joint']:
-    act=bpy.data.actions.new('420_smoke_'+kind);rig.animation_data.action=act
+    act=bpy.data.actions.new('420_smoke_'+kind);act.use_fake_user=True;rig.animation_data.action=act
     errors=[]
     grip_local=None
     # Solve the mouth pose first, then retain that grip in hand-local space.
-    for f in [80]+[v for v in range(0,201,5) if v!=80]:
+    for f in [80]+[v for v in range(0,END_FRAME+1,5) if v!=80]:
         scene.frame_set(f);reset();t=phase(f)
         highR=Vector((-.95,-3.4,12.65)) if kind=='chillum' else Vector((-1.2,-3.5,12.75))
         highL=Vector((.6,-3.1,12.6))
@@ -80,7 +87,7 @@ for kind in ['chillum','joint']:
             b.keyframe_insert(data_path='rotation_quaternion',frame=f,group=b.name)
     for fc in act.fcurves:
         for kp in fc.keyframe_points:kp.interpolation='LINEAR'
-    actions.append(act);qa[kind]={'duration_seconds':8,'max_right_wrist_target_error':max(errors),'finger_bones_present':False,'in_game_verified':False}
+    actions.append(act);qa[kind]={'duration_seconds':12,'fps':25,'timing_seconds':TIMING,'smoke_in_game_implemented':False,'max_right_wrist_target_error':max(errors),'finger_bones_present':False,'in_game_verified':False}
 # Only our two clips enter the skeleton export.
 for tr in list(rig.animation_data.nla_tracks):rig.animation_data.nla_tracks.remove(tr)
 rig.animation_data.action=actions[0]
@@ -104,7 +111,7 @@ for ob in studio.objects:
     if ob.type=='LIGHT' and ob.name not in scene.objects:scene.collection.objects.link(ob)
 bpy.ops.object.camera_add(location=(21,-29,19));cam=bpy.context.object;cam.rotation_euler=(Vector((0,-.5,8))-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.type='ORTHO';cam.data.ortho_scale=20;scene.camera=cam
 scene.render.engine='CYCLES';scene.cycles.samples=20;scene.render.resolution_x=1000;scene.render.resolution_y=1000;scene.render.resolution_percentage=100
-rig.animation_data.action=actions[0];scene.frame_set(80);scene.frame_start=0;scene.frame_end=200
+rig.animation_data.action=actions[0];scene.frame_set(80);scene.frame_start=0;scene.frame_end=END_FRAME
 scene.render.filepath=str(ROOT/'qa'/'chillum_pose.png');bpy.ops.render.render(write_still=True)
 rig.animation_data.action=actions[1];scene.frame_set(80)
 bpy.data.objects['preview_chillum'].hide_render=True;bpy.data.objects['preview_joint'].hide_render=False

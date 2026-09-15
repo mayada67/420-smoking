@@ -1,0 +1,76 @@
+{
+  "54-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 4,
+    "type": "ITEM",
+    "name": "420 chillum lit display prop [STATIC WISP]",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {
+        "mesh": ".\\mods\\420_Smoking\\assets\\420_chillum.mesh"
+      }
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "55-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 4,
+    "type": "ITEM",
+    "name": "420 joint lit display prop [STATIC WISP]",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {
+        "mesh": ".\\mods\\420_Smoking\\assets\\420_joint.mesh"
+      }
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "53-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 47,
+    "type": "MATERIAL_SPECS_CLOTHING",
+    "name": "420 Static tip wisp alpha material",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {
+        "paint factor 1": 0.0,
+        "paint factor 2": 0.0,
+        "specular mult": 0.15
+      },
+      "int": {
+        "material type": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {
+        "color map": "",
+        "normal map": ".\\mods\\420_Smoking\\assets\\420_normal.png",
+        "texture map": ".\\mods\\420_Smoking\\assets\\420_surfaces.png"
+      }
+    },
+    "extra": {},
+    "instances": {}
+  }
+}

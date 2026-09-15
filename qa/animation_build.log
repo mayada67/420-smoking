@@ -1,0 +1,175 @@
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:50:50)
+Read blend: "E:\AI_Playground\420\assets\smoking_animation_work.blend"
+Terminate Serializer
+Fra:80 Mem:23.25M (Peak 23.25M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | human_male-0
+Fra:80 Mem:23.25M (Peak 23.25M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | preview_seat
+Fra:80 Mem:23.25M (Peak 23.25M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | Area.001
+Fra:80 Mem:23.25M (Peak 23.25M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | preview_chillum
+Fra:80 Mem:25.90M (Peak 26.60M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Initializing
+Fra:80 Mem:24.22M (Peak 26.60M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Waiting for render to start
+Fra:80 Mem:24.22M (Peak 26.60M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Scene
+Fra:80 Mem:24.22M (Peak 26.60M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Shaders
+Fra:80 Mem:24.22M (Peak 26.60M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:80 Mem:24.31M (Peak 26.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Procedurals
+Fra:80 Mem:24.31M (Peak 26.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Background
+Fra:80 Mem:24.31M (Peak 26.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Camera
+Fra:80 Mem:24.31M (Peak 26.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Meshes Flags
+Fra:80 Mem:24.31M (Peak 26.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Objects
+Fra:80 Mem:24.31M (Peak 26.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:80 Mem:24.31M (Peak 26.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Particle Systems
+Fra:80 Mem:24.31M (Peak 26.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:80 Mem:24.31M (Peak 26.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Meshes
+Fra:80 Mem:24.31M (Peak 26.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:80 Mem:24.31M (Peak 26.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Mesh | Computing attributes
+Fra:80 Mem:24.40M (Peak 26.60M) | Time:00:00.07 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:80 Mem:24.40M (Peak 26.60M) | Time:00:00.07 | Mem:0.10M, Peak:0.10M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building
+Fra:80 Mem:24.40M (Peak 26.60M) | Time:00:00.07 | Mem:0.10M, Peak:0.10M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building BVH
+Fra:80 Mem:24.40M (Peak 26.60M) | Time:00:00.08 | Mem:0.35M, Peak:0.35M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:80 Mem:24.40M (Peak 26.60M) | Time:00:00.08 | Mem:0.64M, Peak:0.89M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:80 Mem:24.40M (Peak 26.60M) | Time:00:00.08 | Mem:0.64M, Peak:0.89M | 420_Animation_Lab, ViewLayer | Updating Mesh | Computing normals
+Fra:80 Mem:24.64M (Peak 26.60M) | Time:00:00.08 | Mem:0.64M, Peak:0.89M | 420_Animation_Lab, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:80 Mem:24.64M (Peak 26.60M) | Time:00:00.08 | Mem:0.87M, Peak:0.89M | 420_Animation_Lab, ViewLayer | Updating Objects Flags
+Fra:80 Mem:24.64M (Peak 26.60M) | Time:00:00.08 | Mem:0.87M, Peak:0.89M | 420_Animation_Lab, ViewLayer | Updating Primitive Offsets
+Fra:80 Mem:24.64M (Peak 26.60M) | Time:00:00.08 | Mem:0.87M, Peak:0.89M | 420_Animation_Lab, ViewLayer | Updating Images
+Fra:80 Mem:24.64M (Peak 26.60M) | Time:00:00.08 | Mem:0.87M, Peak:0.89M | 420_Animation_Lab, ViewLayer | Updating Images | Loading 420_surfaces.png
+Fra:80 Mem:25.65M (Peak 26.60M) | Time:00:00.10 | Mem:1.87M, Peak:1.87M | 420_Animation_Lab, ViewLayer | Updating Camera Volume
+Fra:80 Mem:25.65M (Peak 26.60M) | Time:00:00.10 | Mem:1.87M, Peak:1.87M | 420_Animation_Lab, ViewLayer | Updating Lookup Tables
+Fra:80 Mem:25.65M (Peak 26.60M) | Time:00:00.10 | Mem:1.95M, Peak:1.95M | 420_Animation_Lab, ViewLayer | Updating Lights
+Fra:80 Mem:25.65M (Peak 26.60M) | Time:00:00.10 | Mem:1.95M, Peak:1.95M | 420_Animation_Lab, ViewLayer | Updating Lights | Computing tree
+Fra:80 Mem:25.65M (Peak 26.60M) | Time:00:00.10 | Mem:1.95M, Peak:1.95M | 420_Animation_Lab, ViewLayer | Updating Integrator
+Fra:80 Mem:25.65M (Peak 26.60M) | Time:00:00.10 | Mem:1.95M, Peak:1.95M | 420_Animation_Lab, ViewLayer | Updating Film
+Fra:80 Mem:25.65M (Peak 26.60M) | Time:00:00.10 | Mem:1.87M, Peak:1.95M | 420_Animation_Lab, ViewLayer | Updating Lookup Tables
+Fra:80 Mem:25.65M (Peak 26.60M) | Time:00:00.10 | Mem:1.96M, Peak:1.96M | 420_Animation_Lab, ViewLayer | Updating Baking
+Fra:80 Mem:25.65M (Peak 26.60M) | Time:00:00.10 | Mem:1.96M, Peak:1.96M | 420_Animation_Lab, ViewLayer | Updating Device | Writing constant memory
+Fra:80 Mem:25.66M (Peak 26.60M) | Time:00:00.10 | Mem:1.96M, Peak:1.96M | 420_Animation_Lab, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:80 Mem:25.66M (Peak 26.60M) | Time:00:00.10 | Mem:1.96M, Peak:1.96M | 420_Animation_Lab, ViewLayer | Sample 0/20
+Fra:80 Mem:98.32M (Peak 98.32M) | Time:00:00.19 | Remaining:00:01.71 | Mem:74.45M, Peak:74.45M | 420_Animation_Lab, ViewLayer | Sample 1/20
+Fra:80 Mem:128.85M (Peak 174.62M) | Time:00:07.04 | Mem:74.45M, Peak:74.45M | 420_Animation_Lab, ViewLayer | Sample 20/20
+Fra:80 Mem:128.85M (Peak 174.62M) | Time:00:07.04 | Mem:74.45M, Peak:74.45M | 420_Animation_Lab, ViewLayer | Finished
+Saved: 'E:\AI_Playground\420\qa\chillum_pose.png'
+Time: 00:07.39 (Saving: 00:00.34)
+
+Fra:80 Mem:25.52M (Peak 25.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | human_male-0
+Fra:80 Mem:25.52M (Peak 25.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | Area
+Fra:80 Mem:25.62M (Peak 25.62M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | preview_joint
+Fra:80 Mem:25.84M (Peak 25.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Initializing
+Fra:80 Mem:24.16M (Peak 25.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Waiting for render to start
+Fra:80 Mem:24.16M (Peak 25.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Scene
+Fra:80 Mem:24.16M (Peak 25.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Shaders
+Fra:80 Mem:24.16M (Peak 25.84M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:80 Mem:24.25M (Peak 25.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Procedurals
+Fra:80 Mem:24.25M (Peak 25.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Background
+Fra:80 Mem:24.25M (Peak 25.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Camera
+Fra:80 Mem:24.25M (Peak 25.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Meshes Flags
+Fra:80 Mem:24.25M (Peak 25.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Objects
+Fra:80 Mem:24.25M (Peak 25.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:80 Mem:24.25M (Peak 25.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Particle Systems
+Fra:80 Mem:24.25M (Peak 25.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:80 Mem:24.25M (Peak 25.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Meshes
+Fra:80 Mem:24.25M (Peak 25.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:80 Mem:24.25M (Peak 25.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Mesh | Computing attributes
+Fra:80 Mem:24.31M (Peak 25.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:80 Mem:24.31M (Peak 25.84M) | Time:00:00.02 | Mem:0.07M, Peak:0.07M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building
+Fra:80 Mem:24.31M (Peak 25.84M) | Time:00:00.02 | Mem:0.07M, Peak:0.07M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building BVH
+Fra:80 Mem:24.31M (Peak 25.84M) | Time:00:00.02 | Mem:0.29M, Peak:0.29M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:80 Mem:24.31M (Peak 25.84M) | Time:00:00.02 | Mem:0.54M, Peak:0.77M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:80 Mem:24.31M (Peak 25.84M) | Time:00:00.02 | Mem:0.54M, Peak:0.77M | 420_Animation_Lab, ViewLayer | Updating Mesh | Computing normals
+Fra:80 Mem:24.51M (Peak 25.84M) | Time:00:00.02 | Mem:0.54M, Peak:0.77M | 420_Animation_Lab, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:80 Mem:24.51M (Peak 25.84M) | Time:00:00.02 | Mem:0.74M, Peak:0.77M | 420_Animation_Lab, ViewLayer | Updating Objects Flags
+Fra:80 Mem:24.51M (Peak 25.84M) | Time:00:00.02 | Mem:0.74M, Peak:0.77M | 420_Animation_Lab, ViewLayer | Updating Primitive Offsets
+Fra:80 Mem:24.51M (Peak 25.84M) | Time:00:00.02 | Mem:0.74M, Peak:0.77M | 420_Animation_Lab, ViewLayer | Updating Images
+Fra:80 Mem:24.51M (Peak 25.84M) | Time:00:00.02 | Mem:0.74M, Peak:0.77M | 420_Animation_Lab, ViewLayer | Updating Images | Loading 420_surfaces.png
+Fra:80 Mem:25.52M (Peak 25.84M) | Time:00:00.03 | Mem:1.74M, Peak:1.74M | 420_Animation_Lab, ViewLayer | Updating Camera Volume
+Fra:80 Mem:25.52M (Peak 25.84M) | Time:00:00.03 | Mem:1.74M, Peak:1.74M | 420_Animation_Lab, ViewLayer | Updating Lookup Tables
+Fra:80 Mem:25.52M (Peak 25.84M) | Time:00:00.03 | Mem:1.82M, Peak:1.82M | 420_Animation_Lab, ViewLayer | Updating Lights
+Fra:80 Mem:25.52M (Peak 25.84M) | Time:00:00.03 | Mem:1.82M, Peak:1.82M | 420_Animation_Lab, ViewLayer | Updating Lights | Computing tree
+Fra:80 Mem:25.52M (Peak 25.84M) | Time:00:00.03 | Mem:1.82M, Peak:1.82M | 420_Animation_Lab, ViewLayer | Updating Integrator
+Fra:80 Mem:25.52M (Peak 25.84M) | Time:00:00.03 | Mem:1.82M, Peak:1.82M | 420_Animation_Lab, ViewLayer | Updating Film
+Fra:80 Mem:25.53M (Peak 25.84M) | Time:00:00.03 | Mem:1.74M, Peak:1.82M | 420_Animation_Lab, ViewLayer | Updating Lookup Tables
+Fra:80 Mem:25.53M (Peak 25.84M) | Time:00:00.03 | Mem:1.83M, Peak:1.83M | 420_Animation_Lab, ViewLayer | Updating Baking
+Fra:80 Mem:25.53M (Peak 25.84M) | Time:00:00.03 | Mem:1.83M, Peak:1.83M | 420_Animation_Lab, ViewLayer | Updating Device | Writing constant memory
+Fra:80 Mem:25.53M (Peak 25.84M) | Time:00:00.03 | Mem:1.83M, Peak:1.83M | 420_Animation_Lab, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:80 Mem:25.53M (Peak 25.84M) | Time:00:00.03 | Mem:1.83M, Peak:1.83M | 420_Animation_Lab, ViewLayer | Sample 0/20
+Fra:80 Mem:98.20M (Peak 98.20M) | Time:00:00.12 | Remaining:00:01.62 | Mem:74.32M, Peak:74.32M | 420_Animation_Lab, ViewLayer | Sample 1/20
+Fra:80 Mem:128.72M (Peak 174.50M) | Time:00:06.85 | Mem:74.32M, Peak:74.32M | 420_Animation_Lab, ViewLayer | Sample 20/20
+Fra:80 Mem:128.72M (Peak 174.50M) | Time:00:06.85 | Mem:74.32M, Peak:74.32M | 420_Animation_Lab, ViewLayer | Finished
+Saved: 'E:\AI_Playground\420\qa\joint_pose.png'
+Time: 00:06.99 (Saving: 00:00.13)
+
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+saving...
+E:\AI_Playground\420\build\420_Smoking\assets\420_smoking_male.skeleton
+func: collect_animations took 0.110
+Export bone 0 Bip01
+Export bone 1 Bip01 Pelvis
+Export bone 2 Bip01 L Thigh
+Export bone 3 Bip01 L Calf
+Export bone 4 Bip01 L Foot
+Export bone 5 Bip01 L Toe0
+Export bone 6 Bip01 L Toe0Nub
+Export bone 7 Bip01 R Thigh
+Export bone 8 Bip01 R Calf
+Export bone 9 Bip01 R Foot
+Export bone 10 Bip01 R Toe0
+Export bone 11 Bip01 R Toe0Nub
+Export bone 12 Bip01 Spine
+Export bone 13 Bip01 Spine1
+Export bone 14 Bip01 Spine2
+Export bone 15 Bip01 L Clavicle
+Export bone 16 Bip01 L UpperArm
+Export bone 17 Bip01 L Forearm
+Export bone 18 Bip01 L Hand
+Export bone 19 Bip01 Prop1
+Export bone 20 Bip01 Neck
+Export bone 21 Bip01 Head
+Export bone 22 Bip01 HeadNub
+Export bone 23 Bip01 Jaw
+Export bone 24 Bip01 JawNub
+Export bone 25 Bip01 R Clavicle
+Export bone 26 Bip01 R UpperArm
+Export bone 27 Bip01 R Forearm
+Export bone 28 Bip01 R Hand
+Export bone 29 Bip01 Prop2
+Renumbering bone 0 Bip01
+Renumbering bone 1 Bip01 Pelvis
+Renumbering bone 2 Bip01 L Thigh
+Renumbering bone 3 Bip01 L Calf
+Renumbering bone 4 Bip01 L Foot
+Renumbering bone 5 Bip01 L Toe0
+Renumbering bone 6 Bip01 L Toe0Nub
+Renumbering bone 7 Bip01 R Thigh
+Renumbering bone 8 Bip01 R Calf
+Renumbering bone 9 Bip01 R Foot
+Renumbering bone 10 Bip01 R Toe0
+Renumbering bone 11 Bip01 R Toe0Nub
+Renumbering bone 12 Bip01 Spine
+Renumbering bone 13 Bip01 Spine1
+Renumbering bone 14 Bip01 Spine2
+Renumbering bone 15 Bip01 L Clavicle
+Renumbering bone 16 Bip01 L UpperArm
+Renumbering bone 17 Bip01 L Forearm
+Renumbering bone 18 Bip01 L Hand
+Renumbering bone 19 Bip01 Prop1
+Renumbering bone 20 Bip01 Neck
+Renumbering bone 21 Bip01 Head
+Renumbering bone 22 Bip01 HeadNub
+Renumbering bone 23 Bip01 Jaw
+Renumbering bone 24 Bip01 JawNub
+Renumbering bone 25 Bip01 R Clavicle
+Renumbering bone 26 Bip01 R UpperArm
+Renumbering bone 27 Bip01 R Forearm
+Renumbering bone 28 Bip01 R Hand
+Renumbering bone 29 Bip01 Prop2
+Export action 420_smoke_chillum, slot male_skeleton
+Export action 420_smoke_joint, slot male_skeleton
+done.
+func: save_skeleton took 0.123
+Info: Export successful
+Info: Saved as "smoking_animation_work.blend"
+{'chillum': {'duration_seconds': 12, 'fps': 25, 'timing_seconds': {'raise': [1, 2], 'inhale': [2, 4], 'lower': [4, 5], 'hold': [5, 8], 'exhale': [8, 11], 'settle': [11, 12]}, 'smoke_in_game_implemented': False, 'max_right_wrist_target_error': 1.2936817073025884e-05, 'finger_bones_present': False, 'in_game_verified': False}, 'joint': {'duration_seconds': 12, 'fps': 25, 'timing_seconds': {'raise': [1, 2], 'inhale': [2, 4], 'lower': [4, 5], 'hold': [5, 8], 'exhale': [8, 11], 'settle': [11, 12]}, 'smoke_in_game_implemented': False, 'max_right_wrist_target_error': 1.4760786716617686e-05, 'finger_bones_present': False, 'in_game_verified': False}}
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+
+Blender quit

@@ -1,0 +1,17 @@
+{
+  "binary_readback": true,
+  "inventory_meshes_unchanged": true,
+  "mode": "static alpha-tested tip wisps",
+  "in_game_visual_verified": false,
+  "chillum": {
+    "display_prop_reference": 54,
+    "mesh_readback": true,
+    "body_and_wisp_uv_present": true
+  },
+  "joint": {
+    "display_prop_reference": 55,
+    "mesh_readback": true,
+    "body_and_wisp_uv_present": true
+  },
+  "wisp_alpha_coverage": 0.042835235595703125
+}

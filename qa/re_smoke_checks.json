@@ -1,0 +1,10 @@
+{
+  "x64_dll": true,
+  "plugin_entry_exported": true,
+  "installed_game_imports_resolve": {
+    "KenshiLib.dll": 20,
+    "OgreMain_x64.dll": 33
+  },
+  "overlay_records": 3,
+  "scope": "static binary and FCS checks; runtime evidence is recorded separately"
+}

@@ -1,0 +1,14 @@
+{
+  "chillum": {
+    "mesh": "420_chillum_lit.mesh",
+    "tip_local_z": 1.79,
+    "added_faces": 64,
+    "mode": "static alpha-tested wisp, no particles"
+  },
+  "joint": {
+    "mesh": "420_joint_lit.mesh",
+    "tip_local_z": 1.23,
+    "added_faces": 64,
+    "mode": "static alpha-tested wisp, no particles"
+  }
+}

@@ -5,6 +5,12 @@ __pycache__/
 /build/base_records.json
 /qa/base_candidates.json
 /build/fcs_lab/
+/build/KenshiLib_reference/
+/build/KenshiLib_Examples/
+/build/KenshiLib_Examples_deps/
+/build/toolchain/
+/build/*download_page.html
+/build/re_smoke_obj/
 /qa/before_*/
 /qa/original_*.cfg
 /qa/test_launch_kenshi.cfg

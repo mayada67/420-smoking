@@ -1,0 +1,58 @@
+0.000 RE_Kenshi: RE_Kenshi 0.3.5
+0.000 RE_Kenshi: --norestart
+0.000 RE_Kenshi: UEF registered successfully
+0.003 RE_Kenshi: Loading settings file...
+0.003 RE_Kenshi: Saving settings...
+0.004 KenshiLib: KenshiLib 0.5.1
+0.004 RE_Kenshi: Checking latest version...
+0.005 KenshiLib: RVAs loaded
+0.107 RE_Kenshi: VirtualAlloc2 found.
+0.108 RE_Kenshi: Shader cache load start
+0.122 RE_Kenshi: Shader cache loaded successfully, 185 cached shaders
+0.513 RE_Kenshi: Finished synchronous init stage
+0.513 RE_Kenshi: Waiting for mod setup.
+1.539 RE_Kenshi: Latest public release: v0.3.5
+1.539 RE_Kenshi: We are up to date.
+1.556 RE_Kenshi: Loading preload plugins...
+56.035 RE_Kenshi: First shader compile request
+56.411 RE_Kenshi: Queueing Boot_Up_Game event
+57.415 RE_Kenshi: Load mod hook
+57.415 RE_Kenshi: Loading post-load plugins...
+57.416 RE_Kenshi: 420_Smoking_RE -> SmokingSmoke.dll
+57.746 RE_Kenshi: 420 Smoke: hooks installed; exhale window [7,10) seconds
+57.746 RE_Kenshi: Registering LoadingListener
+57.747 RE_Kenshi: Loading mod overrides from "420_Smoking_RE"...
+57.748 RE_Kenshi: Loading init bank Init.bnk 1
+57.819 RE_Kenshi: Force triggering Boot_Up_Game
+57.945 RE_Kenshi: Heightmap hooks queued...
+57.945 RE_Kenshi: Opening fast heightmap...
+57.953 RE_Kenshi: Fast heightmap mapped!
+77.491 RE_Kenshi: Main menu loaded.
+77.491 RE_Kenshi: Kenshi version: 1.0.65
+77.491 RE_Kenshi: Kenshi platform: Steam
+77.491 RE_Kenshi: Version supported.
+Error 77.491 RE_Kenshi: Could not initialize UI
+93.417 RE_Kenshi: Main menu loaded.
+93.417 RE_Kenshi: Kenshi version: 1.0.65
+93.417 RE_Kenshi: Kenshi platform: Steam
+93.417 RE_Kenshi: Version supported.
+Error 93.417 RE_Kenshi: Could not initialize UI
+99.756 RE_Kenshi: Main menu loaded.
+99.756 RE_Kenshi: Kenshi version: 1.0.65
+99.756 RE_Kenshi: Kenshi platform: Steam
+99.756 RE_Kenshi: Version supported.
+99.756 RE_Kenshi: Kenshi 1.0.65 - x64 (Newland)
+207.723 RE_Kenshi: In-game.
+209.253 SmokingSmoke: 420 Smoke: billboard renderer ready
+227.062 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=1.60088 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(68438.2, 1395.11, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=4 node=Vector3(0, 1382.08, 0) scale=Vector3(1, 1, 1) directHead=Vector3(-1.50249, 1395.11, -0.00232186) smokeNode=Vector3(-68439.7, 0, 70723.9) visible=1 mask=536870911
+229.067 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=3.60212 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(68438.2, 1395.11, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=7 node=Vector3(0, 1382.08, 0) scale=Vector3(1, 1, 1) directHead=Vector3(-1.47765, 1395.11, -0.0669032) smokeNode=Vector3(-68439.7, 0, 70723.9) visible=1 mask=536870911
+231.165 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=5.60675 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(68438.2, 1395.14, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=7 node=Vector3(0, 1382.08, 0) scale=Vector3(1, 1, 1) directHead=Vector3(-1.44055, 1395.14, -0.0398622) smokeNode=Vector3(-68439.7, 0, 70723.9) visible=1 mask=536870911
+233.188 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=7.6095 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(68438.2, 1395.1, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=14 node=Vector3(0, 1382.08, 0) scale=Vector3(1, 1, 1) directHead=Vector3(-1.505, 1395.1, -0.0324218) smokeNode=Vector3(-68439.7, 0, 70723.9) visible=1 mask=536870911
+235.173 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=9.60977 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(68438.2, 1395.14, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=29 node=Vector3(0, 1382.08, 0) scale=Vector3(1, 1, 1) directHead=Vector3(-1.44031, 1395.14, -0.0486925) smokeNode=Vector3(-68439.7, 0, 70723.9) visible=1 mask=536870911
+237.174 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=11.6111 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(68438.2, 1395.11, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=9 node=Vector3(0, 1382.08, 0) scale=Vector3(1, 1, 1) directHead=Vector3(-1.47981, 1395.11, -0.0413284) smokeNode=Vector3(-68439.7, 0, 70723.9) visible=1 mask=536870911
+239.176 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=1.6114 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(68438.2, 1395.14, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=7 node=Vector3(0, 1382.08, 0) scale=Vector3(1, 1, 1) directHead=Vector3(-1.45353, 1395.14, -0.0668614) smokeNode=Vector3(-68439.7, 0, 70723.9) visible=1 mask=536870911
+241.176 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=3.61204 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(68438.2, 1395.11, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=7 node=Vector3(0, 1382.08, 0) scale=Vector3(1, 1, 1) directHead=Vector3(-1.50229, 1395.11, -0.0523706) smokeNode=Vector3(-68439.7, 0, 70723.9) visible=1 mask=536870911
+243.177 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=5.61277 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(68438.2, 1395.12, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=7 node=Vector3(0, 1382.08, 0) scale=Vector3(1, 1, 1) directHead=Vector3(-1.48486, 1395.12, -0.0374341) smokeNode=Vector3(-68439.7, 0, 70723.9) visible=1 mask=536870911
+245.180 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=7.6142 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(68438.1, 1395.08, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=14 node=Vector3(0, 1382.08, 0) scale=Vector3(1, 1, 1) directHead=Vector3(-1.55208, 1395.08, -0.0483531) smokeNode=Vector3(-68439.7, 0, 70723.9) visible=1 mask=536870911
+247.181 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=9.61537 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(68438.1, 1395.1, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=29 node=Vector3(0, 1382.08, 0) scale=Vector3(1, 1, 1) directHead=Vector3(-1.52692, 1395.1, -0.00139957) smokeNode=Vector3(-68439.7, 0, 70723.9) visible=1 mask=536870911
+249.180 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=11.6181 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(68438.2, 1395.13, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=9 node=Vector3(0, 1382.08, 0) scale=Vector3(1, 1, 1) directHead=Vector3(-1.46001, 1395.13, -0.061506) smokeNode=Vector3(-68439.7, 0, 70723.9) visible=1 mask=536870911

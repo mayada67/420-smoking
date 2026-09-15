@@ -32,13 +32,28 @@ def functionality(n,name,inputs,output=None,sitting=False):
     if sitting:r['fields']['float']['use range']=0.5
     r['fields']['bool'].update({'has progress bar when used':True,'overrides ingredients':True})
     r['extra']={'consumes':{k:[20,v,0] for k,v in inputs.items()},'animation':{'14533-gamedata.base' if sitting else '43871-rebirth.mod':[0,0,0]}}
+    if sitting:
+        # Keep the observed ingredient gate and no-output operation; cap the
+        # dedicated input slot at one item instead of a supply stack.
+        r['extra']['consumes']={k:[1,v,0] for k,v in inputs.items()}
+        r['fields']['bool']['has progress bar when used']=False
     if output: r['extra']['produces']={output:[20,0,0]}
     return r
-functionality(11,'420 Paper production',{hemp:100},sid(1))
-functionality(12,'420 Joint production',{hemp:100,sid(1):100},sid(2))
-functionality(13,'420 Hashish consumption - NO OUTPUT EXPERIMENT',{hashish:100},sitting=True)
-functionality(14,'420 Joint consumption - NO OUTPUT EXPERIMENT',{sid(2):100},sitting=True)
-for n,func,name,sitting in [(21,11,'Paper Workbench',False),(22,12,'Joint Workbench',False),(23,13,'Chillum Seat',True),(24,14,'Joint Seat',True)]:
+# Use vanilla recipe-queue crafting, not fixed-output production. Each item
+# supplies its own ingredients, so paper never requires paper as an input.
+for n in [11,12]:
+    craft=clone('43954-rebirth.mod',sid(n),'420 Paper and Joint crafting')
+    craft['fields']['int']['max operators']=1
+    # Bandana base work: 1.3 * 0.4 head coverage * 0.6 head-slot factor
+    # = 0.312 game hours at 1x crafting speed. ITEM time is integer hours,
+    # so keep each recipe at 1 hour and express the fraction on the bench.
+    craft['fields']['float']['production mult']=1.0/0.312
+    craft['fields']['bool']['overrides ingredients']=False
+    craft['extra']={'animation':{'43871-rebirth.mod':[0,0,0]},
+                    'item crafts':{sid(1):[20,0,0],sid(2):[20,0,0]}}
+functionality(13,'420 Hashish smoking gimmick - single item',{hashish:100},sitting=True)
+functionality(14,'420 Joint smoking gimmick - single item',{sid(2):100},sitting=True)
+for n,func,name,sitting in [(21,11,'Smoking Workbench',False),(22,11,'Smoking Workbench (Legacy)',False),(23,13,'Chillum Seat',True),(24,14,'Joint Seat',True)]:
     r=clone('3468-otto.mod' if sitting else '42166-gamedata.base',sid(n),'420 '+name+' [PROTOTYPE]')
     r['fields']['string'].update({'building category':'420 SMOKING TEST','Description':'Experimental prototype. Supply the required ingredients and assign one operator. No stat effects. Consumption behavior is not yet verified.'})
     r['fields']['int'].update({'power output':0,'max operators':1})
@@ -48,16 +63,21 @@ for n,func,name,sitting in [(21,11,'Paper Workbench',False),(22,12,'Joint Workbe
     r['extra']['functionality']={sid(func):[0,0,0]}
     r['extra'].pop('sounds',None)
     r['extra']['construction']={'42159-gamedata.base':[1,0,0]}
+    if not sitting:
+        r['fields']['string']['Description']='Craft hemp paper and joints at this workbench. Queue paper first (1 hemp), then joints (1 hemp + 1 paper).'
     if sitting:
         r['extra']['parts']={'3447-D-otto.mod':[0,100,0]}
         r['instances']={'420_operator':{'target':'1183-gamedata.base','position':[0,0,0],'rotation':[1,0,0,0],'states':[]}}
 storage=clone('55236-rebirth.mod',sid(25),'420 Storage: Paper')
 storage['fields']['string']['Description']='Dedicated storage for hemp paper used to craft joints.'
 storage['extra']['limit inventory']={sid(1):[0,0,0]}
+joint_storage=clone('55236-rebirth.mod',sid(26),'420 Storage: Joints')
+joint_storage['fields']['string']['Description']='Dedicated storage for crafted joints used at the joint smoking seat.'
+joint_storage['extra']['limit inventory']={sid(2):[0,0,0]}
 tech=clone('2263-gamedata.base',sid(30),'420 Smoking Prototype')
 tech['fields']['int'].update({'level':0,'time':0})
 tech['fields']['string']['description']='Prototype test facilities; not a completed mod.'
-tech['extra']={'enable buildings':{sid(i):[0,0,0] for i in [21,22,23,24,25]},'enable item':{sid(i):[0,0,0] for i in [1,2]}}
+tech['extra']={'enable buildings':{sid(i):[0,0,0] for i in [21,23,24,25,26]},'enable item':{sid(i):[0,0,0] for i in [1,2]}}
 path=OUT/'420_Smoking_Prototype.mod'
 writer=kenshi.ModFileWriter(path,1,'420 project','EXPERIMENTAL consumption prototype. Not release-ready.','gamedata.base,Newwworld.mod,Dialogue.mod,rebirth.mod','')
 writer.records(records)

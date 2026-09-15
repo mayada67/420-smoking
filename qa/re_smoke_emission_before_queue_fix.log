@@ -1,0 +1,58 @@
+0.000 RE_Kenshi: RE_Kenshi 0.3.5
+0.000 RE_Kenshi: --norestart
+0.000 RE_Kenshi: UEF registered successfully
+0.002 RE_Kenshi: Loading settings file...
+0.002 RE_Kenshi: Saving settings...
+0.003 KenshiLib: KenshiLib 0.5.1
+0.003 RE_Kenshi: Checking latest version...
+0.004 KenshiLib: RVAs loaded
+0.106 RE_Kenshi: VirtualAlloc2 found.
+0.108 RE_Kenshi: Shader cache load start
+0.122 RE_Kenshi: Shader cache loaded successfully, 185 cached shaders
+0.517 RE_Kenshi: Finished synchronous init stage
+0.517 RE_Kenshi: Waiting for mod setup.
+0.561 RE_Kenshi: Latest public release: v0.3.5
+0.561 RE_Kenshi: We are up to date.
+1.547 RE_Kenshi: Loading preload plugins...
+23.244 RE_Kenshi: First shader compile request
+23.682 RE_Kenshi: Queueing Boot_Up_Game event
+24.875 RE_Kenshi: Load mod hook
+24.875 RE_Kenshi: Loading post-load plugins...
+24.876 RE_Kenshi: 420_Smoking_RE -> SmokingSmoke.dll
+25.114 RE_Kenshi: 420 Smoke: hooks installed; exhale window [7,10) seconds
+25.114 RE_Kenshi: Registering LoadingListener
+25.115 RE_Kenshi: Loading mod overrides from "420_Smoking_RE"...
+25.116 RE_Kenshi: Loading init bank Init.bnk 1
+25.187 RE_Kenshi: Force triggering Boot_Up_Game
+25.319 RE_Kenshi: Heightmap hooks queued...
+25.319 RE_Kenshi: Opening fast heightmap...
+25.325 RE_Kenshi: Fast heightmap mapped!
+44.862 RE_Kenshi: Main menu loaded.
+44.862 RE_Kenshi: Kenshi version: 1.0.65
+44.862 RE_Kenshi: Kenshi platform: Steam
+44.862 RE_Kenshi: Version supported.
+Error 44.862 RE_Kenshi: Could not initialize UI
+60.503 RE_Kenshi: Main menu loaded.
+60.503 RE_Kenshi: Kenshi version: 1.0.65
+60.503 RE_Kenshi: Kenshi platform: Steam
+60.503 RE_Kenshi: Version supported.
+Error 60.503 RE_Kenshi: Could not initialize UI
+66.795 RE_Kenshi: Main menu loaded.
+66.795 RE_Kenshi: Kenshi version: 1.0.65
+66.795 RE_Kenshi: Kenshi platform: Steam
+66.795 RE_Kenshi: Version supported.
+66.795 RE_Kenshi: Kenshi 1.0.65 - x64 (Newland)
+100.259 RE_Kenshi: In-game.
+101.808 SmokingSmoke: 420 Smoke: billboard renderer ready
+119.718 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=0.872199 enabled=1 weight=1 wanted=0 stop=0 speed=0.55 masterSpeed=1 head=Vector3(68438.2, 1395.12, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=4
+121.717 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=1.97274 enabled=1 weight=1 wanted=0 stop=0 speed=0.55 masterSpeed=1 head=Vector3(68438.2, 1395.1, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=7
+123.848 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=3.07861 enabled=1 weight=1 wanted=0 stop=0 speed=0.55 masterSpeed=1 head=Vector3(68438.2, 1395.15, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=7
+125.797 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=4.17934 enabled=1 weight=1 wanted=0 stop=0 speed=0.55 masterSpeed=1 head=Vector3(68438.2, 1395.11, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=7
+127.808 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=5.28643 enabled=1 weight=1 wanted=0 stop=0 speed=0.55 masterSpeed=1 head=Vector3(68438.2, 1395.13, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=7
+129.810 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=6.38712 enabled=1 weight=1 wanted=0 stop=0 speed=0.55 masterSpeed=1 head=Vector3(68438.2, 1395.14, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=7
+131.829 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=7.48882 enabled=1 weight=1 wanted=0 stop=0 speed=0.55 masterSpeed=1 head=Vector3(68438.2, 1395.11, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=17
+133.813 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=8.58883 enabled=1 weight=1 wanted=0 stop=0 speed=0.55 masterSpeed=1 head=Vector3(68438.2, 1395.12, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=28
+135.815 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=9.69 enabled=1 weight=1 wanted=0 stop=0 speed=0.55 masterSpeed=1 head=Vector3(68438.1, 1395.06, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=28
+137.817 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=10.7906 enabled=1 weight=1 wanted=0 stop=0 speed=0.55 masterSpeed=1 head=Vector3(68438.2, 1395.13, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=11
+139.835 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=11.9001 enabled=1 weight=1 wanted=0 stop=0 speed=0.55 masterSpeed=1 head=Vector3(68438.2, 1395.11, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=7
+141.853 SmokingSmoke: 420 Smoke sample: 420_smoke_chillum t=1.00246 enabled=1 weight=1 wanted=0 stop=0 speed=0.55 masterSpeed=1 head=Vector3(68438.2, 1395.14, -70723.9) origin=Vector3(68439.7, 0, -70723.9) puffs=7

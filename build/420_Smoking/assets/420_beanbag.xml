@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NXUSTREAM2>
+    <NxuPhysicsCollection id="420_beanbag.xml" sdkVersion="284" nxuVersion="103">
+        <NxSceneDesc id="collision" hasMaxBounds="false" hasLimits="false" hasFilter="false">
+            <NxActorDesc id="name" name="420_COL_beanbag" hasBody="false">
+                <globalPose>1.000000 0.000000 0.000000  0.000000 1.000000 0.000000  0.000000 0.000000 1.000000  0.000000 0.000000 0.000000</globalPose>
+                <NxBoxShapeDesc dimensions="3.8 2.5 1.35">
+                    <NxShapeDesc name="420_COL_base">
+                        <localPose>1 0 0 0 1 0 0 0 1 0 1.0 1.35</localPose>
+                    </NxShapeDesc>
+                </NxBoxShapeDesc>
+            </NxActorDesc>
+            </NxSceneDesc>
+    </NxuPhysicsCollection>
+</NXUSTREAM2>

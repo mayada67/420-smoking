@@ -25,7 +25,10 @@ for n,source in [(50,'5263-lanterns_otto.mod'),(51,'3403-otto.mod')]:
     r=clone(source,n,'420 Surface material '+str(n))
     for k in r['fields']['filename']:r['fields']['filename'][k]=''
     r['fields']['filename'].update({'texture map':asset('420_surfaces.png'),'normal map':asset('420_normal.png')})
-    if n==51:r['fields']['filename'].update({'texture map 2':asset('420_surfaces.png'),'normal map 2':asset('420_normal.png'),'metalness map':asset('420_metalness.png'),'metalness map 2':asset('420_metalness.png')})
+    if n==51:
+        # Single-texture meshes have no COLOR0 stream required by DUAL.
+        r['fields']['int']['material type']=0 # BuildingShader.DEFAULT
+        r['fields']['filename']['metalness map']=asset('420_metalness.png')
     r['fields']['float']['specular mult']=.15
 for n,mesh in [(1,'420_paper'),(2,'420_joint')]:
     r=records[sid(n)];r['fields']['filename'].update({'mesh':asset(mesh+'.mesh'),'ground mesh':'','physics file':'','icon':icon(mesh+'_icon.png')});r['extra']['material']={sid(50):[0,0,0]}
@@ -33,6 +36,17 @@ for n,mesh in [(1,'420_paper'),(2,'420_joint')]:
 chillum=clone('46981-Newwworld.mod',3,'420 Chillum prop')
 chillum['fields']['filename'].update({'mesh':asset('420_chillum.mesh'),'icon':icon('420_chillum_icon.png')});chillum['extra']['material']={sid(50):[0,0,0]}
 chillum['fields']['bool']['auto icon']=False
+# Display-only lit props: keep crafted inventory/ground items smoke-free.
+smoke_material=clone('5263-lanterns_otto.mod',53,'420 Static tip wisp alpha material')
+smoke_material['fields']['filename'].update({'texture map':asset('420_smoke_prop_diffuse.png'),'normal map':asset('420_smoke_prop_normal.png')})
+smoke_material['fields']['int']['material type']=1 # ItemShader.ALPHA
+smoke_material['fields']['float']['specular mult']=0.0
+for n,source,kind in [(54,3,'chillum'),(55,2,'joint')]:
+    r=copy.deepcopy(records[sid(source)])
+    r.update(name='420 '+kind+' lit display prop [STATIC WISP]')
+    r['fields']['filename']['mesh']=asset('420_'+kind+'_lit.mesh')
+    r['extra']['material']={sid(53):[0,0,0]}
+    records[sid(n)]=r
 for n,kind in [(40,'chillum'),(41,'joint')]:
     r=clone('14533-gamedata.base',n,'420_smoke_'+kind)
     r['fields']['string']['anim name']='420_smoke_'+kind
@@ -50,11 +64,42 @@ records['17-gamedata.quack']=human
 part=clone('3447-D-otto.mod',52,'420 Smoking seat mesh')
 part['fields']['bool']['passable']=True
 part['fields']['filename'].update({'phs or mesh':asset('420_smoking_seat.mesh'),'xml collision':asset('420_smoking_seat.xml')});part['extra']['material']={sid(51):[0,0,0]}
-for fn,building,anim,tool in [(13,23,40,3),(14,24,41,2)]:
+for fn,building,anim,tool in [(13,23,40,54),(14,24,41,55)]:
     records[sid(fn)]['extra']['animation']={sid(anim):[0,0,0]}
     records[sid(fn)]['extra']['special tool']={sid(tool):[0,0,0]}
     records[sid(building)]['extra']['parts']={sid(52):[0,100,0]}
-    records[sid(building)]['fields']['string']['Description']='ALPHA: smoking consumption is not yet verified. Supply hashish for the chillum seat, or crafted joints for the joint seat. Assign one operator. No stat effects.'
+    item='hashish' if building==23 else 'joint'
+    records[sid(building)]['fields']['string']['Description']=f'Smoking gimmick. Place one {item} in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.'
+# Additional beanbag seats share the proven one-item smoking functionality.
+cloth=copy.deepcopy(records[sid(51)]);records[sid(57)]=cloth
+cloth['name']='420 Worn beanbag cloth'
+cloth['fields']['filename']['texture map']=asset('420_beanbag_cloth.png')
+beanpart=copy.deepcopy(records[sid(52)]);records[sid(56)]=beanpart
+beanpart['name']='420 Patched beanbag mesh'
+beanpart['fields']['filename'].update({'phs or mesh':asset('420_beanbag.mesh'),'xml collision':asset('420_beanbag.xml')})
+beanpart['extra']['material']={sid(57):[0,0,0]}
+for n,source,label in [(27,23,'Hashish'),(28,24,'Joint')]:
+    seat=copy.deepcopy(records[sid(source)]);records[sid(n)]=seat
+    seat['name']='420 Worn Beanbag: '+label
+    seat['extra']['parts']={sid(56):[0,100,0]}
+    # In-game retest: -90 yaw faced backward. Use +90 instead (180 correction).
+    # Kenshi stores quaternions as w,x,y,z, with vertical Y.
+    seat['instances']['420_operator']['rotation']=[2**-.5,0,2**-.5,0]
+    # Fit the cushion to the grounded pose instead of lifting the feet.
+    seat['instances']['420_operator']['position']=[0,0,0]
+    records[sid(30)]['extra']['enable buildings'][sid(n)]=[0,0,0]
+for fn,anim,source_fn,source_anim,building,kind in [(58,60,13,40,27,'chillum'),(59,61,14,41,28,'joint')]:
+    records[sid(anim)]=copy.deepcopy(records[sid(source_anim)])
+    records[sid(anim)]['name']='420_recline_'+kind
+    records[sid(anim)]['fields']['string']['anim name']='420_recline_'+kind
+    records[sid(fn)]=copy.deepcopy(records[sid(source_fn)])
+    records[sid(fn)]['name']='420 Reclined '+kind
+    records[sid(fn)]['extra']['animation']={sid(anim):[0,0,0]}
+    records[sid(building)]['extra']['functionality']={sid(fn):[0,0,0]}
+records[sid(62)]=copy.deepcopy(records[sid(42)])
+records[sid(62)]['name']='420 Beanbag reclined animations'
+records[sid(62)]['fields']['filename']['male animation']=asset('420_reclined_male.skeleton')
+records['17-gamedata.quack']['extra']['animation files'][sid(62)]=[0,0,0]
 path=OUT/'420_Smoking.mod'
 w=kenshi.ModFileWriter(path,1,'420 project','UNFINISHED ALPHA. Male human animation trial. In-game consumption, attachment, interruption and save/load NOT VERIFIED.','gamedata.base,Newwworld.mod,Dialogue.mod,rebirth.mod','');w.records(records);w.handle.close()
 r=kenshi.ModFileReader(path);assert len(r.records)==len(records);r.handle.close()
