@@ -194,14 +194,26 @@ void animationUpdateHook(AnimationClassBase::SingleAnimation* animation, float m
     originalAnimationUpdate(animation, masterTime, frameTime, sounds);
 }
 
+void disableSmokeAfterError() {
+    disabled = true;
+    emitters.clear(); puffs.clear();
+    if (!boards) return;
+    // Hide first so a failed clear cannot leave frozen smoke on screen.
+    // Keep ownership until normal world cleanup; the renderer is already failing.
+    try { boards->setVisible(false); }
+    catch (const Ogre::Exception&) {}
+    try { boards->clear(); }
+    catch (const Ogre::Exception&) {}
+}
+
 void (*originalUpdate)(GameWorld*,float) = 0;
 void updateHook(GameWorld* world, float elapsed) {
     originalUpdate(world,elapsed);
     if (disabled) return;
     try { updateSmoke(world,elapsed); }
     catch (const Ogre::Exception& e) {
+        disableSmokeAfterError();
         ErrorLog(std::string("420 Smoke disabled after renderer error: ")+e.getFullDescription());
-        disabled=true;
     }
 }
 void (*originalClear)(GameWorld*) = 0;

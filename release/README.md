@@ -33,9 +33,3 @@ For uninstalling, use a save from before installation for a clean return to an u
 The main archive contains the two runtime mods, this guide, and the smoke plugin source, build script and GPL license. RE_Kenshi, KenshiLib, compiler binaries, game textures and game base data are not bundled. The plugin uses the game's smoke material at runtime.
 
 The smoke plugin source is GPL-3.0-or-later; see `source/LICENSE` and `source/BUILD.md`. Original project models/textures/animations have no separate redistribution grant in this candidate; obtain author permission for reuse. Dependency licenses remain with their respective authors.
-
-## 日本語の要点
-
-RE_Kenshiを別途導入し、`420_Smoking` → `420_Smoking_RE` の順に有効化してください。研究「420 Smoking」はレベル3、通常の本3冊＋麻3個、基準4ゲーム内時間。屋内に設備を置き、チラム席にはハシシ1個、ジョイント席にはジョイント1個をセットします。紙とジョイントは共通作業台で製作できます。
-
-バニラ人型種族・男女用の登録とファイルを追加しています。今回追加した種族・女性用ファイルの実機での見た目は最終確認前です。

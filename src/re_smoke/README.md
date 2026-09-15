@@ -1,29 +1,30 @@
-# 420 Smoking — RE_Kenshi版（開発中）
+# 420 Smoking — RE_Kenshi Edition (In Development)
 
-本プロジェクトはRE_Kenshi版に特化して開発します。基盤MODと煙プラグインの2つを使用します。
+This project targets RE_Kenshi and uses a base mod plus a smoke plugin.
 
-## 導入
+## Installation
 
-1. RE_Kenshiを導入する。確認環境はKenshi 1.0.65 / RE_Kenshi 0.3.5。
-2. `build/420_Smoking` と `build/420_Smoking_RE` をゲームの `mods` フォルダへ配置する。
-3. MOD一覧で `420_Smoking`、`420_Smoking_RE` の順に有効にし、ゲームを再起動する。
+1. Install RE_Kenshi. Tested environment: Kenshi 1.0.65 / RE_Kenshi 0.3.5.
+2. Copy `build/420_Smoking` and `build/420_Smoking_RE` into the game's `mods` folder.
+3. Enable `420_Smoking`, followed by `420_Smoking_RE`, and restart the game.
 
-煙MODのフォルダには `420_Smoking_RE.mod`、`RE_Kenshi.json`、`SmokingSmoke.dll` が必要です。`420_QA` は開発用の開始条件です。
+The smoke mod requires `420_Smoking_RE.mod`, `RE_Kenshi.json`, and `SmokingSmoke.dll`. `420_QA` is a development-only game start.
 
-## 煙の動作
+## Smoke behavior
 
-- 対象は `420_smoke_chillum`、`420_smoke_joint`、`420_recline_chillum`、`420_recline_joint`。
-- 12秒ループの8–11秒に口から煙を出し、先端煙は対象動作中に継続する。
-- 呼気の設定は72粒子/秒、基準サイズ1.56。増量設定に対するユーザーの実機確認済み。見た目の倍率を測定した値ではありません。
-- 発生済みの煙は薄れて消える。ワールドリセット時に一時状態をクリアする。
-- 拡張を無効にした基盤MODは煙なし。静止煙の試作は不採用です。
+- Supported animations: `420_smoke_chillum`, `420_smoke_joint`, `420_recline_chillum`, and `420_recline_joint`.
+- Mouth smoke appears at seconds 8–11 of the 12-second loop. Tip smoke continues during the interaction.
+- Exhaled smoke uses 72 particles per second and a base size of 1.56. The increased setting was confirmed in game by the user; these values do not represent a measured visual multiplier.
+- Existing smoke fades out. Temporary state is cleared when the world resets.
+- On a rendering error, the plugin attempts to hide and clear the smoke independently, clears its temporary emitters and particles, and disables smoke updates. Game updates continue.
+- The base mod works without smoke when the extension is disabled. The static smoke prototype is not used.
 
-ゲーム内の `kenshi_smoke1` マテリアルを実行時に複製して使用します。元のゲームテクスチャ・シェーダーは再配布しません。実機確認の範囲はプロジェクトの `qa/user_confirmation_2026-09-15.md` に記録しています。
+The plugin clones the game's `kenshi_smoke1` material at runtime. Original game textures and shaders are not redistributed. The project's `qa/user_confirmation_2026-09-15.md` records the scope of user testing.
 
-## ビルド
+## Build
 
-プロジェクトルートで `tools/build_re_smoke.ps1` を実行します。ローカルのVC2010 x64、Windows SDK 7.1、公式KenshiLib_Examples_deps、Boost 1.60を使用します。参照パスはスクリプトに記載しています。FCSの煙MODは `tools/build_re_smoke_mod.py` で生成します。
+Run `tools/build_re_smoke.ps1` from the project root. It uses the local VC2010 x64 compiler, Windows SDK 7.1, official KenshiLib_Examples_deps, and Boost 1.60. Dependency paths are specified in the script. `tools/build_re_smoke_mod.py` generates the FCS smoke mod.
 
-ソースの正本は `src/re_smoke/SmokingSmoke.cpp` です。
+The canonical source is `src/re_smoke/SmokingSmoke.cpp`.
 
 Source license: GPL-3.0-or-later. KenshiLib and its dependencies retain their own licenses. This project has not modified or rebuilt KenshiLib or RE_Kenshi.

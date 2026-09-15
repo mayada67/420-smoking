@@ -4,7 +4,7 @@
   "hashes_match": true,
   "game_launch_tested": false,
   "manifest": {
-    "README.md": "dbba895750fa5b03ebed8a99eca60a3a74a7917b11b971d3eaa16bfea3725aa7",
+    "README.md": "ae4c5c8a30311871bcfc5730f37df6fcb7833e21577c565f4dd4410ff4dc198a",
     "mods/420_Smoking/420_Smoking.mod": "a06f89ad2efe2acd6f5912a43d8adbbad2cc928acd232aec84f4af201e268e34",
     "mods/420_Smoking/assets/420_beanbag.mesh": "d844cdeaeb2ca54d4dea3d6927d4e403b9a3de0808f58d4320a08beef90f395d",
     "mods/420_Smoking/assets/420_beanbag.xml": "cb538f5b2d26ad098d81498aab543f10120a88d3c4cdfe75ea5d4e6f485324d7",
@@ -30,11 +30,11 @@
     "mods/420_Smoking/items/icons/420_paper_icon.png": "8ad132b8a9890b3a30e1536849c4bb132aafe00e505564e7bbcea11ff9d87ebe",
     "mods/420_Smoking_RE/420_Smoking_RE.mod": "fa09c39f6b3ffe9bfae81ccd1adea958be7a5c9cc1703e317e0c5d038ef5d107",
     "mods/420_Smoking_RE/RE_Kenshi.json": "2b29a3598fc3c5f0ebb85e6568567477545c23ef3bacb301ee5bd55f5044f0b1",
-    "mods/420_Smoking_RE/SmokingSmoke.dll": "64a3227b784145fdf8da635992f77fdc5354cc07c1c64ee034d00c9230097a98",
+    "mods/420_Smoking_RE/SmokingSmoke.dll": "f742e4105472ffd5f9dbab95c772547fd37e610da60794c4f50c2f15d977124e",
     "source/BUILD.md": "588f41b1bd95821d4cbcf366c6ea05c3f3442e20ce11d5c6cd45e62063e71f4e",
     "source/LICENSE": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
-    "source/src/re_smoke/README.md": "fcefed89a1f61a237063f3bc69a5be0825c781d3e9c6f41ef23918cbd1f9be34",
-    "source/src/re_smoke/SmokingSmoke.cpp": "7f6a9a7ea5fe1320797ee02d86feb1a9481769118883c19233ebb8fdc022ba66",
+    "source/src/re_smoke/README.md": "b8a342715e543bc4b3410ef4c647a059a0844c3e54c2ddb96851b5d54d185425",
+    "source/src/re_smoke/SmokingSmoke.cpp": "b6cc87b50169eb5a85852fe96b0865c8c90d6ef4eb885ce8db6c4bf757198007",
     "source/tools/build_re_smoke.ps1": "aaf9acbbb09f61967270c3c5b93034cc71711120e8e0b2c27fca3d2e16d66be8"
   }
 }

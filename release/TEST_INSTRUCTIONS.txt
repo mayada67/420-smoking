@@ -1,0 +1,27 @@
+420 Smoking — Distribution Test Bundle
+
+CORE: 420_Core.zip
+Extract and copy mods/420_Smoking and mods/420_Smoking_RE into Kenshi/mods.
+Install RE_Kenshi separately. Enable 420_Smoking, then 420_Smoking_RE.
+This bundle includes the renderer-error cleanup fix.
+
+OPTIONAL: 420_Patches.zip
+Copy mods/420_Races into Kenshi/mods and enable it after your race mods,
+420_Smoking, and 420_Smoking_RE. Disable old 420_Smoking_Patch_* entries.
+One folder covers 59 configured humanoid race IDs. The plugin explicitly
+skips absent races; the MOD contains zero race records. Races.json can be
+extended without rebuilding the DLL. Read its README before editing.
+Release candidate: simulated-database tests passed, but the new runtime
+hook and visual fitting have not yet been verified in a running game.
+
+TEST CHECKLIST
+- All four interactions: regular seat/beanbag and chillum/joint.
+- Hand-held props, mouth smoke, and posture for the races and sexes you use.
+- Movement interruption, game speed, pause, and save/load.
+- Disable 420_QA for normal play. Check 420 Smoking research in a save where
+  it is not already completed: research level 3, 3 Books + 3 hemp, and
+  4 base game hours. Completed research cannot test a new research cost.
+
+Read the README in each archive for installation, compatibility, and credits.
+The core and optional patches remain separate inner ZIPs.
+Third-party race names and dependency identifiers retain their original form.

@@ -1,0 +1,730 @@
+{
+  "name": "420_Races",
+  "race_count": 59,
+  "source_patch_count": 17,
+  "animation_profiles": 6,
+  "sources": [
+    {
+      "patch": "420_Smoking_Patch_2B",
+      "original": "2B.mod",
+      "workshop_id": "2747607700",
+      "source_sha256": "46246d928a50e8e0496c9830ff60826456d746b86f708e0409e27d5a17e08b59",
+      "included": [
+        {
+          "id": "10-2B.mod",
+          "name": "2B",
+          "profile": [
+            "female",
+            "female"
+          ]
+        },
+        {
+          "id": "76-2B.mod",
+          "name": "2B Pose",
+          "profile": [
+            "female",
+            "female"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_Bijin",
+      "original": "Bijin.mod",
+      "workshop_id": null,
+      "source_sha256": "b36e57ba0289a8d6028cf8568033b78eccac65f2dbe53cf685355f57585e2bb6",
+      "included": [
+        {
+          "id": "5007282-BJIN_mod.mod",
+          "name": "Greenlander Bijin",
+          "profile": [
+            "male",
+            "female"
+          ]
+        },
+        {
+          "id": "5007383-BJIN_mod.mod",
+          "name": "Scorchlander Bijin",
+          "profile": [
+            "male",
+            "female"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_DarkHive",
+      "original": "Dark Hive.mod",
+      "workshop_id": "1909887188",
+      "source_sha256": "614913a857936539f7f04d4c02544d6dc6f695385475b01789ed08e7ab5e1a0a",
+      "included": [
+        {
+          "id": "5007271-Dark Hive.mod",
+          "name": "Hive Prince Dark Hive",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5007285-Dark Hive.mod",
+          "name": "Hive Praetorian Dark Hive",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5007275-Dark Hive.mod",
+          "name": "Hive Worker Drone Dark Hive",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5007284-Dark Hive.mod",
+          "name": "Hive Soldier Drone Dark Hive",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5007287-Dark Hive.mod",
+          "name": "Dark Hive Queen",
+          "profile": [
+            "male",
+            "male"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "5131069-Dark Hive.mod",
+          "name": "Queen's Puppy",
+          "reason": "Non-humanoid skeleton: dog.skeleton"
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_EvilSpirits",
+      "original": "NWDM Retaliation of evil spirits.mod",
+      "workshop_id": "1564854755",
+      "source_sha256": "e776383cbb906d0606e94248d437e33cbd66a9c2d13eac3bcfc81fca8253f210",
+      "included": [
+        {
+          "id": "1534520-testE.mod",
+          "name": "Evil Spirits",
+          "profile": [
+            "male",
+            "female"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_FemaleAndroid",
+      "original": "Female android.mod",
+      "workshop_id": "2114482336",
+      "source_sha256": "a50c7594e0950f7c0d805994a3bb65879c26ae7be336d7240d6944050581c449",
+      "included": [
+        {
+          "id": "5007283-Female android.mod",
+          "name": "Female Android",
+          "profile": [
+            "female",
+            "female"
+          ]
+        },
+        {
+          "id": "5007380-Female android.mod",
+          "name": "Female Android 2",
+          "profile": [
+            "female",
+            "female"
+          ]
+        },
+        {
+          "id": "5007387-Female android.mod",
+          "name": "Female Android Valkyrie",
+          "profile": [
+            "female",
+            "female"
+          ]
+        },
+        {
+          "id": "5007393-Female android.mod",
+          "name": "Female Android Grimgelde",
+          "profile": [
+            "female",
+            "female"
+          ]
+        },
+        {
+          "id": "5007399-Female android.mod",
+          "name": "Female Android Herja",
+          "profile": [
+            "female",
+            "female"
+          ]
+        },
+        {
+          "id": "5007735-Female android.mod",
+          "name": "Female Android Randgrid",
+          "profile": [
+            "female",
+            "female"
+          ]
+        },
+        {
+          "id": "5007783-Female android.mod",
+          "name": "Female Android V2",
+          "profile": [
+            "female",
+            "female"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_Fox",
+      "original": "Fox's Weapons Mod Set.mod",
+      "workshop_id": "1745686349",
+      "source_sha256": "166790bf6108934bce84b6b93f382c4796ce83ca819ac1ddb5c266db7d404c00",
+      "included": [
+        {
+          "id": "2758484-Race_F-0X.mod",
+          "name": "Skeleton F-0X",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5007277-9Fox_ROBOT.mod",
+          "name": "Skeleton F-3X",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5007279-9Fox_ROBOT.mod",
+          "name": "Skeleton F-9X",
+          "profile": [
+            "male",
+            "male"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "2758657-animal_IronFox.mod",
+          "name": "Iron Fox",
+          "reason": "Non-humanoid skeleton: dog.skeleton"
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_HivePorter",
+      "original": "Hive_porter.mod",
+      "workshop_id": "1706873059",
+      "source_sha256": "38fae600bbb9a402ea8424f16cdbd97c0497f8332d8d2129f9d13637b63849ac",
+      "included": [
+        {
+          "id": "1535100-Hive_porter.mod",
+          "name": "Hive Porter Drone",
+          "profile": [
+            "male",
+            "male"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_HivesExpanded",
+      "original": "Hiver_Expansion.mod",
+      "workshop_id": "1688546539",
+      "source_sha256": "e865ad89242275da13dce03ae1d6d5de8d12b52e82d1a3fd3aeb14010f8541b4",
+      "included": [
+        {
+          "id": "1535109-Hiver_Expansion.mod",
+          "name": "Hive Praetorian",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "1535116-Hiver_Expansion.mod",
+          "name": "Deadhive Praetorian ",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "1535117-Hiver_Expansion.mod",
+          "name": "Hive Praetorian South Hive",
+          "profile": [
+            "male",
+            "male"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_IzumiRobot",
+      "original": "Izumi with a ROBOT Start (JP).mod",
+      "workshop_id": "2303464209",
+      "source_sha256": "1079be25cd67f1eec1d34ab92ee9be60cad75dc659b4f46f672fa6b7651f13ce",
+      "included": [
+        {
+          "id": "5007468-Izumi with a ROBOT Start.mod",
+          "name": "Screamer Cutting machine",
+          "profile": [
+            "male",
+            "male"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_JRPG",
+      "original": "jrpg_race.mod",
+      "workshop_id": "1605171674",
+      "source_sha256": "34e77f17472559a2f61f861e20d37620eefa9a1742651e2f362dc8508e65c686",
+      "included": [
+        {
+          "id": "1535100-jrpg_race.mod",
+          "name": "Greenlander jrpg",
+          "profile": [
+            "male",
+            "female"
+          ]
+        },
+        {
+          "id": "1535108-jrpg_race.mod",
+          "name": "Scorchlander jrpg",
+          "profile": [
+            "male",
+            "female"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_Legendary",
+      "original": "Legendary of Kenshi.mod",
+      "workshop_id": "1971913645",
+      "source_sha256": "80879645a6b791a1b062c66040c9418bdc28c2c7f472f6f1cbf6a541286fe13b",
+      "included": [
+        {
+          "id": "5131465-A_BossPlus.mod",
+          "name": "Skeleton Catlon",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5131494-A_BossPlus.mod",
+          "name": "Bugmaster",
+          "profile": [
+            "male",
+            "female"
+          ]
+        },
+        {
+          "id": "5131508-A_BossPlus.mod",
+          "name": "Skeleton HoA",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5131509-A_BossPlus.mod",
+          "name": "Skeleton Rhinobot",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5131510-A_BossPlus.mod",
+          "name": "Skeleton Jang",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5131511-A_BossPlus.mod",
+          "name": "Skeleton Hat-12",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5131545-A_BossPlus.mod",
+          "name": "Skeleton Hydraulic Titan",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5131574-A_BossPlus.mod",
+          "name": "Skeleton Tinfist",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5131677-A_BossPlus.mod",
+          "name": "Skeleton Slaughter Unit",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5131679-A_BossPlus.mod",
+          "name": "Terminator Skeleton Bandit",
+          "profile": [
+            "male",
+            "female"
+          ]
+        },
+        {
+          "id": "5131760-A_BossPlus.mod",
+          "name": "Shek Rock type",
+          "profile": [
+            "female",
+            "female"
+          ]
+        },
+        {
+          "id": "5131762-A_BossPlus.mod",
+          "name": "Hive Soldier Drone Eyegore",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5131771-A_BossPlus.mod",
+          "name": "Skeleton Catlon true",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5131908-A_BossPlus.mod",
+          "name": "Skeleton module trader",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5132372-A_BossPlus.mod",
+          "name": "Hive Scent",
+          "profile": [
+            "male",
+            "male"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "5132175-A_BossPlus.mod",
+          "name": "Queen's Crab",
+          "reason": "Non-humanoid skeleton: crab.skeleton"
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_LovelyGutter",
+      "original": "Lovely Gutter.mod",
+      "workshop_id": "2368728791",
+      "source_sha256": "33ee8bf1a720e341e7d6795eb43a8fd11f3721015e42a4a75c22b4d7e77264aa",
+      "included": [
+        {
+          "id": "5007561-Lovely Gutter.mod",
+          "name": "\u30b5\u30fc\u30c1\u30b9\u30b1\u30eb\u30c8\u30f3",
+          "profile": [
+            "male",
+            "male"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_ShoppingNPC",
+      "original": "NPC enjoys more shopping.mod",
+      "workshop_id": "1616010664",
+      "source_sha256": "bc5de547ba828edec71240bc87dc7778a2098833f951a637a128e09bfb8647b6",
+      "included": [
+        {
+          "id": "1535788-NPC enjoys more shopping.mod",
+          "name": "@raid Greenlander",
+          "profile": [
+            "male",
+            "female"
+          ]
+        },
+        {
+          "id": "1535789-NPC enjoys more shopping.mod",
+          "name": "@raid Hive Prince",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "1535790-NPC enjoys more shopping.mod",
+          "name": "@raid Hive Soldier Drone",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "1535791-NPC enjoys more shopping.mod",
+          "name": "@raid Hive Worker Drone",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "1535792-NPC enjoys more shopping.mod",
+          "name": "@raid Scorchlander",
+          "profile": [
+            "male",
+            "female"
+          ]
+        },
+        {
+          "id": "1535793-NPC enjoys more shopping.mod",
+          "name": "@raid Skeleton",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "1535794-NPC enjoys more shopping.mod",
+          "name": "@raid Shek",
+          "profile": [
+            "male",
+            "female"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_SkeletonJRPG",
+      "original": "Skeleton_Jrpg.mod",
+      "workshop_id": "2340230591",
+      "source_sha256": "6bec7ff2345f6d8f460749e2969abf3876d63ed9478d83b5bc34b503ba5429dc",
+      "included": [
+        {
+          "id": "5007294-Skelton_JRPG.mod",
+          "name": "Skeleton_GL_JRPG",
+          "profile": [
+            "male",
+            "female"
+          ]
+        },
+        {
+          "id": "5007296-Skelton_JRPG.mod",
+          "name": "Skeleton_SL_JRPG",
+          "profile": [
+            "male",
+            "female"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false,
+      "evidence": "User reports compatibility with other animation mods; male skeleton inspected; female JRPG profile inferred; original female mesh path unresolved; smoking runtime untested."
+    },
+    {
+      "patch": "420_Smoking_Patch_Udon",
+      "original": "UDOOOOOOOOOOOON!!!!!!!.mod",
+      "workshop_id": "1765298430",
+      "source_sha256": "dec1839b7e1fc5d82e68592254f835b0329f7ef57e50489469262df73e1f236e",
+      "included": [
+        {
+          "id": "5008065-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u3046\u3069\u3093\u30ce\u30fc\u30d8\u30c3\u30c9",
+          "profile": [
+            "male",
+            "male"
+          ]
+        },
+        {
+          "id": "5008111-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u8a66\u4f5c\u578b\u3046\u3069\u3093\u30ce\u30fc\u30d8\u30c3\u30c9",
+          "profile": [
+            "male",
+            "male"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "5007937-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u30ab\u30eb\u30ad\u30ce\u30b9",
+          "reason": "Non-humanoid skeleton: crab.skeleton"
+        },
+        {
+          "id": "5008002-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u30a2\u30eb\u30c9\u30f3",
+          "reason": "Non-humanoid skeleton: crimper.skeleton"
+        },
+        {
+          "id": "5008004-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u30b4\u30eb\u30c9\u30f3",
+          "reason": "Non-humanoid skeleton: crimper.skeleton"
+        },
+        {
+          "id": "5008025-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u30a2\u30eb\u30c9\u30f3\u96f6\u578b",
+          "reason": "Non-humanoid skeleton: crimper.skeleton"
+        },
+        {
+          "id": "5008026-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u30b4\u30eb\u30c9\u30f3\u96f6\u578b",
+          "reason": "Non-humanoid skeleton: crimper.skeleton"
+        },
+        {
+          "id": "5008454-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u30b8\u30a7\u30a4\u30c9\u30b9\u30d1\u30a4\u30c0\u30fc",
+          "reason": "Non-humanoid skeleton: flesh_insect.skeleton"
+        },
+        {
+          "id": "5008460-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u30b8\u30a7\u30a4\u30c9\u30b9\u30d1\u30a4\u30c0\u30fc",
+          "reason": "Non-humanoid skeleton: flesh_insect.skeleton"
+        },
+        {
+          "id": "5009027-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u8a66\u4f5c\u578b\u3046\u3069\u3093\u30b9\u30d1\u30a4\u30c0\u30fc",
+          "reason": "Non-humanoid skeleton: robot_worker.skeleton"
+        },
+        {
+          "id": "5009028-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u3046\u3069\u3093\u30b9\u30d1\u30a4\u30c0\u30fc",
+          "reason": "Non-humanoid skeleton: robot_worker.skeleton"
+        },
+        {
+          "id": "5009036-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u30b8\u30a7\u30a4\u30c9\u30bf\u30fc\u30c8\u30eb",
+          "reason": "Non-humanoid skeleton: elephant_turtle.skeleton"
+        },
+        {
+          "id": "5009039-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u3046\u3069\u3093\u30ae\u30ac\u30fc\u30b9",
+          "reason": "Non-humanoid skeleton: big-bones.skeleton"
+        },
+        {
+          "id": "5009045-UDOOOOOOOOOOOON!!!!!!!.mod",
+          "name": "\u30b8\u30a7\u30a4\u30c9\u30e9\u30d7\u30bf\u30fc",
+          "reason": "Non-humanoid skeleton: swamp_duck.skeleton"
+        }
+      ],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_Yaruo",
+      "original": "Yaruo.mod",
+      "workshop_id": "3469556716",
+      "source_sha256": "34b80b90ebcd5e6f764c8ab715c265789f3192cd85033fbc69f44f1ddd5484ff",
+      "included": [
+        {
+          "id": "10-Yaruo.mod",
+          "name": "\u3084\u308b\u592b",
+          "profile": [
+            "male",
+            "female"
+          ]
+        },
+        {
+          "id": "12-Yaruo.mod",
+          "name": "\u3084\u3089\u306a\u3044\u592b",
+          "profile": [
+            "male",
+            "female"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false
+    },
+    {
+      "patch": "420_Smoking_Patch_Zombie",
+      "original": "ZOMB RACE.mod",
+      "workshop_id": "2168770989",
+      "source_sha256": "460e40db105990c4cfa4c3576ae52671704e4ca89258f3db01b0777a46dd2a70",
+      "included": [
+        {
+          "id": "5007283-ZOMB RACE.mod",
+          "name": "ZOMBIE",
+          "profile": [
+            "male",
+            "female"
+          ]
+        },
+        {
+          "id": "5008600-ZOMB RACE.mod",
+          "name": "Rotten ZOMBIE",
+          "profile": [
+            "male",
+            "female"
+          ]
+        },
+        {
+          "id": "5008609-ZOMB RACE.mod",
+          "name": "Rotten Shek ZOMBIE",
+          "profile": [
+            "male",
+            "female"
+          ]
+        }
+      ],
+      "excluded": [],
+      "runtime_verified": false
+    }
+  ]
+}
