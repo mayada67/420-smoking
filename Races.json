@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "races": [
+    {
+      "id": "10-2B.mod",
+      "profile": "female_female"
+    },
+    {
+      "id": "76-2B.mod",
+      "profile": "female_female"
+    },
+    {
+      "id": "5007282-BJIN_mod.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "5007383-BJIN_mod.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "5007271-Dark Hive.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5007285-Dark Hive.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5007275-Dark Hive.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5007284-Dark Hive.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5007287-Dark Hive.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "1534520-testE.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "5007283-Female android.mod",
+      "profile": "female_female"
+    },
+    {
+      "id": "5007380-Female android.mod",
+      "profile": "female_female"
+    },
+    {
+      "id": "5007387-Female android.mod",
+      "profile": "female_female"
+    },
+    {
+      "id": "5007393-Female android.mod",
+      "profile": "female_female"
+    },
+    {
+      "id": "5007399-Female android.mod",
+      "profile": "female_female"
+    },
+    {
+      "id": "5007735-Female android.mod",
+      "profile": "female_female"
+    },
+    {
+      "id": "5007783-Female android.mod",
+      "profile": "female_female"
+    },
+    {
+      "id": "2758484-Race_F-0X.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5007277-9Fox_ROBOT.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5007279-9Fox_ROBOT.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "1535100-Hive_porter.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "1535109-Hiver_Expansion.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "1535116-Hiver_Expansion.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "1535117-Hiver_Expansion.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5007468-Izumi with a ROBOT Start.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "1535100-jrpg_race.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "1535108-jrpg_race.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "5131465-A_BossPlus.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5131494-A_BossPlus.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "5131508-A_BossPlus.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5131509-A_BossPlus.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5131510-A_BossPlus.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5131511-A_BossPlus.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5131545-A_BossPlus.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5131574-A_BossPlus.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5131677-A_BossPlus.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5131679-A_BossPlus.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "5131760-A_BossPlus.mod",
+      "profile": "female_female"
+    },
+    {
+      "id": "5131762-A_BossPlus.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5131771-A_BossPlus.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5131908-A_BossPlus.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5132372-A_BossPlus.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5007561-Lovely Gutter.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "1535788-NPC enjoys more shopping.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "1535789-NPC enjoys more shopping.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "1535790-NPC enjoys more shopping.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "1535791-NPC enjoys more shopping.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "1535792-NPC enjoys more shopping.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "1535793-NPC enjoys more shopping.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "1535794-NPC enjoys more shopping.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "5007294-Skelton_JRPG.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "5007296-Skelton_JRPG.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "5008065-UDOOOOOOOOOOOON!!!!!!!.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "5008111-UDOOOOOOOOOOOON!!!!!!!.mod",
+      "profile": "male_male"
+    },
+    {
+      "id": "10-Yaruo.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "12-Yaruo.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "5007283-ZOMB RACE.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "5008600-ZOMB RACE.mod",
+      "profile": "male_female"
+    },
+    {
+      "id": "5008609-ZOMB RACE.mod",
+      "profile": "male_female"
+    }
+  ]
+}

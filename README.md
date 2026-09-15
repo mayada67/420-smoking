@@ -29,3 +29,19 @@ Output: build/420_Smoking_RE/SmokingSmoke.dll. Toolchain: VC2010 x64, Windows SD
 SmokingSmoke.dll SHA256: f742e4105472ffd5f9dbab95c772547fd37e610da60794c4f50c2f15d977124e
 
 The source archive is provided for review and rebuilding. Distribution of the compiled mod remains on Nexus Mods and subject to its review process.
+
+
+## 420 Races 0.1.0-rc2
+
+Optional conditional race support is implemented in [SmokingRaces.cpp](SmokingRaces.cpp), [RacePatchLogic.h](RacePatchLogic.h), and [RacePatchConfig.h](RacePatchConfig.h). These source files match the optional Nexus package.
+
+- [Build instructions](RACES_BUILD.md); extract [races-source.zip](races-source.zip) to restore the build layout.
+- [Installation and extension guide](RACES_GUIDE.md), including testing and rollback.
+- [Editable configuration](Races.json), covering 59 race IDs; absent races are explicitly skipped.
+- [Source file checksums](RACES_SHA256.json).
+
+The optional MOD contains no race records. Registration is tested with a simulated database; actual gameplay hook timing and visual fitting remain unverified.
+
+Nexus file 6158: 420_Races.zip SHA-256 `e7d80bd47a0c25fa3c807b1f28264266a351bcaf011e05ab730adceedd73f362`.
+SmokingRaces.dll SHA-256 `1d36987fab0fae83446ed5beb9b81714578c73ec69c7acf138470b7408038dc3`.
+Core source and its original review artifact are unchanged.
