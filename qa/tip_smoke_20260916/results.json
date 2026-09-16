@@ -1,0 +1,21 @@
+{
+  "tip_before": {
+    "rate": 3,
+    "size": 0.17,
+    "opacity": 0.08
+  },
+  "tip_after": {
+    "rate": 9,
+    "size": 0.3,
+    "opacity": 0.28
+  },
+  "mouth_unchanged": true,
+  "tip_position_unchanged": true,
+  "mod_order_unchanged": true,
+  "installed_dll_sha256": "73205406f334cdb24a1418907ad2a94af3e0fe00d9e3e32a3cdcc51eca8544fc",
+  "diagnostic_removed": true,
+  "renderer_failure_cases_passed": 5,
+  "archive": "dist/420_Core_0.1.0-rc2_candidate.zip",
+  "archive_sha256": "ff0a46b93ff7609e8698e81ebde4b6fa18c34691cf31049e4e5eb05e0d64a886",
+  "published": false
+}

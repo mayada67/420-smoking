@@ -29,6 +29,10 @@ const char* kMaterial = "420/ExhaledSmoke";
 const unsigned kMaxPuffs = 2304;
 const float kExhaleAmountMultiplier = 3.0f;
 const float kExhaleSpreadMultiplier = 3.0f;
+// Tip smoke must remain visible against interiors without becoming an exhale cloud.
+const float kTipRate = 9.0f;
+const float kTipSize = .30f;
+const float kTipOpacity = .28f;
 struct Puff {
     Ogre::Vector3 position, velocity;
     float age, life, size, opacity;
@@ -105,7 +109,7 @@ void spawn(const Ogre::Vector3& position, const Ogre::Vector3& forward, bool mou
     const float spread = mouth ? kExhaleSpreadMultiplier : 1.0f;
     p.velocity += Ogre::Vector3((random01()-.5f)*.18f*spread, mouth ? .35f : .55f, (random01()-.5f)*.18f*spread);
     p.age = 0; p.life = mouth ? 1.8f : 2.5f;
-    p.size = mouth ? .52f*kExhaleSpreadMultiplier : .17f; p.opacity = mouth ? .18f : .08f;
+    p.size = mouth ? .52f*kExhaleSpreadMultiplier : kTipSize; p.opacity = mouth ? .18f : kTipOpacity;
     puffs.push_back(p);
 }
 
@@ -167,7 +171,7 @@ void updateSmoke(GameWorld* world, float elapsed) {
         Ogre::Vector3 mouth = bonePoint(animation,"Bip01 Head",Ogre::Vector3(.1818f,0,-1.5344f));
         while (state.mouthCredit >= 1) { spawn(mouth, forward, true); state.mouthCredit -= 1; }
         if (animation->getHasBone("Bip01 Prop2")) {
-            state.tipCredit += dt * 3.0f;
+            state.tipCredit += dt * kTipRate;
             Ogre::Vector3 tip = bonePoint(animation,"Bip01 Prop2",Ogre::Vector3(0,kind==0 ? 1.79f : 1.23f,0));
             while (state.tipCredit >= 1) { spawn(tip, forward, false); state.tipCredit -= 1; }
         }

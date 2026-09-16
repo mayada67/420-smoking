@@ -15,6 +15,7 @@ The smoke mod requires `420_Smoking_RE.mod`, `RE_Kenshi.json`, and `SmokingSmoke
 - Supported animations: `420_smoke_chillum`, `420_smoke_joint`, `420_recline_chillum`, and `420_recline_joint`.
 - Mouth smoke appears at seconds 8–11 of the 12-second loop. Tip smoke continues during the interaction.
 - Exhaled smoke uses 72 particles per second and a base size of 1.56. The increased setting was confirmed in game by the user; these values do not represent a measured visual multiplier.
+- Tip smoke uses 9 particles per second, a base size of 0.30 and peak particle opacity of 0.28. The earlier 3/s, 0.17, 0.08 settings were too subtle in the tested interior. Texture alpha and distance also affect visibility.
 - Existing smoke fades out. Temporary state is cleared when the world resets.
 - On a rendering error, the plugin attempts to hide and clear the smoke independently, clears its temporary emitters and particles, and disables smoke updates. Game updates continue.
 - The base mod works without smoke when the extension is disabled. The static smoke prototype is not used.
