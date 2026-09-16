@@ -1,0 +1,4 @@
+test.cpp
+e:\ai_playground\420\build\kenshilib_examples_deps\boost_1_60_0\boost\property_tree\detail\json_parser\standard_callbacks.hpp(132) : warning C4715: 'boost::property_tree::json_parser::detail::standard_callbacks<boost::property_tree::basic_ptree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::new_tree' : not all control paths return a value
+   Creating library qa/runtime_races/test.lib and object qa/runtime_races/test.exp
+PASS: zero originals, 59 subset sizes, all originals, repeat application, unsupported race, missing animation, wrong type, exception continuation, hook failure.

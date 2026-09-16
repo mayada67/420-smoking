@@ -6,6 +6,7 @@ root=Path(__file__).resolve().parents[1]
 entries={}
 for name in ['420_Races.mod','SmokingRaces.dll','Races.json','RE_Kenshi.json','patch_manifest.json']:
     entries['mods/420_Races/'+name]=(root/'build/420_Races'/name).read_bytes()
+assert json.loads(entries['mods/420_Races/RE_Kenshi.json']) == {'PreloadPlugins':['SmokingRaces.dll']}, 'Post-load registration misses game-data processing.'
 entries['README.md']=(root/'release/RACES_README.md').read_bytes()
 entries['source/README.md']=(root/'release/RACES_BUILD.md').read_bytes()
 entries['source/BUILD.md']=(root/'release/BUILD.md').read_bytes()

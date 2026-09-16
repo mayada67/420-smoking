@@ -58,7 +58,8 @@ assert not any(r['type']=='RACE' for r in reader.records.values())
 assert all('Patch_' not in k for r in records.values() for refs in r['extra'].values() for k in refs)
 reader.handle.close()
 (OUT/'patch_manifest.json').write_text(json.dumps({'name':NAME,'race_count':59,'source_patch_count':17,'animation_profiles':len(animations),'sources':manifests},indent=2),encoding='utf-8')
-(OUT/'RE_Kenshi.json').write_text(json.dumps({'Plugins':['SmokingRaces.dll']},indent=2),encoding='utf-8')
+# Post-load Plugins run after postProcessingTheDatas; install this hook early.
+(OUT/'RE_Kenshi.json').write_text(json.dumps({'PreloadPlugins':['SmokingRaces.dll']},indent=2),encoding='utf-8')
 configuration = []
 for manifest in manifests:
     for race in manifest['included']:

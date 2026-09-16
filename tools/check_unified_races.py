@@ -9,6 +9,8 @@ files=list((game/'mods').rglob('*.mod'))+list((game.parent.parent/'workshop/cont
 manifest=json.loads((ROOT/'build/420_Races/patch_manifest.json').read_text())
 u=kenshi.ModFileReader(ROOT/'build/420_Races/420_Races.mod')
 config=json.loads((ROOT/'build/420_Races/Races.json').read_text())
+loader=json.loads((ROOT/'build/420_Races/RE_Kenshi.json').read_text())
+assert loader == {'PreloadPlugins':['SmokingRaces.dll']}, 'Race registration must hook before game-data post-processing.'
 configured={r['id']:r['profile'] for r in config['races']}
 assert len(configured)==len(config['races'])==59
 assert len(u.records)==6 and all(r['type']=='BASE_ANIMATIONS' for r in u.records.values())

@@ -1,0 +1,13 @@
+{
+  "corrected_archive": "E:\\AI_Playground\\420\\dist\\420_Races_0.1.0-rc3_candidate.zip",
+  "sha256": "ebc57cddd0d194c257de88e50e47fc78b3d97ae8cb685f33fa2e25d255c9373d",
+  "dll_unchanged": true,
+  "runtime_changed_files": [
+    "mods/420_Races/RE_Kenshi.json"
+  ],
+  "original_applied_log_absent": true,
+  "preload_no_originals_passed": true,
+  "preload_2B_passed": true,
+  "disabled_with_2B_passed": true,
+  "published": false
+}

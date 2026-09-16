@@ -1,5 +1,5 @@
 {
-  "Plugins": [
+  "PreloadPlugins": [
     "SmokingRaces.dll"
   ]
 }

@@ -6,4 +6,4 @@ Use VC2010 x64, Windows SDK 7.1, the official KenshiLib_Examples_deps package an
 
 `RacePatchLogic.h` contains the conditional lookup and duplicate policy. `RacePatchConfig.h` parses the user-editable configuration. `SmokingRaces.cpp` implements the game adapter, configuration path and hook. `Races.json` is loaded beside the DLL. The game MOD must provide animation records `1-420_Races.mod` through `6-420_Races.mod`.
 
-The automated registration tests use a simulated game database; runtime hook timing and gameplay are not yet verified. No compiler or game binaries are redistributed.
+Use `PreloadPlugins` for `SmokingRaces.dll` in `RE_Kenshi.json`. The normal `Plugins` stage runs after `postProcessingTheDatas` and misses registration. Startup tests on Kenshi 1.0.65 / RE_Kenshi 0.3.5 verified the corrected timing with no supported originals and with 2B (two matching races). The automated registration tests also use a simulated game database. Visual fitting across supported races remains unverified. No compiler or game binaries are redistributed.

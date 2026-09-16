@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "cases": [
+    "renderer_error",
+    "clear_also_throws",
+    "hide_also_throws",
+    "both_cleanup_calls_throw",
+    "no_billboards"
+  ],
+  "real_handler_extracted_from_source": true,
+  "game_runtime_tested": false,
+  "limit": "If both renderer operations fail, visibility cannot be guaranteed; neither exception escapes."
+}
