@@ -280,7 +280,7 @@
       "float": {
         "hunger rate": 1.0,
         "production mult": 48.0,
-        "use range": 0.5
+        "use range": 1.5
       },
       "int": {
         "flags": 0,
@@ -335,7 +335,7 @@
       "float": {
         "hunger rate": 1.0,
         "production mult": 48.0,
-        "use range": 0.5
+        "use range": 1.5
       },
       "int": {
         "flags": 0,

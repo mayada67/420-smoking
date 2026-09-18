@@ -68,6 +68,9 @@ for fn,building,anim,tool in [(13,23,40,54),(14,24,41,55)]:
     records[sid(fn)]['extra']['animation']={sid(anim):[0,0,0]}
     records[sid(fn)]['extra']['special tool']={sid(tool):[0,0,0]}
     records[sid(building)]['extra']['parts']={sid(52):[0,100,0]}
+    # Turn the seated operator left 90 degrees around Kenshi's vertical Y.
+    # Quaternion order is w,x,y,z; rotate the person, not the chair mesh.
+    records[sid(building)]['instances']['420_operator']['rotation']=[2**-.5,0,2**-.5,0]
     item='hashish' if building==23 else 'joint'
     records[sid(building)]['fields']['string']['Description']=f'Smoking gimmick. Place one {item} in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.'
 # Additional beanbag seats share the proven one-item smoking functionality.

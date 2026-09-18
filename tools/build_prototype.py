@@ -29,7 +29,10 @@ def functionality(n,name,inputs,output=None,sitting=False):
     r=clone('2018-gamedata.base',sid(n),name)
     r['fields']['int'].update({'stat used':0,'max operators':1})
     r['fields']['float'].update({'production mult':48.0,'hunger rate':1.0,'use range':20.0})
-    if sitting:r['fields']['float']['use range']=0.5
+    # Allow a small arrival/position tolerance for smoking operators. The old
+    # 0.5 radius is suspected of interrupting use immediately after arrival.
+    # Keep this well below ordinary chairs (10) and the old remote-sitting (20).
+    if sitting:r['fields']['float']['use range']=1.5
     r['fields']['bool'].update({'has progress bar when used':True,'overrides ingredients':True})
     r['extra']={'consumes':{k:[20,v,0] for k,v in inputs.items()},'animation':{'14533-gamedata.base' if sitting else '43871-rebirth.mod':[0,0,0]}}
     if sitting:
