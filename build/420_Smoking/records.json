@@ -1,0 +1,3613 @@
+{
+  "1-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 4,
+    "type": "ITEM",
+    "name": "420 Hemp Paper",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "artifact": false,
+        "auto icon image": false,
+        "food crop": false,
+        "has collision": true,
+        "trade item": true,
+        "auto icon": false
+      },
+      "float": {
+        "charges": 1.0,
+        "icon offset H": 0.0,
+        "icon offset pitch": 90.0,
+        "icon offset roll": 0.0,
+        "icon offset V": 0.0,
+        "icon offset yaw": 90.0,
+        "icon zoom": 1.350000023841858,
+        "profitability": 0.10000000149011612,
+        "quality": 1.0,
+        "weight kg": 0.05
+      },
+      "int": {
+        "inventory footprint height": 2,
+        "inventory footprint width": 2,
+        "inventory sound": 2,
+        "item function": 0,
+        "persistent": 0,
+        "production time": 1,
+        "slot": 7,
+        "stackable": 20,
+        "value": 300
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "description": "Paper made from hemp. Used with hemp to craft joints."
+      },
+      "filename": {
+        "ground mesh": "",
+        "icon": ".\\mods\\420_Smoking\\items\\icons\\420_paper_icon.png",
+        "mesh": ".\\mods\\420_Smoking\\assets\\420_paper.mesh",
+        "physics file": ""
+      }
+    },
+    "extra": {
+      "ingredients": {
+        "1965-gamedata.base": [
+          100,
+          0,
+          0
+        ]
+      },
+      "material": {
+        "50-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "2-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 4,
+    "type": "ITEM",
+    "name": "420 Joint",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "artifact": false,
+        "auto icon image": false,
+        "food crop": false,
+        "has collision": true,
+        "trade item": true,
+        "auto icon": false
+      },
+      "float": {
+        "charges": 1.0,
+        "icon offset H": 0.0,
+        "icon offset pitch": 90.0,
+        "icon offset roll": 0.0,
+        "icon offset V": 0.0,
+        "icon offset yaw": 90.0,
+        "icon zoom": 1.2200000286102295,
+        "profitability": 0.20000000298023224,
+        "quality": 1.0,
+        "weight kg": 0.05
+      },
+      "int": {
+        "inventory footprint height": 2,
+        "inventory footprint width": 2,
+        "inventory sound": 8,
+        "item function": 8,
+        "persistent": 0,
+        "production time": 1,
+        "slot": 7,
+        "stackable": 20,
+        "value": 800
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "description": "Made from hemp and paper. Supply to the joint smoking seat. No stat effects."
+      },
+      "filename": {
+        "ground mesh": "",
+        "icon": ".\\mods\\420_Smoking\\items\\icons\\420_joint_icon.png",
+        "mesh": ".\\mods\\420_Smoking\\assets\\420_joint.mesh",
+        "physics file": ""
+      }
+    },
+    "extra": {
+      "ingredients": {
+        "1965-gamedata.base": [
+          100,
+          0,
+          0
+        ],
+        "1-420_Smoking.mod": [
+          100,
+          0,
+          0
+        ]
+      },
+      "material": {
+        "50-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "11-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 62,
+    "type": "BUILDING_FUNCTIONALITY",
+    "name": "420 Paper and Joint crafting",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "has progress bar when used": false,
+        "occupant selection": false,
+        "output per day": false,
+        "overrides ingredients": false,
+        "restrains movement": false
+      },
+      "float": {
+        "hunger rate": 1.0,
+        "production mult": 3.2051282051282053,
+        "use range": 15.0
+      },
+      "int": {
+        "flags": 0,
+        "function": 10,
+        "max operators": 1,
+        "stat used": 13,
+        "tech level": 0,
+        "world resource mining": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "string": ""
+      },
+      "filename": {}
+    },
+    "extra": {
+      "animation": {
+        "43871-rebirth.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "item crafts": {
+        "1-420_Smoking.mod": [
+          20,
+          0,
+          0
+        ],
+        "2-420_Smoking.mod": [
+          20,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "12-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 62,
+    "type": "BUILDING_FUNCTIONALITY",
+    "name": "420 Paper and Joint crafting",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "has progress bar when used": false,
+        "occupant selection": false,
+        "output per day": false,
+        "overrides ingredients": false,
+        "restrains movement": false
+      },
+      "float": {
+        "hunger rate": 1.0,
+        "production mult": 3.2051282051282053,
+        "use range": 15.0
+      },
+      "int": {
+        "flags": 0,
+        "function": 10,
+        "max operators": 1,
+        "stat used": 13,
+        "tech level": 0,
+        "world resource mining": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "string": ""
+      },
+      "filename": {}
+    },
+    "extra": {
+      "animation": {
+        "43871-rebirth.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "item crafts": {
+        "1-420_Smoking.mod": [
+          20,
+          0,
+          0
+        ],
+        "2-420_Smoking.mod": [
+          20,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "13-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 62,
+    "type": "BUILDING_FUNCTIONALITY",
+    "name": "420 Hashish smoking gimmick - single item",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "has progress bar when used": false,
+        "is production building": true,
+        "occupant selection": false,
+        "output per day": true,
+        "overrides ingredients": true,
+        "restrains movement": false
+      },
+      "float": {
+        "hunger rate": 1.0,
+        "production mult": 48.0,
+        "use range": 1.5
+      },
+      "int": {
+        "flags": 0,
+        "function": 4,
+        "max operators": 1,
+        "stat used": 0,
+        "tech level": 0,
+        "world resource mining": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "string": ""
+      },
+      "filename": {}
+    },
+    "extra": {
+      "consumes": {
+        "1230-gamedata.base": [
+          1,
+          100,
+          0
+        ]
+      },
+      "animation": {
+        "40-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "special tool": {
+        "54-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "14-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 62,
+    "type": "BUILDING_FUNCTIONALITY",
+    "name": "420 Joint smoking gimmick - single item",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "has progress bar when used": false,
+        "is production building": true,
+        "occupant selection": false,
+        "output per day": true,
+        "overrides ingredients": true,
+        "restrains movement": false
+      },
+      "float": {
+        "hunger rate": 1.0,
+        "production mult": 48.0,
+        "use range": 1.5
+      },
+      "int": {
+        "flags": 0,
+        "function": 4,
+        "max operators": 1,
+        "stat used": 0,
+        "tech level": 0,
+        "world resource mining": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "string": ""
+      },
+      "filename": {}
+    },
+    "extra": {
+      "consumes": {
+        "2-420_Smoking.mod": [
+          1,
+          100,
+          0
+        ]
+      },
+      "animation": {
+        "41-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "special tool": {
+        "55-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "21-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 0,
+    "type": "BUILDING",
+    "name": "420 Smoking Workbench",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "allow animals": false,
+        "always locks": false,
+        "cavernous": false,
+        "ceiling placement": false,
+        "creates player town": true,
+        "destroyed navmesh": false,
+        "enforce ceiling": false,
+        "has inventory": false,
+        "has lock": false,
+        "interior terrain": false,
+        "is exterior furniture": false,
+        "is feature": false,
+        "is foliage": false,
+        "is gateway": false,
+        "is interior furniture": true,
+        "is node": false,
+        "is shelter": false,
+        "is sign": false,
+        "is wall gate": false,
+        "links together": false,
+        "match slope": true
+      },
+      "float": {
+        "build speed mult": 1.0,
+        "build threshold": 0.0,
+        "building height": 25.0,
+        "door comes out": 0.0,
+        "door move dist": 30.0,
+        "door move speed": 1.0,
+        "hardness": 30.0,
+        "interior integrity": 100.0,
+        "link length": 0.0,
+        "max slope": 25.0,
+        "output rate": 1.0,
+        "scale": 1.0,
+        "stackable bonus mult": 1.0,
+        "vertical position tolerance": 20.0
+      },
+      "int": {
+        "build materials": 5,
+        "desirability": 0,
+        "door axis": 0,
+        "door navmesh axis": 0,
+        "door type": 0,
+        "exterior material": 2,
+        "interior ambience": 0,
+        "interior material": 3,
+        "itemtype limit": 4,
+        "link type": 0,
+        "lock level bonus": 0,
+        "max operators": 1,
+        "node type": 1,
+        "path mode": 1,
+        "power capacity": 0,
+        "power output": 0,
+        "select sound": 23,
+        "storage size height": 18,
+        "storage size width": 18
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "building category": "420 SMOKING",
+        "building group": "",
+        "Description": "Craft hemp paper and joints at this workbench. Queue paper first (1 hemp), then joints (1 hemp + 1 paper).",
+        "inventory content name": ""
+      },
+      "filename": {
+        "destroyed boundary": "",
+        "distant mesh": "",
+        "icon": ""
+      }
+    },
+    "extra": {
+      "construction": {
+        "42159-gamedata.base": [
+          1,
+          0,
+          0
+        ]
+      },
+      "functionality": {
+        "11-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "parts": {
+        "43879-Newwworld.mod": [
+          0,
+          100,
+          0
+        ]
+      }
+    },
+    "instances": {
+      "Machine BenchNode001": {
+        "target": "1183-gamedata.base",
+        "position": [
+          0.0,
+          -5.395629898430343e-08,
+          5.0
+        ],
+        "rotation": [
+          0.7071070075035095,
+          0.0,
+          -0.7071070075035095,
+          0.0
+        ],
+        "states": []
+      }
+    }
+  },
+  "22-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 0,
+    "type": "BUILDING",
+    "name": "420 Smoking Workbench (Legacy)",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "allow animals": false,
+        "always locks": false,
+        "cavernous": false,
+        "ceiling placement": false,
+        "creates player town": true,
+        "destroyed navmesh": false,
+        "enforce ceiling": false,
+        "has inventory": false,
+        "has lock": false,
+        "interior terrain": false,
+        "is exterior furniture": false,
+        "is feature": false,
+        "is foliage": false,
+        "is gateway": false,
+        "is interior furniture": true,
+        "is node": false,
+        "is shelter": false,
+        "is sign": false,
+        "is wall gate": false,
+        "links together": false,
+        "match slope": true
+      },
+      "float": {
+        "build speed mult": 1.0,
+        "build threshold": 0.0,
+        "building height": 25.0,
+        "door comes out": 0.0,
+        "door move dist": 30.0,
+        "door move speed": 1.0,
+        "hardness": 30.0,
+        "interior integrity": 100.0,
+        "link length": 0.0,
+        "max slope": 25.0,
+        "output rate": 1.0,
+        "scale": 1.0,
+        "stackable bonus mult": 1.0,
+        "vertical position tolerance": 20.0
+      },
+      "int": {
+        "build materials": 5,
+        "desirability": 0,
+        "door axis": 0,
+        "door navmesh axis": 0,
+        "door type": 0,
+        "exterior material": 2,
+        "interior ambience": 0,
+        "interior material": 3,
+        "itemtype limit": 4,
+        "link type": 0,
+        "lock level bonus": 0,
+        "max operators": 1,
+        "node type": 1,
+        "path mode": 1,
+        "power capacity": 0,
+        "power output": 0,
+        "select sound": 23,
+        "storage size height": 18,
+        "storage size width": 18
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "building category": "420 SMOKING",
+        "building group": "",
+        "Description": "Craft hemp paper and joints at this workbench. Queue paper first (1 hemp), then joints (1 hemp + 1 paper).",
+        "inventory content name": ""
+      },
+      "filename": {
+        "destroyed boundary": "",
+        "distant mesh": "",
+        "icon": ""
+      }
+    },
+    "extra": {
+      "construction": {
+        "42159-gamedata.base": [
+          1,
+          0,
+          0
+        ]
+      },
+      "functionality": {
+        "11-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "parts": {
+        "43879-Newwworld.mod": [
+          0,
+          100,
+          0
+        ]
+      }
+    },
+    "instances": {
+      "Machine BenchNode001": {
+        "target": "1183-gamedata.base",
+        "position": [
+          0.0,
+          -5.395629898430343e-08,
+          5.0
+        ],
+        "rotation": [
+          0.7071070075035095,
+          0.0,
+          -0.7071070075035095,
+          0.0
+        ],
+        "states": []
+      }
+    }
+  },
+  "23-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 0,
+    "type": "BUILDING",
+    "name": "420 Chillum Seat",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "allow animals": false,
+        "always locks": false,
+        "cavernous": false,
+        "ceiling placement": false,
+        "creates player town": false,
+        "destroyed navmesh": false,
+        "enforce ceiling": false,
+        "has inventory": false,
+        "has lock": false,
+        "interior terrain": false,
+        "is exterior furniture": false,
+        "is feature": false,
+        "is foliage": false,
+        "is gateway": false,
+        "is interior furniture": true,
+        "is node": false,
+        "is shelter": false,
+        "is sign": false,
+        "is wall gate": false,
+        "links together": false,
+        "match slope": false
+      },
+      "float": {
+        "build speed mult": 0.5,
+        "build threshold": 0.0,
+        "building height": 10.0,
+        "door comes out": 0.0,
+        "door move dist": 30.0,
+        "door move speed": 1.0,
+        "hardness": 30.0,
+        "interior integrity": 100.0,
+        "link length": 0.0,
+        "max slope": 10.0,
+        "output rate": 1.0,
+        "scale": 1.0,
+        "stackable bonus mult": 1.0,
+        "vertical position tolerance": 20.0
+      },
+      "int": {
+        "build materials": 1,
+        "desirability": 0,
+        "door axis": 0,
+        "door navmesh axis": 0,
+        "door type": 0,
+        "exterior material": 3,
+        "interior ambience": 0,
+        "interior material": 3,
+        "itemtype limit": 4,
+        "link type": 0,
+        "lock level bonus": 0,
+        "max operators": 1,
+        "node type": 1,
+        "path mode": 0,
+        "power capacity": 0,
+        "power output": 0,
+        "select sound": 1,
+        "storage size height": 18,
+        "storage size width": 18
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "building category": "420 SMOKING",
+        "building group": "",
+        "Description": "Smoking gimmick. Place one hashish in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.",
+        "inventory content name": ""
+      },
+      "filename": {
+        "destroyed boundary": "",
+        "distant mesh": "",
+        "icon": ""
+      }
+    },
+    "extra": {
+      "functionality": {
+        "13-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "parts": {
+        "52-420_Smoking.mod": [
+          0,
+          100,
+          0
+        ]
+      },
+      "construction": {
+        "42159-gamedata.base": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {
+      "420_operator": {
+        "target": "1183-gamedata.base",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0,
+          0.7071067811865476,
+          0
+        ],
+        "states": []
+      }
+    }
+  },
+  "24-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 0,
+    "type": "BUILDING",
+    "name": "420 Joint Seat",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "allow animals": false,
+        "always locks": false,
+        "cavernous": false,
+        "ceiling placement": false,
+        "creates player town": false,
+        "destroyed navmesh": false,
+        "enforce ceiling": false,
+        "has inventory": false,
+        "has lock": false,
+        "interior terrain": false,
+        "is exterior furniture": false,
+        "is feature": false,
+        "is foliage": false,
+        "is gateway": false,
+        "is interior furniture": true,
+        "is node": false,
+        "is shelter": false,
+        "is sign": false,
+        "is wall gate": false,
+        "links together": false,
+        "match slope": false
+      },
+      "float": {
+        "build speed mult": 0.5,
+        "build threshold": 0.0,
+        "building height": 10.0,
+        "door comes out": 0.0,
+        "door move dist": 30.0,
+        "door move speed": 1.0,
+        "hardness": 30.0,
+        "interior integrity": 100.0,
+        "link length": 0.0,
+        "max slope": 10.0,
+        "output rate": 1.0,
+        "scale": 1.0,
+        "stackable bonus mult": 1.0,
+        "vertical position tolerance": 20.0
+      },
+      "int": {
+        "build materials": 1,
+        "desirability": 0,
+        "door axis": 0,
+        "door navmesh axis": 0,
+        "door type": 0,
+        "exterior material": 3,
+        "interior ambience": 0,
+        "interior material": 3,
+        "itemtype limit": 4,
+        "link type": 0,
+        "lock level bonus": 0,
+        "max operators": 1,
+        "node type": 1,
+        "path mode": 0,
+        "power capacity": 0,
+        "power output": 0,
+        "select sound": 1,
+        "storage size height": 18,
+        "storage size width": 18
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "building category": "420 SMOKING",
+        "building group": "",
+        "Description": "Smoking gimmick. Place one joint in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.",
+        "inventory content name": ""
+      },
+      "filename": {
+        "destroyed boundary": "",
+        "distant mesh": "",
+        "icon": ""
+      }
+    },
+    "extra": {
+      "functionality": {
+        "14-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "parts": {
+        "52-420_Smoking.mod": [
+          0,
+          100,
+          0
+        ]
+      },
+      "construction": {
+        "42159-gamedata.base": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {
+      "420_operator": {
+        "target": "1183-gamedata.base",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0,
+          0.7071067811865476,
+          0
+        ],
+        "states": []
+      }
+    }
+  },
+  "25-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 0,
+    "type": "BUILDING",
+    "name": "420 Storage: Paper",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "allow animals": false,
+        "always locks": false,
+        "cavernous": false,
+        "ceiling placement": false,
+        "creates player town": true,
+        "destroyed navmesh": false,
+        "enforce ceiling": false,
+        "has inventory": true,
+        "has lock": false,
+        "interior terrain": false,
+        "is exterior furniture": false,
+        "is feature": false,
+        "is foliage": false,
+        "is gateway": false,
+        "is interior furniture": true,
+        "is node": false,
+        "is shelter": false,
+        "is sign": false,
+        "is wall gate": false,
+        "links together": false,
+        "match slope": false
+      },
+      "float": {
+        "build speed mult": 1.0,
+        "build threshold": 0.0,
+        "building height": 10.0,
+        "door comes out": 0.0,
+        "door move dist": 30.0,
+        "door move speed": 1.0,
+        "hardness": 30.0,
+        "interior integrity": 100.0,
+        "link length": 0.0,
+        "max slope": 25.0,
+        "output rate": 1.0,
+        "scale": 1.0,
+        "stackable bonus mult": 50.0,
+        "vertical position tolerance": 20.0
+      },
+      "int": {
+        "build materials": 1,
+        "desirability": 0,
+        "door axis": 0,
+        "door navmesh axis": 0,
+        "door type": 0,
+        "exterior material": 2,
+        "interior ambience": 0,
+        "interior material": 3,
+        "itemtype limit": 4,
+        "link type": 0,
+        "lock level bonus": 0,
+        "max operators": -1,
+        "node type": 1,
+        "path mode": 2,
+        "power capacity": 0,
+        "power output": 0,
+        "select sound": 15,
+        "storage size height": 5,
+        "storage size width": 5
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "building category": "STORAGE",
+        "building group": "",
+        "Description": "Dedicated storage for hemp paper used to craft joints.",
+        "inventory content name": ""
+      },
+      "filename": {
+        "destroyed boundary": "",
+        "distant mesh": "",
+        "icon": ""
+      }
+    },
+    "extra": {
+      "functionality": {
+        "1518-gamedata.base": [
+          0,
+          100,
+          0
+        ]
+      },
+      "limit inventory": {
+        "1-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "parts": {
+        "5349-furniture_otto.mod": [
+          0,
+          100,
+          0
+        ]
+      }
+    },
+    "instances": {
+      "usenode003": {
+        "target": "1183-gamedata.base",
+        "position": [
+          5.96235990524292,
+          -1.2869899590484124e-09,
+          -0.0294428002089262
+        ],
+        "rotation": [
+          0.9991860389709473,
+          -2.271970167555537e-08,
+          0.04034470394253731,
+          -2.271970167555537e-08
+        ],
+        "states": []
+      },
+      "usenode004": {
+        "target": "1183-gamedata.base",
+        "position": [
+          -0.1035429984331131,
+          3.359290019488981e-07,
+          7.685150146484375
+        ],
+        "rotation": [
+          0.6545769572257996,
+          2.21657536769726e-09,
+          -0.7559954524040222,
+          2.21657536769726e-09
+        ],
+        "states": []
+      },
+      "usenode005": {
+        "target": "1183-gamedata.base",
+        "position": [
+          -6.124030113220215,
+          1.2411500271980458e-08,
+          0.2839429974555969
+        ],
+        "rotation": [
+          0.011995376087725163,
+          2.1591935350784297e-08,
+          -0.9999285340309143,
+          2.1591935350784297e-08
+        ],
+        "states": []
+      },
+      "usenode006": {
+        "target": "1183-gamedata.base",
+        "position": [
+          -0.3678770065307617,
+          -3.0876000778334856e-07,
+          -7.063620090484619
+        ],
+        "rotation": [
+          0.6947771310806274,
+          -3.0903972714213523e-08,
+          0.7192261815071106,
+          -3.0903972714213523e-08
+        ],
+        "states": []
+      },
+      "usenode008": {
+        "target": "1183-gamedata.base",
+        "position": [
+          -2.207550048828125,
+          2.5081101284740726e-07,
+          5.737889766693115
+        ],
+        "rotation": [
+          0.6606476306915283,
+          1.9680910234853854e-09,
+          -0.7506968975067139,
+          1.9680910234853854e-09
+        ],
+        "states": []
+      },
+      "usenode009": {
+        "target": "1183-gamedata.base",
+        "position": [
+          3.0826399326324463,
+          2.6312301315556397e-07,
+          6.019539833068848
+        ],
+        "rotation": [
+          0.7071070075035095,
+          0.0,
+          -0.7071070075035095,
+          0.0
+        ],
+        "states": []
+      }
+    }
+  },
+  "26-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 0,
+    "type": "BUILDING",
+    "name": "420 Storage: Joints",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "allow animals": false,
+        "always locks": false,
+        "cavernous": false,
+        "ceiling placement": false,
+        "creates player town": true,
+        "destroyed navmesh": false,
+        "enforce ceiling": false,
+        "has inventory": true,
+        "has lock": false,
+        "interior terrain": false,
+        "is exterior furniture": false,
+        "is feature": false,
+        "is foliage": false,
+        "is gateway": false,
+        "is interior furniture": true,
+        "is node": false,
+        "is shelter": false,
+        "is sign": false,
+        "is wall gate": false,
+        "links together": false,
+        "match slope": false
+      },
+      "float": {
+        "build speed mult": 1.0,
+        "build threshold": 0.0,
+        "building height": 10.0,
+        "door comes out": 0.0,
+        "door move dist": 30.0,
+        "door move speed": 1.0,
+        "hardness": 30.0,
+        "interior integrity": 100.0,
+        "link length": 0.0,
+        "max slope": 25.0,
+        "output rate": 1.0,
+        "scale": 1.0,
+        "stackable bonus mult": 50.0,
+        "vertical position tolerance": 20.0
+      },
+      "int": {
+        "build materials": 1,
+        "desirability": 0,
+        "door axis": 0,
+        "door navmesh axis": 0,
+        "door type": 0,
+        "exterior material": 2,
+        "interior ambience": 0,
+        "interior material": 3,
+        "itemtype limit": 4,
+        "link type": 0,
+        "lock level bonus": 0,
+        "max operators": -1,
+        "node type": 1,
+        "path mode": 2,
+        "power capacity": 0,
+        "power output": 0,
+        "select sound": 15,
+        "storage size height": 5,
+        "storage size width": 5
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "building category": "STORAGE",
+        "building group": "",
+        "Description": "Dedicated storage for crafted joints used at the joint smoking seat.",
+        "inventory content name": ""
+      },
+      "filename": {
+        "destroyed boundary": "",
+        "distant mesh": "",
+        "icon": ""
+      }
+    },
+    "extra": {
+      "functionality": {
+        "1518-gamedata.base": [
+          0,
+          100,
+          0
+        ]
+      },
+      "limit inventory": {
+        "2-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "parts": {
+        "5349-furniture_otto.mod": [
+          0,
+          100,
+          0
+        ]
+      }
+    },
+    "instances": {
+      "usenode003": {
+        "target": "1183-gamedata.base",
+        "position": [
+          5.96235990524292,
+          -1.2869899590484124e-09,
+          -0.0294428002089262
+        ],
+        "rotation": [
+          0.9991860389709473,
+          -2.271970167555537e-08,
+          0.04034470394253731,
+          -2.271970167555537e-08
+        ],
+        "states": []
+      },
+      "usenode004": {
+        "target": "1183-gamedata.base",
+        "position": [
+          -0.1035429984331131,
+          3.359290019488981e-07,
+          7.685150146484375
+        ],
+        "rotation": [
+          0.6545769572257996,
+          2.21657536769726e-09,
+          -0.7559954524040222,
+          2.21657536769726e-09
+        ],
+        "states": []
+      },
+      "usenode005": {
+        "target": "1183-gamedata.base",
+        "position": [
+          -6.124030113220215,
+          1.2411500271980458e-08,
+          0.2839429974555969
+        ],
+        "rotation": [
+          0.011995376087725163,
+          2.1591935350784297e-08,
+          -0.9999285340309143,
+          2.1591935350784297e-08
+        ],
+        "states": []
+      },
+      "usenode006": {
+        "target": "1183-gamedata.base",
+        "position": [
+          -0.3678770065307617,
+          -3.0876000778334856e-07,
+          -7.063620090484619
+        ],
+        "rotation": [
+          0.6947771310806274,
+          -3.0903972714213523e-08,
+          0.7192261815071106,
+          -3.0903972714213523e-08
+        ],
+        "states": []
+      },
+      "usenode008": {
+        "target": "1183-gamedata.base",
+        "position": [
+          -2.207550048828125,
+          2.5081101284740726e-07,
+          5.737889766693115
+        ],
+        "rotation": [
+          0.6606476306915283,
+          1.9680910234853854e-09,
+          -0.7506968975067139,
+          1.9680910234853854e-09
+        ],
+        "states": []
+      },
+      "usenode009": {
+        "target": "1183-gamedata.base",
+        "position": [
+          3.0826399326324463,
+          2.6312301315556397e-07,
+          6.019539833068848
+        ],
+        "rotation": [
+          0.7071070075035095,
+          0.0,
+          -0.7071070075035095,
+          0.0
+        ],
+        "states": []
+      }
+    }
+  },
+  "30-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 21,
+    "type": "RESEARCH",
+    "name": "420 Smoking",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "blueprint only": false,
+        "is level upgrade": false
+      },
+      "float": {
+        "production mult": 1.0,
+        "repeat mult": 1.0
+      },
+      "int": {
+        "level": 3,
+        "money": 0,
+        "power capacity increase": 0,
+        "power increase": 0,
+        "repeats": 0,
+        "time": 4
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "category": "Crafting",
+        "description": "Unlock smoking seats, hemp paper and joint crafting, and dedicated storage. Requires research level 3, 3 Books and 3 hemp. No stat effects."
+      },
+      "filename": {}
+    },
+    "extra": {
+      "enable buildings": {
+        "21-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "23-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "24-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "25-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "26-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "27-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "28-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "enable item": {
+        "1-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "2-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cost": {
+        "16855-nodes_otto1.mod": [
+          3,
+          0,
+          0
+        ],
+        "1965-gamedata.base": [
+          3,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "50-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 47,
+    "type": "MATERIAL_SPECS_CLOTHING",
+    "name": "420 Surface material 50",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {},
+      "float": {
+        "paint factor 1": 0.0,
+        "paint factor 2": 0.0,
+        "specular mult": 0.15
+      },
+      "int": {
+        "material type": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {
+        "color map": "",
+        "normal map": ".\\mods\\420_Smoking\\assets\\420_normal.png",
+        "texture map": ".\\mods\\420_Smoking\\assets\\420_surfaces.png"
+      }
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "51-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 44,
+    "type": "MATERIAL_SPEC",
+    "name": "420 Surface material 51",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {},
+      "float": {
+        "scaffolding tex scale": 8.0,
+        "specular mult": 0.15,
+        "tile X": 1.0,
+        "tile Y": 1.0
+      },
+      "int": {
+        "material type": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {
+        "metalness map": ".\\mods\\420_Smoking\\assets\\420_metalness.png",
+        "metalness map 2": "",
+        "normal map": ".\\mods\\420_Smoking\\assets\\420_normal.png",
+        "normal map 2": "",
+        "texture map": ".\\mods\\420_Smoking\\assets\\420_surfaces.png",
+        "texture map 2": ""
+      }
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "3-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 4,
+    "type": "ITEM",
+    "name": "420 Chillum prop",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "artifact": false,
+        "auto icon image": true,
+        "food crop": false,
+        "has collision": true,
+        "trade item": false,
+        "auto icon": false
+      },
+      "float": {
+        "charges": 1.0,
+        "icon offset H": 0.0,
+        "icon offset pitch": 0.0,
+        "icon offset roll": 0.0,
+        "icon offset V": -8.0,
+        "icon offset yaw": 90.0,
+        "icon zoom": 2.700000047683716,
+        "profitability": 0.20000000298023224,
+        "quality": 1.0,
+        "weight kg": 1.0
+      },
+      "int": {
+        "inventory footprint height": 1,
+        "inventory footprint width": 1,
+        "inventory sound": 14,
+        "item function": 0,
+        "persistent": 0,
+        "production time": 4,
+        "slot": 7,
+        "stackable": 1,
+        "value": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "description": ""
+      },
+      "filename": {
+        "ground mesh": "",
+        "icon": ".\\mods\\420_Smoking\\items\\icons\\420_chillum_icon.png",
+        "mesh": ".\\mods\\420_Smoking\\assets\\420_chillum.mesh",
+        "physics file": ""
+      }
+    },
+    "extra": {
+      "material": {
+        "50-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "53-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 47,
+    "type": "MATERIAL_SPECS_CLOTHING",
+    "name": "420 Display prop material",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {},
+      "float": {
+        "paint factor 1": 0.0,
+        "paint factor 2": 0.0,
+        "specular mult": 0.0
+      },
+      "int": {
+        "material type": 1
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {
+        "color map": "",
+        "normal map": ".\\mods\\420_Smoking\\assets\\420_smoke_prop_normal.png",
+        "texture map": ".\\mods\\420_Smoking\\assets\\420_smoke_prop_diffuse.png"
+      }
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "54-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 4,
+    "type": "ITEM",
+    "name": "420 Chillum display prop",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "artifact": false,
+        "auto icon image": true,
+        "food crop": false,
+        "has collision": true,
+        "trade item": false,
+        "auto icon": false
+      },
+      "float": {
+        "charges": 1.0,
+        "icon offset H": 0.0,
+        "icon offset pitch": 0.0,
+        "icon offset roll": 0.0,
+        "icon offset V": -8.0,
+        "icon offset yaw": 90.0,
+        "icon zoom": 2.700000047683716,
+        "profitability": 0.20000000298023224,
+        "quality": 1.0,
+        "weight kg": 1.0
+      },
+      "int": {
+        "inventory footprint height": 1,
+        "inventory footprint width": 1,
+        "inventory sound": 14,
+        "item function": 0,
+        "persistent": 0,
+        "production time": 4,
+        "slot": 7,
+        "stackable": 1,
+        "value": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "description": ""
+      },
+      "filename": {
+        "ground mesh": "",
+        "icon": ".\\mods\\420_Smoking\\items\\icons\\420_chillum_icon.png",
+        "mesh": ".\\mods\\420_Smoking\\assets\\420_chillum_lit.mesh",
+        "physics file": ""
+      }
+    },
+    "extra": {
+      "material": {
+        "53-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "55-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 4,
+    "type": "ITEM",
+    "name": "420 Joint display prop",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "artifact": false,
+        "auto icon image": false,
+        "food crop": false,
+        "has collision": true,
+        "trade item": true,
+        "auto icon": false
+      },
+      "float": {
+        "charges": 1.0,
+        "icon offset H": 0.0,
+        "icon offset pitch": 90.0,
+        "icon offset roll": 0.0,
+        "icon offset V": 0.0,
+        "icon offset yaw": 90.0,
+        "icon zoom": 1.2200000286102295,
+        "profitability": 0.20000000298023224,
+        "quality": 1.0,
+        "weight kg": 0.05
+      },
+      "int": {
+        "inventory footprint height": 2,
+        "inventory footprint width": 2,
+        "inventory sound": 8,
+        "item function": 8,
+        "persistent": 0,
+        "production time": 1,
+        "slot": 7,
+        "stackable": 20,
+        "value": 800
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "description": "Made from hemp and paper. Supply to the joint smoking seat. No stat effects."
+      },
+      "filename": {
+        "ground mesh": "",
+        "icon": ".\\mods\\420_Smoking\\items\\icons\\420_joint_icon.png",
+        "mesh": ".\\mods\\420_Smoking\\assets\\420_joint_lit.mesh",
+        "physics file": ""
+      }
+    },
+    "extra": {
+      "ingredients": {
+        "1965-gamedata.base": [
+          100,
+          0,
+          0
+        ],
+        "1-420_Smoking.mod": [
+          100,
+          0,
+          0
+        ]
+      },
+      "material": {
+        "53-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "40-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 24,
+    "type": "ANIMATION",
+    "name": "420_smoke_chillum",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "1 handed": true,
+        "being carried": false,
+        "big stumble": true,
+        "blunt": true,
+        "carrying left": false,
+        "carrying right": false,
+        "delete below waist": false,
+        "delete body head": false,
+        "delete L arm": false,
+        "delete R arm": false,
+        "delete root": false,
+        "delete spine0": false,
+        "delete tail": true,
+        "delete weapons": false,
+        "disabled": false,
+        "disables movement": false,
+        "hackers": true,
+        "heavy weapons": true,
+        "idle": false,
+        "is action": true,
+        "katanas": true,
+        "loop": true,
+        "normalise": false,
+        "override head": false,
+        "override L arm": false,
+        "override R arm": false,
+        "polearm": false,
+        "prone": false,
+        "relocates": false,
+        "reverse looping": false,
+        "sabre": true,
+        "synchs": false,
+        "unarmed": true,
+        "uses left arm": true,
+        "uses right arm": true
+      },
+      "float": {
+        "L leg damage ideal": 100.0,
+        "L leg damage max": 100.0,
+        "L leg damage min": 0.0,
+        "max speed": 0.0,
+        "min speed": 0.0,
+        "move speed": 0.0,
+        "play speed": 1.0,
+        "R leg damage ideal": 100.0,
+        "R leg damage max": 100.0,
+        "R leg damage min": 0.0,
+        "strafe speed max": 0.0,
+        "synch offset": 0.0
+      },
+      "int": {
+        "category": 0,
+        "chance": 100,
+        "has weapon L": 0,
+        "has weapon R": 0,
+        "idle chance": 100,
+        "idle time max": 40,
+        "idle time min": 10,
+        "is combat mode": 0,
+        "stealth mode": 2,
+        "stumble from": 0,
+        "weather type": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "anim name": "420_smoke_chillum",
+        "layer": "all",
+        "slave anim": ""
+      },
+      "filename": {}
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "41-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 24,
+    "type": "ANIMATION",
+    "name": "420_smoke_joint",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "1 handed": true,
+        "being carried": false,
+        "big stumble": true,
+        "blunt": true,
+        "carrying left": false,
+        "carrying right": false,
+        "delete below waist": false,
+        "delete body head": false,
+        "delete L arm": false,
+        "delete R arm": false,
+        "delete root": false,
+        "delete spine0": false,
+        "delete tail": true,
+        "delete weapons": false,
+        "disabled": false,
+        "disables movement": false,
+        "hackers": true,
+        "heavy weapons": true,
+        "idle": false,
+        "is action": true,
+        "katanas": true,
+        "loop": true,
+        "normalise": false,
+        "override head": false,
+        "override L arm": false,
+        "override R arm": false,
+        "polearm": false,
+        "prone": false,
+        "relocates": false,
+        "reverse looping": false,
+        "sabre": true,
+        "synchs": false,
+        "unarmed": true,
+        "uses left arm": false,
+        "uses right arm": true
+      },
+      "float": {
+        "L leg damage ideal": 100.0,
+        "L leg damage max": 100.0,
+        "L leg damage min": 0.0,
+        "max speed": 0.0,
+        "min speed": 0.0,
+        "move speed": 0.0,
+        "play speed": 1.0,
+        "R leg damage ideal": 100.0,
+        "R leg damage max": 100.0,
+        "R leg damage min": 0.0,
+        "strafe speed max": 0.0,
+        "synch offset": 0.0
+      },
+      "int": {
+        "category": 0,
+        "chance": 100,
+        "has weapon L": 0,
+        "has weapon R": 0,
+        "idle chance": 100,
+        "idle time max": 40,
+        "idle time min": 10,
+        "is combat mode": 0,
+        "stealth mode": 2,
+        "stumble from": 0,
+        "weather type": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "anim name": "420_smoke_joint",
+        "layer": "all",
+        "slave anim": ""
+      },
+      "filename": {}
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "42-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 112,
+    "type": "BASE_ANIMATIONS",
+    "name": "420 Smoking animations",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "preprocess": true
+      },
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {
+        "male animation": ".\\mods\\420_Smoking\\assets\\420_smoking_male.skeleton",
+        "female animation": ".\\mods\\420_Smoking\\assets\\420_smoking_female.skeleton"
+      }
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "17-gamedata.quack": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Greenlander",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "52-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 29,
+    "type": "BUILDING_PART",
+    "name": "420 Smoking seat mesh",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "above ground": true,
+        "affects footprint": true,
+        "is door": false,
+        "is for position marker": false,
+        "is stairs": false,
+        "is unwalkable roof": false,
+        "passable": true
+      },
+      "float": {
+        "density": 1.0,
+        "footprint vertical": 0.0,
+        "offset X": 0.0,
+        "offset Y": 0.0,
+        "offset Z": 0.0,
+        "rotation speed max": 0.0,
+        "rotation speed min": 0.0,
+        "wind speed rotation danger": 200.0,
+        "wind speed rotation max": 100.0,
+        "wind speed rotation min": 0.0
+      },
+      "int": {
+        "building floor": 0,
+        "ground type": 0,
+        "material match base chance": 0,
+        "material match chance": 100,
+        "rotation axis": 1,
+        "rotation function": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {
+        "destroyed collision": "",
+        "destroyed mesh": "",
+        "phs or mesh": ".\\mods\\420_Smoking\\assets\\420_smoking_seat.mesh",
+        "xml collision": ".\\mods\\420_Smoking\\assets\\420_smoking_seat.xml"
+      }
+    },
+    "extra": {
+      "material": {
+        "51-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 44,
+    "type": "MATERIAL_SPEC",
+    "name": "420 Worn beanbag cloth",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {},
+      "float": {
+        "scaffolding tex scale": 8.0,
+        "specular mult": 0.15,
+        "tile X": 1.0,
+        "tile Y": 1.0
+      },
+      "int": {
+        "material type": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {
+        "metalness map": ".\\mods\\420_Smoking\\assets\\420_metalness.png",
+        "metalness map 2": "",
+        "normal map": ".\\mods\\420_Smoking\\assets\\420_normal.png",
+        "normal map 2": "",
+        "texture map": ".\\mods\\420_Smoking\\assets\\420_beanbag_cloth.png",
+        "texture map 2": ""
+      }
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "56-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 29,
+    "type": "BUILDING_PART",
+    "name": "420 Patched beanbag mesh",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "above ground": true,
+        "affects footprint": true,
+        "is door": false,
+        "is for position marker": false,
+        "is stairs": false,
+        "is unwalkable roof": false,
+        "passable": true
+      },
+      "float": {
+        "density": 1.0,
+        "footprint vertical": 0.0,
+        "offset X": 0.0,
+        "offset Y": 0.0,
+        "offset Z": 0.0,
+        "rotation speed max": 0.0,
+        "rotation speed min": 0.0,
+        "wind speed rotation danger": 200.0,
+        "wind speed rotation max": 100.0,
+        "wind speed rotation min": 0.0
+      },
+      "int": {
+        "building floor": 0,
+        "ground type": 0,
+        "material match base chance": 0,
+        "material match chance": 100,
+        "rotation axis": 1,
+        "rotation function": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {
+        "destroyed collision": "",
+        "destroyed mesh": "",
+        "phs or mesh": ".\\mods\\420_Smoking\\assets\\420_beanbag.mesh",
+        "xml collision": ".\\mods\\420_Smoking\\assets\\420_beanbag.xml"
+      }
+    },
+    "extra": {
+      "material": {
+        "57-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "27-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 0,
+    "type": "BUILDING",
+    "name": "420 Worn Beanbag: Chillum",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "allow animals": false,
+        "always locks": false,
+        "cavernous": false,
+        "ceiling placement": false,
+        "creates player town": false,
+        "destroyed navmesh": false,
+        "enforce ceiling": false,
+        "has inventory": false,
+        "has lock": false,
+        "interior terrain": false,
+        "is exterior furniture": false,
+        "is feature": false,
+        "is foliage": false,
+        "is gateway": false,
+        "is interior furniture": true,
+        "is node": false,
+        "is shelter": false,
+        "is sign": false,
+        "is wall gate": false,
+        "links together": false,
+        "match slope": false
+      },
+      "float": {
+        "build speed mult": 0.5,
+        "build threshold": 0.0,
+        "building height": 10.0,
+        "door comes out": 0.0,
+        "door move dist": 30.0,
+        "door move speed": 1.0,
+        "hardness": 30.0,
+        "interior integrity": 100.0,
+        "link length": 0.0,
+        "max slope": 10.0,
+        "output rate": 1.0,
+        "scale": 1.0,
+        "stackable bonus mult": 1.0,
+        "vertical position tolerance": 20.0
+      },
+      "int": {
+        "build materials": 1,
+        "desirability": 0,
+        "door axis": 0,
+        "door navmesh axis": 0,
+        "door type": 0,
+        "exterior material": 3,
+        "interior ambience": 0,
+        "interior material": 3,
+        "itemtype limit": 4,
+        "link type": 0,
+        "lock level bonus": 0,
+        "max operators": 1,
+        "node type": 1,
+        "path mode": 0,
+        "power capacity": 0,
+        "power output": 0,
+        "select sound": 1,
+        "storage size height": 18,
+        "storage size width": 18
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "building category": "420 SMOKING",
+        "building group": "",
+        "Description": "Smoking gimmick. Place one hashish in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.",
+        "inventory content name": ""
+      },
+      "filename": {
+        "destroyed boundary": "",
+        "distant mesh": "",
+        "icon": ""
+      }
+    },
+    "extra": {
+      "functionality": {
+        "58-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "parts": {
+        "56-420_Smoking.mod": [
+          0,
+          100,
+          0
+        ]
+      },
+      "construction": {
+        "42159-gamedata.base": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {
+      "420_operator": {
+        "target": "1183-gamedata.base",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0,
+          0.7071067811865476,
+          0
+        ],
+        "states": []
+      }
+    }
+  },
+  "28-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 0,
+    "type": "BUILDING",
+    "name": "420 Worn Beanbag: Joint",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "allow animals": false,
+        "always locks": false,
+        "cavernous": false,
+        "ceiling placement": false,
+        "creates player town": false,
+        "destroyed navmesh": false,
+        "enforce ceiling": false,
+        "has inventory": false,
+        "has lock": false,
+        "interior terrain": false,
+        "is exterior furniture": false,
+        "is feature": false,
+        "is foliage": false,
+        "is gateway": false,
+        "is interior furniture": true,
+        "is node": false,
+        "is shelter": false,
+        "is sign": false,
+        "is wall gate": false,
+        "links together": false,
+        "match slope": false
+      },
+      "float": {
+        "build speed mult": 0.5,
+        "build threshold": 0.0,
+        "building height": 10.0,
+        "door comes out": 0.0,
+        "door move dist": 30.0,
+        "door move speed": 1.0,
+        "hardness": 30.0,
+        "interior integrity": 100.0,
+        "link length": 0.0,
+        "max slope": 10.0,
+        "output rate": 1.0,
+        "scale": 1.0,
+        "stackable bonus mult": 1.0,
+        "vertical position tolerance": 20.0
+      },
+      "int": {
+        "build materials": 1,
+        "desirability": 0,
+        "door axis": 0,
+        "door navmesh axis": 0,
+        "door type": 0,
+        "exterior material": 3,
+        "interior ambience": 0,
+        "interior material": 3,
+        "itemtype limit": 4,
+        "link type": 0,
+        "lock level bonus": 0,
+        "max operators": 1,
+        "node type": 1,
+        "path mode": 0,
+        "power capacity": 0,
+        "power output": 0,
+        "select sound": 1,
+        "storage size height": 18,
+        "storage size width": 18
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "building category": "420 SMOKING",
+        "building group": "",
+        "Description": "Smoking gimmick. Place one joint in the seat, then assign one operator. Intended for continuous smoking without refills. No stat effects.",
+        "inventory content name": ""
+      },
+      "filename": {
+        "destroyed boundary": "",
+        "distant mesh": "",
+        "icon": ""
+      }
+    },
+    "extra": {
+      "functionality": {
+        "59-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "parts": {
+        "56-420_Smoking.mod": [
+          0,
+          100,
+          0
+        ]
+      },
+      "construction": {
+        "42159-gamedata.base": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {
+      "420_operator": {
+        "target": "1183-gamedata.base",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0,
+          0.7071067811865476,
+          0
+        ],
+        "states": []
+      }
+    }
+  },
+  "60-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 24,
+    "type": "ANIMATION",
+    "name": "420_recline_chillum",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "1 handed": true,
+        "being carried": false,
+        "big stumble": true,
+        "blunt": true,
+        "carrying left": false,
+        "carrying right": false,
+        "delete below waist": false,
+        "delete body head": false,
+        "delete L arm": false,
+        "delete R arm": false,
+        "delete root": false,
+        "delete spine0": false,
+        "delete tail": true,
+        "delete weapons": false,
+        "disabled": false,
+        "disables movement": false,
+        "hackers": true,
+        "heavy weapons": true,
+        "idle": false,
+        "is action": true,
+        "katanas": true,
+        "loop": true,
+        "normalise": false,
+        "override head": false,
+        "override L arm": false,
+        "override R arm": false,
+        "polearm": false,
+        "prone": false,
+        "relocates": false,
+        "reverse looping": false,
+        "sabre": true,
+        "synchs": false,
+        "unarmed": true,
+        "uses left arm": true,
+        "uses right arm": true
+      },
+      "float": {
+        "L leg damage ideal": 100.0,
+        "L leg damage max": 100.0,
+        "L leg damage min": 0.0,
+        "max speed": 0.0,
+        "min speed": 0.0,
+        "move speed": 0.0,
+        "play speed": 1.0,
+        "R leg damage ideal": 100.0,
+        "R leg damage max": 100.0,
+        "R leg damage min": 0.0,
+        "strafe speed max": 0.0,
+        "synch offset": 0.0
+      },
+      "int": {
+        "category": 0,
+        "chance": 100,
+        "has weapon L": 0,
+        "has weapon R": 0,
+        "idle chance": 100,
+        "idle time max": 40,
+        "idle time min": 10,
+        "is combat mode": 0,
+        "stealth mode": 2,
+        "stumble from": 0,
+        "weather type": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "anim name": "420_recline_chillum",
+        "layer": "all",
+        "slave anim": ""
+      },
+      "filename": {}
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "58-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 62,
+    "type": "BUILDING_FUNCTIONALITY",
+    "name": "420 Reclined chillum",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "has progress bar when used": false,
+        "is production building": true,
+        "occupant selection": false,
+        "output per day": true,
+        "overrides ingredients": true,
+        "restrains movement": false
+      },
+      "float": {
+        "hunger rate": 1.0,
+        "production mult": 48.0,
+        "use range": 1.5
+      },
+      "int": {
+        "flags": 0,
+        "function": 4,
+        "max operators": 1,
+        "stat used": 0,
+        "tech level": 0,
+        "world resource mining": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "string": ""
+      },
+      "filename": {}
+    },
+    "extra": {
+      "consumes": {
+        "1230-gamedata.base": [
+          1,
+          100,
+          0
+        ]
+      },
+      "animation": {
+        "60-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "special tool": {
+        "54-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "61-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 24,
+    "type": "ANIMATION",
+    "name": "420_recline_joint",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "1 handed": true,
+        "being carried": false,
+        "big stumble": true,
+        "blunt": true,
+        "carrying left": false,
+        "carrying right": false,
+        "delete below waist": false,
+        "delete body head": false,
+        "delete L arm": false,
+        "delete R arm": false,
+        "delete root": false,
+        "delete spine0": false,
+        "delete tail": true,
+        "delete weapons": false,
+        "disabled": false,
+        "disables movement": false,
+        "hackers": true,
+        "heavy weapons": true,
+        "idle": false,
+        "is action": true,
+        "katanas": true,
+        "loop": true,
+        "normalise": false,
+        "override head": false,
+        "override L arm": false,
+        "override R arm": false,
+        "polearm": false,
+        "prone": false,
+        "relocates": false,
+        "reverse looping": false,
+        "sabre": true,
+        "synchs": false,
+        "unarmed": true,
+        "uses left arm": false,
+        "uses right arm": true
+      },
+      "float": {
+        "L leg damage ideal": 100.0,
+        "L leg damage max": 100.0,
+        "L leg damage min": 0.0,
+        "max speed": 0.0,
+        "min speed": 0.0,
+        "move speed": 0.0,
+        "play speed": 1.0,
+        "R leg damage ideal": 100.0,
+        "R leg damage max": 100.0,
+        "R leg damage min": 0.0,
+        "strafe speed max": 0.0,
+        "synch offset": 0.0
+      },
+      "int": {
+        "category": 0,
+        "chance": 100,
+        "has weapon L": 0,
+        "has weapon R": 0,
+        "idle chance": 100,
+        "idle time max": 40,
+        "idle time min": 10,
+        "is combat mode": 0,
+        "stealth mode": 2,
+        "stumble from": 0,
+        "weather type": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "anim name": "420_recline_joint",
+        "layer": "all",
+        "slave anim": ""
+      },
+      "filename": {}
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "59-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 62,
+    "type": "BUILDING_FUNCTIONALITY",
+    "name": "420 Reclined joint",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "has progress bar when used": false,
+        "is production building": true,
+        "occupant selection": false,
+        "output per day": true,
+        "overrides ingredients": true,
+        "restrains movement": false
+      },
+      "float": {
+        "hunger rate": 1.0,
+        "production mult": 48.0,
+        "use range": 1.5
+      },
+      "int": {
+        "flags": 0,
+        "function": 4,
+        "max operators": 1,
+        "stat used": 0,
+        "tech level": 0,
+        "world resource mining": 0
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "string": ""
+      },
+      "filename": {}
+    },
+    "extra": {
+      "consumes": {
+        "2-420_Smoking.mod": [
+          1,
+          100,
+          0
+        ]
+      },
+      "animation": {
+        "61-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "special tool": {
+        "55-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "62-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 112,
+    "type": "BASE_ANIMATIONS",
+    "name": "420 Beanbag reclined animations",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "preprocess": true
+      },
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {
+        "male animation": ".\\mods\\420_Smoking\\assets\\420_reclined_male.skeleton",
+        "female animation": ".\\mods\\420_Smoking\\assets\\420_reclined_female.skeleton"
+      }
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "17946-stick_people.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Skeleton",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "18961-gamedata.base": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Soldier Drone",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "5346-stick_people.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Prince",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "5276-chareditor.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Shek",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "18915-small_changes_otto.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Deadhive Prince",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "18019-gamedata.base": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Scorchlander",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "18960-gamedata.base": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Worker Drone",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "18917-small_changes_otto.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Tall Head",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "2603-gamedata.base": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Cannibal",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "55396-gamedata.base": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Fishman",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57335-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Queen",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57770-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Prince South Hive",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57771-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Soldier Drone South Hive",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57772-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Hive Worker Drone South Hive",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57773-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "----edad",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57774-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Screamer MkI",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57778-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "P4 Unit",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "57782-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Soldierbot",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "65266-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Skeleton P4MkII",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "66529-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Skeleton Log-Head MKII",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "95870-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Skeleton No-Head MkII ",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "96800-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Flayed Man",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "96904-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Flayed Woman",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "1533504-Newwworld.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Skeleton MKII Screamer",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "42031-rebirth.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Deadhive Soldier",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "50523-rebirth.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Cannibal Skav",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "42027-rebirth.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Deadhive Worker",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "1532523-rebirth.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Alpha Fishman",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "1532524-rebirth.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "King Fishman",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "1532526-Newwworld Plus.mod": {
+    "instance_count": 0,
+    "type_id": 7,
+    "type": "RACE",
+    "name": "Alpha Fishman",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "animation files": {
+        "42-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ],
+        "62-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  }
+}

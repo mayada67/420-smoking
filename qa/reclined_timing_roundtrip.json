@@ -1,0 +1,24 @@
+{
+  "chillum": {
+    "duration_seconds": 12,
+    "hold_seconds": 3,
+    "hold_interval": [
+      5,
+      8
+    ],
+    "prop_displacement_before_hold": 7.765592277580721,
+    "hold_error": 0.0,
+    "loop_error": 0.0
+  },
+  "joint": {
+    "duration_seconds": 12,
+    "hold_seconds": 3,
+    "hold_interval": [
+      5,
+      8
+    ],
+    "prop_displacement_before_hold": 7.23499238611597,
+    "hold_error": 0.0,
+    "loop_error": 0.0
+  }
+}

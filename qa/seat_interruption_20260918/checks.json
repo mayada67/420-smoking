@@ -1,0 +1,14 @@
+{
+  "build.before.mod": {
+    "only_four_use_ranges_changed": true,
+    "before": 0.5,
+    "after": 1.5
+  },
+  "installed.before.mod": {
+    "only_four_use_ranges_changed": true,
+    "before": 0.5,
+    "after": 1.5
+  },
+  "chair_and_beanbag_directions_preserved": true,
+  "runtime_result": "Pending game restart and repeated manual seating"
+}

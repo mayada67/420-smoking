@@ -1,47 +1,39 @@
-# 420 Smoking - RE_Kenshi plugin source
+# 420 Smoking — RE_Kenshi
 
-Source review package for [420 Smoking on Nexus Mods](https://www.nexusmods.com/kenshi/mods/2173), version 0.1.0-rc1.
+Kenshi用のチラム・ジョイント喫煙MOD。椅子とビーズクッション、製作台、専用収納、手持ち道具、喫煙動作、先端と口の煙を追加します。バフ・デバフは対象外です。
 
-The five source, documentation and license files are copied byte-for-byte from the source directory inside the uploaded 420_Core.zip. SOURCE_SHA256.json records their original relative paths and hashes. This repository contains no compiled plugin or game assets.
+## 現在の状態（2026-09-18）
 
-## Read the source
+- Core更新版：`dist/420_Core_0.1.0-rc3.zip`。最新版の別名は `dist/420_Core.zip`。
+- オプション種族拡張：420 Races 0.1.0-rc3。Coreとは別のバージョン管理です。
+- チラム・ジョイントの椅子で人物の向きを左に90度修正。ユーザーがゲーム内で確認済みです。
+- 椅子・ビーズクッション全4種類の利用距離を0.5から1.5へ変更し、手動着席直後に立つ症状へ対策しました。解消と着座位置の実機確認はまだ必要です。
+- 先端煙の視認性改善、種族拡張の読み込みタイミング修正を維持しています。
+- 420 QA開始時の標準建築解放も修正済み。QAは開発用で、配布Coreには含めません。
 
-- [SmokingSmoke.cpp](SmokingSmoke.cpp): plugin implementation (GPL-3.0-or-later).
-- [build_re_smoke.ps1](build_re_smoke.ps1): original build script.
-- [BUILD.md](BUILD.md): dependency paths and build instructions.
-- [PLUGIN_README.md](PLUGIN_README.md): plugin behavior and setup.
-- [LICENSE](LICENSE): GNU GPL version 3.
+## 導入と遊び方
 
-## Build with the original directory structure
+確認環境はKenshi 1.0.65 / RE_Kenshi 0.3.5。RE_Kenshiは別途必要です。ゲームを終了してCore内の2つのMODフォルダを配置し、`420_Smoking` → `420_Smoking_RE` の順で有効にして再起動します。種族拡張を使う場合は対象の種族MODとCoreの後に `420_Races` を読み込みます。
 
-Extract [source.zip](source.zip) into an empty folder. It restores src/re_smoke/SmokingSmoke.cpp, src/re_smoke/README.md, tools/build_re_smoke.ps1, BUILD.md and LICENSE. Obtain the separately distributed dependencies and place them at the paths listed in BUILD.md. From the extracted root run:
+研究「420 Smoking」はレベル3、通常の本3冊＋麻3個、基準4ゲーム内時間。屋内の所有建物で製作台と喫煙席を設置できます。紙は麻1個、ジョイントは麻1個＋紙1個で製作します。チラム席にはハシシ1個、ジョイント席にはジョイント1個をセットして利用します。継続補充なしで利用する設計です。
 
-```powershell
-powershell -ExecutionPolicy Bypass -File tools/build_re_smoke.ps1
-```
+導入・互換性・ライセンスの詳細は [配布README](release/README.md) を参照してください。既存のMOD名とレコードIDを維持しています。
 
-Output: build/420_Smoking_RE/SmokingSmoke.dll. Toolchain: VC2010 x64, Windows SDK 7.1, KenshiLib_Examples_deps and Boost 1.60. Dependencies are not bundled. The files displayed at this repository root are for convenient review; use the archive layout when building.
+## 確認状況
 
-## Uploaded artifact identification
+2026-09-15に、ユーザーからビーズクッションの姿勢・接地、製作・収納、ジョイント・女性・他種族の表示、倍速・一時停止・中断・ロードの確認報告を受けています。個別測定や全種族・全体型の網羅検証を意味しません。詳細は `qa/user_confirmation_2026-09-15.md`。
 
-420_Core.zip SHA256: 794c9fc48b2dbf47a86f667a71710812653661fc0753075be541090ac20d4ccc
+静的検査ではバイナリ読み戻し、参照解決、31人型種族への追加登録、男女別アニメーション枠を確認しています。未確認事項は今回の即離席対策、全種族・体型での見た目、多人数同時喫煙の負荷です。過去のQA文書は当時の記録として残しています。
 
-SmokingSmoke.dll SHA256: f742e4105472ffd5f9dbab95c772547fd37e610da60794c4f50c2f15d977124e
+## 開発
 
-The source archive is provided for review and rebuilding. Distribution of the compiled mod remains on Nexus Mods and subject to its review process.
+- `tools/build_mod.py`：家具・製作・アニメーション登録の生成。
+- `tools/package_release.py`：Core候補ZIPの生成とハッシュ検査。
+- `tools/package_current_distribution.py`：Coreの版付きZIP・最新版ZIPと配布一式の更新。
+- `src/create_assets.py` / `src/create_animations.py`：Blenderモデル・動作生成。
+- `src/re_smoke`：RE_Kenshi煙プラグイン。
+- `tools/build_qa_start.py`：開発用開始条件。
+- `qa/chair_direction_20260918.md`：向き修正の記録。
+- `qa/seat_interruption_20260918.md`：即離席の調査・対策・残る確認。
 
-
-## 420 Races 0.1.0-rc2
-
-Optional conditional race support is implemented in [SmokingRaces.cpp](SmokingRaces.cpp), [RacePatchLogic.h](RacePatchLogic.h), and [RacePatchConfig.h](RacePatchConfig.h). These source files match the optional Nexus package.
-
-- [Build instructions](RACES_BUILD.md); extract [races-source.zip](races-source.zip) to restore the build layout.
-- [Installation and extension guide](RACES_GUIDE.md), including testing and rollback.
-- [Editable configuration](Races.json), covering 59 race IDs; absent races are explicitly skipped.
-- [Source file checksums](RACES_SHA256.json).
-
-The optional MOD contains no race records. Registration is tested with a simulated database; actual gameplay hook timing and visual fitting remain unverified.
-
-Nexus file 6158: 420_Races.zip SHA-256 `e7d80bd47a0c25fa3c807b1f28264266a351bcaf011e05ab730adceedd73f362`.
-SmokingRaces.dll SHA-256 `1d36987fab0fae83446ed5beb9b81714578c73ec69c7acf138470b7408038dc3`.
-Core source and its original review artifact are unchanged.
+仕様の正本は `Kenshi_喫煙MOD_仕様書.md`。ゲーム本体、元の人間モデル、参照用ゲームデータ、FCSのコピーは配布物に含めません。公開サイトへのアップロード状況は `release/NEXUS_UPDATE_20260916.md` に記録しており、今回のローカルZIP更新は公開サイトの更新を意味しません。

@@ -1,0 +1,185 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file build/420_Smoking_RE/SmokingSmoke.dll
+
+File Type: DLL
+
+  Section contains the following imports:
+
+    KenshiLib.dll
+             1800080A0 Import Address Table
+             18000A170 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                        17D6 ?getSceneManager@Renderer@@QEBAPEAVSceneManager@Ogre@@XZ
+                        17DB ?getSceneRelativeOrigin@Renderer@@QEBA?AVVector3@Ogre@@XZ
+                         3C3 ?DebugLog@@YAXPEBD@Z
+                         3C1 ?DebugLog@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                         D78 ?_clearAndDestroyGameWorldStuff@GameWorld@@QEAAXXZ
+                        1603 ?getIsInKillList@GameWorld@@QEAA_NPEAVRootObject@@@Z
+                        1441 ?getCharacterUpdateList@GameWorld@@QEBAAEBV?$unordered_set@PEAVCharacter@@U?$hash@PEAVCharacter@@@boost@@U?$equal_to@PEAVCharacter@@@std@@V?$STLAllocator@PEAVCharacter@@V?$CategorisedAllocPolicy@$0A@@Ogre@@@Ogre@@@unordered@boost@@XZ
+                         B0E ?_NV_mainLoop_GPUSensitiveStuff@GameWorld@@QEAAXM@Z
+                         3D8 ?GetRealAddress@KenshiLib@@YA_JPEAX@Z
+                         3BD ?AddHook@KenshiLib@@YA?AW4HookStatus@1@PEAX0PEAPEAX@Z
+                        18F3 ?getVisible@AnimationClassBase@@QEBA_NXZ
+                        13DE ?getBoneWorldOrientation@AnimationClassBase@@QEBA?AVQuaternion@Ogre@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                        13DF ?getBoneWorldPosition@AnimationClassBase@@QEBA?AVVector3@Ogre@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z
+                        1375 ?getAnimationClass@Character@@QEAAPEAVAnimationClass@@XZ
+                        15C3 ?getHasBone@AnimationClassBase@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                         D9A ?_getBone@AnimationClassBase@@QEAAPEAVOldBone@Ogre@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                        137F ?getAnimationPlaying_animName@AnimationClassBase@@QEAAPEAVSingleAnimation@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+                        252A ?update@SingleAnimation@AnimationClassBase@@QEAAXMM_N@Z
+                         3CA ?ErrorLog@@YAXPEBD@Z
+                         3C8 ?ErrorLog@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+
+    OgreMain_x64.dll
+             180008340 Import Address Table
+             18000A410 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                        222D ?setVertexProgram@Pass@Ogre@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z
+                        1F9A ?setDepthWriteEnabled@Pass@Ogre@@QEAAX_N@Z
+                        1F94 ?setDepthCheckEnabled@Pass@Ogre@@QEAAX_N@Z
+                        2147 ?setSceneBlending@Pass@Ogre@@QEAAXW4SceneBlendType@2@@Z
+                         F07 ?clone@Material@Ogre@@QEBA?AV?$SharedPtr@VMaterial@Ogre@@@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N0@Z
+                        1862 ?getTechnique@Material@Ogre@@QEAAPEAVTechnique@2@G@Z
+                         7B0 ??DQuaternion@Ogre@@QEBA?AVVector3@1@AEBV21@@Z
+                        1B16 ?isVisible@MovableObject@Ogre@@QEBA_NXZ
+                        1720 ?getRootSceneNode@SceneManager@Ogre@@QEAAPEAVSceneNode@2@W4SceneMemoryMgrTypes@2@@Z
+                        1FAA ?setDimensions@Billboard@Ogre@@QEAAXMM@Z
+                        223A ?setVisible@MovableObject@Ogre@@QEAAX_N@Z
+                        2236 ?setVisibilityFlags@MovableObject@Ogre@@QEAAXI@Z
+                        22FF ?transformAffine@Matrix4@Ogre@@QEBA?AVVector3@2@AEBV32@@Z
+                         38E ??0Vector4@Ogre@@QEAA@MMMM@Z
+                          CE ??0ColourValue@Ogre@@QEAA@MMMM@Z
+                         755 ??6Ogre@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV12@AEBVVector3@0@@Z
+                        143B ?getFragmentProgramParameters@Pass@Ogre@@QEBA?AV?$SharedPtr@VGpuProgramParameters@Ogre@@@2@XZ
+                        2095 ?setNamedConstant@GpuProgramParameters@Ogre@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVVector4@2@@Z
+                         A94 ?RESERVED_VISIBILITY_FLAGS@VisibilityFlags@Ogre@@3IB
+                         9E2 ?AUTODETECT_RESOURCE_GROUP_NAME@ResourceGroupManager@Ogre@@2V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A
+                         E26 ?attachObject@SceneNode@Ogre@@QEAAXPEAVMovableObject@2@@Z
+                        165E ?getPass@Technique@Ogre@@QEAAPEAVPass@2@G@Z
+                        12E1 ?getByName@MaterialManager@Ogre@@QEAA?AV?$SharedPtr@VMaterial@Ogre@@@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+                        17A0 ?getSingleton@MaterialManager@Ogre@@SAAEAV12@XZ
+                         B88 ?_getDerivedPosition@Node@Ogre@@QEBA?AVVector3@2@XZ
+                         B8B ?_getDerivedScale@Node@Ogre@@QEBA?AVVector3@2@XZ
+                         A48 ?IDENTITY@Quaternion@Ogre@@2V12@B
+                         F7C ?createBillboard@BillboardSet@Ogre@@QEAAPEAVBillboard@2@AEBVVector3@2@AEBVColourValue@2@@Z
+                         AE7 ?ZERO@Vector3@Ogre@@2V12@B
+                        18A2 ?getTimePosition@AnimationState@Ogre@@QEBAMXZ
+                        13F4 ?getEnabled@AnimationState@Ogre@@QEBA_NXZ
+                         72E ??4Vector3@Ogre@@QEAAAEAV01@AEBV01@@Z
+                        103C ?deallocateBytes@NedPoolingPolicy@Ogre@@SAXPEAX@Z
+
+    KERNEL32.dll
+             180008000 Import Address Table
+             18000A0D0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         1CB GetCurrentThreadId
+                         34A LocalFree
+                          EE EncodePointer
+                          CB DecodePointer
+                         4C0 Sleep
+                         4CE TerminateProcess
+                         1C6 GetCurrentProcess
+                         4E2 UnhandledExceptionFilter
+                         4B3 SetUnhandledExceptionFilter
+                         302 IsDebuggerPresent
+                         426 RtlVirtualUnwind
+                         41F RtlLookupFunctionEntry
+                         418 RtlCaptureContext
+                          E2 DisableThreadLibraryCalls
+                         3A9 QueryPerformanceCounter
+                         29A GetTickCount
+                         280 GetSystemTimeAsFileTime
+                         1C7 GetCurrentProcessId
+                         163 FormatMessageA
+
+    MSVCP100.dll
+             180008148 Import Address Table
+             18000A218 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          81 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+                         237 ?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+                         282 ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+                         5AC ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+                         60A ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+                         635 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+                         638 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+                         58C ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+                         5E7 ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+                         42C ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+                          75 ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+                         59C ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+                          7E ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+                         116 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_N@Z
+                         109 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
+                         115 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+                         10C ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@M@Z
+                         391 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+                         5C5 ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+                         145 ??_7?$basic_ostream@DU?$char_traits@D@std@@@std@@6B@
+                         19A ?_BADOFF@std@@3_JB
+                         28E ?_Xout_of_range@std@@YAXPEBD@Z
+                         28C ?_Xlength_error@std@@YAXPEBD@Z
+                         60D ?uncaught_exception@std@@YA_NXZ
+                         5C8 ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+                         253 ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+                          26 ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+                          1C ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+                           3 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+                         259 ?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+
+    MSVCR100.dll
+             180008240 Import Address Table
+             18000A310 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         11E __C_specific_handler
+                         10E _CxxThrowException
+                         5CB sinf
+                         5A8 memcmp
+                         5A9 memcpy
+                         128 __CxxFrameHandler3
+                         140 __clean_type_info_names_internal
+                          EE ?_type_info_dtor_internal_method@type_info@@QEAAXXZ
+                         100 ?terminate@@YAXXZ
+                         146 __crt_debugger_hook
+                         11F __CppXcptFilter
+                         19E _amsg_exit
+                         1F2 _encoded_null
+                         563 free
+                         287 _initterm_e
+                         286 _initterm
+                         307 _malloc_crt
+                         39D _onexit
+                         2F6 _lock
+                         148 __dllonexit
+                         45B _unlock
+                         131 __RTDynamicCast
+                          63 ??2@YAPEAX_K@Z
+                          65 ??3@YAXPEAX@Z
+                         3A9 _purecall
+                         5DD strerror
+                         5AB memmove
+                          24 ??0exception@std@@QEAA@AEBV01@@Z
+                          22 ??0exception@std@@QEAA@AEBQEBD@Z
+                         10A ?what@exception@std@@UEBAPEBDXZ
+                          5D ??1exception@std@@UEAA@XZ
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        4000 .rdata
+        1000 .reloc
+        7000 .text

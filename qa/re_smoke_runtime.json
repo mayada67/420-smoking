@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-09-15T16:38:51.7106748+09:00",
+  "hook_install_confirmed": true,
+  "in_game_renderer_confirmed": true,
+  "smoking_animation_visually_confirmed": true,
+  "smoke_visually_confirmed": true,
+  "verified_scope": "Human male, chillum, Heft interior, normal speed; lower prop then pause before mouth smoke",
+  "installed_dll_sha256": "A615D384C24A0B2902D5865021382152F41E98644FB4E3F14DB10B7BB1583FCB",
+  "evidence": [
+    "re_smoke_more_exhale_verified.log",
+    "more_exhale_ingame.png"
+  ],
+  "observation": "Human male chillum: denser, wider forward exhale seen after smoke-free lowered pose. Emission rate 24/s and base size 0.52. Timing unchanged.",
+  "unverified": [
+    "joint in-game visuals",
+    "other bodies",
+    "accelerated speed",
+    "pause",
+    "interruption",
+    "world reset"
+  ],
+  "note": "More-exhale build installed and visually checked. Joint shares parameters but was not visually checked."
+}

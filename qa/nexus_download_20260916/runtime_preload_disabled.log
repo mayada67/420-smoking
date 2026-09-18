@@ -1,0 +1,41 @@
+0.000 RE_Kenshi: RE_Kenshi 0.3.5
+0.000 RE_Kenshi: UEF registered successfully
+0.003 RE_Kenshi: Loading settings file...
+0.003 RE_Kenshi: Saving settings...
+0.003 KenshiLib: KenshiLib 0.5.1
+0.004 RE_Kenshi: Checking latest version...
+0.004 KenshiLib: RVAs loaded
+0.147 RE_Kenshi: VirtualAlloc2 found.
+0.149 RE_Kenshi: Shader cache load start
+0.161 RE_Kenshi: Shader cache loaded successfully, 189 cached shaders
+0.472 RE_Kenshi: Latest public release: v0.3.5
+0.472 RE_Kenshi: We are up to date.
+0.628 RE_Kenshi: Finished synchronous init stage
+0.628 RE_Kenshi: Waiting for mod setup.
+1.698 RE_Kenshi: Loading preload plugins...
+1.706 RE_Kenshi: 420_Races -> SmokingRaces.dll
+1.823 SmokingRaces: 420 Races: conditional registration hook installed
+16.209 RE_Kenshi: First shader compile request
+16.607 RE_Kenshi: Queueing Boot_Up_Game event
+17.490 SmokingRaces: 420 Races: applied to 0 existing supported races; absent races skipped
+17.616 RE_Kenshi: Load mod hook
+17.616 RE_Kenshi: Loading post-load plugins...
+17.617 RE_Kenshi: 420_Smoking_RE -> SmokingSmoke.dll
+17.992 RE_Kenshi: 420 Smoke: hooks installed; exhale window [8,11) seconds
+17.992 RE_Kenshi: Registering LoadingListener
+17.992 RE_Kenshi: Loading mod overrides from "420_Smoking_RE"...
+17.993 RE_Kenshi: Loading init bank Init.bnk 1
+18.064 RE_Kenshi: Force triggering Boot_Up_Game
+18.197 RE_Kenshi: Heightmap hooks queued...
+18.197 RE_Kenshi: Opening fast heightmap...
+18.198 RE_Kenshi: Fast heightmap mapped!
+38.219 RE_Kenshi: Main menu loaded.
+38.219 RE_Kenshi: Kenshi version: 1.0.65
+38.219 RE_Kenshi: Kenshi platform: Steam
+38.219 RE_Kenshi: Version supported.
+Error 38.219 RE_Kenshi: Could not initialize UI
+54.166 RE_Kenshi: Main menu loaded.
+54.166 RE_Kenshi: Kenshi version: 1.0.65
+54.166 RE_Kenshi: Kenshi platform: Steam
+54.166 RE_Kenshi: Version supported.
+Error 54.166 RE_Kenshi: Could not initialize UI

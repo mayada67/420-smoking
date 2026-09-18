@@ -1,0 +1,22 @@
+{
+  "scope": "Blender preview only; no Kenshi smoke export",
+  "inhale_seconds": [
+    2,
+    4
+  ],
+  "lower_seconds": [
+    4,
+    5
+  ],
+  "hold_seconds": [
+    5,
+    8
+  ],
+  "mouth_emission_seconds": [
+    8,
+    11
+  ],
+  "tip_smoke": "continuous, both props; low density",
+  "mouth_particle_tail_seconds": 1.8,
+  "in_game_verified": false
+}

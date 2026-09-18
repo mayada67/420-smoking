@@ -1,0 +1,13 @@
+{
+  "file": "E:\\AI_Playground\\420\\dist\\420_Patches.zip",
+  "sha256": "e7d80bd47a0c25fa3c807b1f28264266a351bcaf011e05ab730adceedd73f362",
+  "dll_sha256": "1d36987fab0fae83446ed5beb9b81714578c73ec69c7acf138470b7408038dc3",
+  "race_records": 0,
+  "configured_races": 59,
+  "individual_patch_count": 0,
+  "installer_included": false,
+  "runtime_gameplay_tested": false,
+  "nexus_updated": true,
+  "nexus_file_id": 6158,
+  "nexus_status": "uploaded; scan status pending"
+}

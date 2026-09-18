@@ -1,0 +1,6 @@
+test.cpp
+PASS case=0 visible=0 count=0 gameUpdates=2 smokeUpdates=1
+PASS case=1 visible=0 count=5 gameUpdates=2 smokeUpdates=1
+PASS case=2 visible=1 count=0 gameUpdates=2 smokeUpdates=1
+PASS case=3 visible=1 count=5 gameUpdates=2 smokeUpdates=1
+PASS case=4 visible=1 count=5 gameUpdates=2 smokeUpdates=1

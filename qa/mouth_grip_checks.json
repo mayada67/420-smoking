@@ -1,0 +1,12 @@
+{
+  "chillum": {
+    "mouth_target_error": 1.5661006989689895e-05,
+    "loop_matrix_error": 0.0
+  },
+  "joint": {
+    "mouth_target_error": 9.45697942463075e-06,
+    "loop_matrix_error": 0.0
+  },
+  "in_game_verified": false,
+  "skeleton_sha256": "1ad16ab88b6f0c355d4d0018cf777506c23aafe9fc213932c3a330f3d2ad65d6"
+}

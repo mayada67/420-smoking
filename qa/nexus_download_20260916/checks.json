@@ -1,0 +1,62 @@
+{
+  "archives": {
+    "core": {
+      "manifest_files_verified": 32,
+      "crc_ok": true
+    },
+    "races": {
+      "manifest_files_verified": 13,
+      "crc_ok": true
+    }
+  },
+  "build_differences": [],
+  "installed_differences": [
+    "420_Smoking_RE\\SmokingSmoke.dll",
+    "420_Races\\420_Races.mod",
+    "420_Races\\patch_manifest.json",
+    "420_Races\\Races.json",
+    "420_Races\\RE_Kenshi.json",
+    "420_Races\\SmokingRaces.dll"
+  ],
+  "source_differences": [],
+  "mods": {
+    "420_Races": {
+      "records": 6,
+      "dependencies": [
+        "gamedata.base",
+        "Newwworld.mod",
+        "rebirth.mod",
+        "420_Smoking.mod",
+        "420_Smoking_RE.mod"
+      ]
+    },
+    "420_Smoking": {
+      "records": 63,
+      "dependencies": [
+        "gamedata.base",
+        "Newwworld.mod",
+        "Dialogue.mod",
+        "rebirth.mod"
+      ]
+    },
+    "420_Smoking_RE": {
+      "records": 3,
+      "dependencies": [
+        "gamedata.base",
+        "Newwworld.mod",
+        "Dialogue.mod",
+        "rebirth.mod",
+        "420_Smoking.mod"
+      ]
+    }
+  },
+  "missing_assets": [],
+  "missing_references": [],
+  "gameplay_tested": false,
+  "enabled_mods": [
+    "420_Smoking.mod",
+    "420_QA.mod",
+    "420_Smoking_RE.mod"
+  ],
+  "data_tests_passed": true
+}

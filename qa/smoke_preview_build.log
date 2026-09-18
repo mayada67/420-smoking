@@ -1,0 +1,405 @@
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:50:50)
+Read blend: "E:\AI_Playground\420\assets\smoking_animation_work.blend"
+Fra:150 Mem:69.02M (Peak 69.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | human_male-0
+Fra:150 Mem:69.02M (Peak 69.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | Area.001
+Fra:150 Mem:69.02M (Peak 69.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | preview_chillum
+Fra:150 Mem:69.03M (Peak 69.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_-8
+Fra:150 Mem:71.04M (Peak 71.04M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_-6
+Fra:150 Mem:71.09M (Peak 71.09M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_-5
+Fra:150 Mem:71.18M (Peak 71.18M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_-4
+Fra:150 Mem:71.23M (Peak 71.23M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_-3
+Fra:150 Mem:71.33M (Peak 71.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_-2
+Fra:150 Mem:71.42M (Peak 71.42M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_-1
+Fra:150 Mem:71.39M (Peak 71.42M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_0
+Fra:150 Mem:71.49M (Peak 71.49M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_1
+Fra:150 Mem:71.45M (Peak 71.49M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_14
+Fra:150 Mem:71.46M (Peak 71.49M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_15
+Fra:150 Mem:71.47M (Peak 71.49M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_16
+Fra:150 Mem:71.48M (Peak 71.49M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_17
+Fra:150 Mem:71.50M (Peak 71.50M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_18
+Fra:150 Mem:71.51M (Peak 71.51M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_19
+Fra:150 Mem:71.52M (Peak 71.52M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_21
+Fra:150 Mem:71.54M (Peak 71.54M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_22
+Fra:150 Mem:71.61M (Peak 71.61M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_25
+Fra:150 Mem:71.64M (Peak 71.64M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_26
+Fra:150 Mem:71.65M (Peak 71.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_27
+Fra:150 Mem:71.65M (Peak 71.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_30
+Fra:150 Mem:71.68M (Peak 71.68M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_31
+Fra:150 Mem:71.69M (Peak 71.69M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_33
+Fra:150 Mem:71.69M (Peak 71.69M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_34
+Fra:150 Mem:71.70M (Peak 71.70M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_35
+Fra:150 Mem:71.81M (Peak 71.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_37
+Fra:150 Mem:71.84M (Peak 71.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_39
+Fra:150 Mem:71.84M (Peak 71.84M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_43
+Fra:150 Mem:71.85M (Peak 71.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_0
+Fra:150 Mem:71.85M (Peak 71.85M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_2
+Fra:150 Mem:71.86M (Peak 71.86M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_3
+Fra:150 Mem:71.87M (Peak 71.87M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_4
+Fra:150 Mem:71.88M (Peak 71.88M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_6
+Fra:150 Mem:71.89M (Peak 71.89M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_7
+Fra:150 Mem:71.89M (Peak 71.89M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_8
+Fra:150 Mem:71.90M (Peak 71.90M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_9
+Fra:150 Mem:71.90M (Peak 71.90M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_10
+Fra:150 Mem:71.91M (Peak 71.91M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_11
+Fra:150 Mem:71.92M (Peak 71.92M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_12
+Fra:150 Mem:71.94M (Peak 71.94M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_13
+Fra:150 Mem:71.98M (Peak 71.98M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_14
+Fra:150 Mem:71.98M (Peak 71.98M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_16
+Fra:150 Mem:72.04M (Peak 72.04M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_17
+Fra:150 Mem:72.05M (Peak 72.05M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_23
+Fra:150 Mem:72.06M (Peak 72.06M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_18
+Fra:150 Mem:72.13M (Peak 72.13M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_19
+Fra:150 Mem:72.13M (Peak 72.13M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_21
+Fra:150 Mem:72.21M (Peak 72.21M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_22
+Fra:150 Mem:72.19M (Peak 72.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Initializing
+Fra:150 Mem:60.35M (Peak 72.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Waiting for render to start
+Fra:150 Mem:60.35M (Peak 72.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Scene
+Fra:150 Mem:60.35M (Peak 72.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Shaders
+Fra:150 Mem:60.35M (Peak 72.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:150 Mem:60.46M (Peak 72.21M) | Time:00:00.06 | Mem:0.03M, Peak:0.03M | 420_Animation_Lab, ViewLayer | Updating Procedurals
+Fra:150 Mem:60.46M (Peak 72.21M) | Time:00:00.06 | Mem:0.03M, Peak:0.03M | 420_Animation_Lab, ViewLayer | Updating Background
+Fra:150 Mem:60.46M (Peak 72.21M) | Time:00:00.06 | Mem:0.03M, Peak:0.03M | 420_Animation_Lab, ViewLayer | Updating Camera
+Fra:150 Mem:60.46M (Peak 72.21M) | Time:00:00.06 | Mem:0.03M, Peak:0.03M | 420_Animation_Lab, ViewLayer | Updating Meshes Flags
+Fra:150 Mem:60.46M (Peak 72.21M) | Time:00:00.06 | Mem:0.03M, Peak:0.03M | 420_Animation_Lab, ViewLayer | Updating Objects
+Fra:150 Mem:60.46M (Peak 72.21M) | Time:00:00.06 | Mem:0.03M, Peak:0.03M | 420_Animation_Lab, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:150 Mem:60.48M (Peak 72.21M) | Time:00:00.06 | Mem:0.05M, Peak:0.05M | 420_Animation_Lab, ViewLayer | Updating Particle Systems
+Fra:150 Mem:60.48M (Peak 72.21M) | Time:00:00.06 | Mem:0.05M, Peak:0.05M | 420_Animation_Lab, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:150 Mem:60.48M (Peak 72.21M) | Time:00:00.06 | Mem:0.05M, Peak:0.05M | 420_Animation_Lab, ViewLayer | Updating Meshes
+Fra:150 Mem:60.48M (Peak 72.21M) | Time:00:00.06 | Mem:0.05M, Peak:0.05M | 420_Animation_Lab, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:150 Mem:60.48M (Peak 72.21M) | Time:00:00.06 | Mem:0.05M, Peak:0.05M | 420_Animation_Lab, ViewLayer | Updating Mesh | Computing attributes
+Fra:150 Mem:60.60M (Peak 72.21M) | Time:00:00.06 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:150 Mem:60.59M (Peak 72.21M) | Time:00:00.06 | Mem:0.16M, Peak:0.16M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building
+Fra:150 Mem:60.59M (Peak 72.21M) | Time:00:00.06 | Mem:0.16M, Peak:0.16M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building BVH
+Fra:150 Mem:60.59M (Peak 72.21M) | Time:00:00.06 | Mem:0.61M, Peak:0.61M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:150 Mem:60.59M (Peak 72.21M) | Time:00:00.07 | Mem:1.05M, Peak:1.50M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:150 Mem:60.59M (Peak 72.21M) | Time:00:00.07 | Mem:1.05M, Peak:1.50M | 420_Animation_Lab, ViewLayer | Updating Mesh | Computing normals
+Fra:150 Mem:60.99M (Peak 72.21M) | Time:00:00.07 | Mem:1.05M, Peak:1.50M | 420_Animation_Lab, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:150 Mem:60.99M (Peak 72.21M) | Time:00:00.07 | Mem:1.46M, Peak:1.50M | 420_Animation_Lab, ViewLayer | Updating Objects Flags
+Fra:150 Mem:60.99M (Peak 72.21M) | Time:00:00.07 | Mem:1.46M, Peak:1.50M | 420_Animation_Lab, ViewLayer | Updating Primitive Offsets
+Fra:150 Mem:60.99M (Peak 72.21M) | Time:00:00.07 | Mem:1.46M, Peak:1.50M | 420_Animation_Lab, ViewLayer | Updating Images
+Fra:150 Mem:60.99M (Peak 72.21M) | Time:00:00.07 | Mem:1.46M, Peak:1.50M | 420_Animation_Lab, ViewLayer | Updating Images | Loading 420_surfaces.png
+Fra:150 Mem:62.00M (Peak 72.21M) | Time:00:00.08 | Mem:2.46M, Peak:2.46M | 420_Animation_Lab, ViewLayer | Updating Camera Volume
+Fra:150 Mem:62.00M (Peak 72.21M) | Time:00:00.08 | Mem:2.46M, Peak:2.46M | 420_Animation_Lab, ViewLayer | Updating Lookup Tables
+Fra:150 Mem:62.00M (Peak 72.21M) | Time:00:00.08 | Mem:2.54M, Peak:2.54M | 420_Animation_Lab, ViewLayer | Updating Lights
+Fra:150 Mem:62.00M (Peak 72.21M) | Time:00:00.08 | Mem:2.54M, Peak:2.54M | 420_Animation_Lab, ViewLayer | Updating Lights | Computing tree
+Fra:150 Mem:62.01M (Peak 72.21M) | Time:00:00.08 | Mem:2.54M, Peak:2.54M | 420_Animation_Lab, ViewLayer | Updating Integrator
+Fra:150 Mem:62.01M (Peak 72.21M) | Time:00:00.08 | Mem:2.54M, Peak:2.54M | 420_Animation_Lab, ViewLayer | Updating Film
+Fra:150 Mem:62.01M (Peak 72.21M) | Time:00:00.08 | Mem:2.46M, Peak:2.54M | 420_Animation_Lab, ViewLayer | Updating Lookup Tables
+Fra:150 Mem:62.01M (Peak 72.21M) | Time:00:00.08 | Mem:2.54M, Peak:2.54M | 420_Animation_Lab, ViewLayer | Updating Baking
+Fra:150 Mem:62.01M (Peak 72.21M) | Time:00:00.08 | Mem:2.54M, Peak:2.54M | 420_Animation_Lab, ViewLayer | Updating Device | Writing constant memory
+Fra:150 Mem:62.01M (Peak 72.21M) | Time:00:00.08 | Mem:2.54M, Peak:2.54M | 420_Animation_Lab, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:150 Mem:62.01M (Peak 72.21M) | Time:00:00.08 | Mem:2.54M, Peak:2.54M | 420_Animation_Lab, ViewLayer | Sample 0/24
+Fra:150 Mem:108.59M (Peak 108.59M) | Time:00:00.16 | Remaining:00:01.72 | Mem:48.94M, Peak:48.94M | 420_Animation_Lab, ViewLayer | Sample 1/24
+Fra:150 Mem:128.12M (Peak 157.42M) | Time:00:04.87 | Mem:48.94M, Peak:48.94M | 420_Animation_Lab, ViewLayer | Sample 24/24
+Fra:150 Mem:128.12M (Peak 157.42M) | Time:00:04.87 | Mem:48.94M, Peak:48.94M | 420_Animation_Lab, ViewLayer | Finished
+Saved: 'E:\AI_Playground\420\qa\chillum_smoke_hold.png'
+Time: 00:05.11 (Saving: 00:00.23)
+
+Fra:215 Mem:71.59M (Peak 71.59M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | human_male-0
+Fra:215 Mem:71.59M (Peak 71.59M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | Area.001
+Fra:215 Mem:71.61M (Peak 71.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_-10
+Fra:215 Mem:71.64M (Peak 71.64M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_-9
+Fra:215 Mem:71.70M (Peak 71.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_-7
+Fra:215 Mem:71.82M (Peak 71.82M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_-3
+Fra:215 Mem:71.86M (Peak 71.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_-1
+Fra:215 Mem:71.86M (Peak 71.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_0
+Fra:215 Mem:71.86M (Peak 71.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_1
+Fra:215 Mem:71.87M (Peak 71.87M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_2
+Fra:215 Mem:71.87M (Peak 71.87M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_5
+Fra:215 Mem:71.87M (Peak 71.87M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_6
+Fra:215 Mem:71.88M (Peak 71.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_9
+Fra:215 Mem:71.88M (Peak 71.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_10
+Fra:215 Mem:71.88M (Peak 71.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_12
+Fra:215 Mem:71.98M (Peak 71.98M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_13
+Fra:215 Mem:71.98M (Peak 71.98M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_14
+Fra:215 Mem:71.99M (Peak 71.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_17
+Fra:215 Mem:71.99M (Peak 71.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_18
+Fra:215 Mem:72.09M (Peak 72.09M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_19
+Fra:215 Mem:72.23M (Peak 72.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_20
+Fra:215 Mem:72.23M (Peak 72.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_21
+Fra:215 Mem:72.29M (Peak 72.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_23
+Fra:215 Mem:72.25M (Peak 72.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_25
+Fra:215 Mem:72.26M (Peak 72.29M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_26
+Fra:215 Mem:72.30M (Peak 72.30M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_27
+Fra:215 Mem:72.31M (Peak 72.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_28
+Fra:215 Mem:72.33M (Peak 72.33M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_30
+Fra:215 Mem:72.34M (Peak 72.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_31
+Fra:215 Mem:72.41M (Peak 72.41M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_32
+Fra:215 Mem:72.43M (Peak 72.43M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_33
+Fra:215 Mem:72.43M (Peak 72.43M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_35
+Fra:215 Mem:72.44M (Peak 72.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_37
+Fra:215 Mem:72.44M (Peak 72.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_38
+Fra:215 Mem:72.45M (Peak 72.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_39
+Fra:215 Mem:72.45M (Peak 72.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_41
+Fra:215 Mem:72.46M (Peak 72.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_42
+Fra:215 Mem:72.46M (Peak 72.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_24
+Fra:215 Mem:72.46M (Peak 72.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_tip_43
+Fra:215 Mem:72.46M (Peak 72.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_23
+Fra:215 Mem:72.47M (Peak 72.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_1
+Fra:215 Mem:72.47M (Peak 72.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_22
+Fra:215 Mem:72.47M (Peak 72.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_3
+Fra:215 Mem:72.48M (Peak 72.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_4
+Fra:215 Mem:72.48M (Peak 72.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_5
+Fra:215 Mem:72.48M (Peak 72.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_6
+Fra:215 Mem:72.48M (Peak 72.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_7
+Fra:215 Mem:72.31M (Peak 72.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_9
+Fra:215 Mem:72.36M (Peak 72.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_10
+Fra:215 Mem:72.61M (Peak 72.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_11
+Fra:215 Mem:72.61M (Peak 72.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_12
+Fra:215 Mem:72.62M (Peak 72.62M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_15
+Fra:215 Mem:72.63M (Peak 72.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_16
+Fra:215 Mem:72.70M (Peak 72.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_18
+Fra:215 Mem:72.71M (Peak 72.71M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_19
+Fra:215 Mem:72.71M (Peak 72.71M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_chillum_mouth_21
+Fra:215 Mem:72.20M (Peak 72.71M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Initializing
+Fra:215 Mem:60.35M (Peak 72.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Waiting for render to start
+Fra:215 Mem:60.35M (Peak 72.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Scene
+Fra:215 Mem:60.35M (Peak 72.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Shaders
+Fra:215 Mem:60.35M (Peak 72.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:215 Mem:60.47M (Peak 72.71M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | 420_Animation_Lab, ViewLayer | Updating Procedurals
+Fra:215 Mem:60.47M (Peak 72.71M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | 420_Animation_Lab, ViewLayer | Updating Background
+Fra:215 Mem:60.47M (Peak 72.71M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | 420_Animation_Lab, ViewLayer | Updating Camera
+Fra:215 Mem:60.47M (Peak 72.71M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | 420_Animation_Lab, ViewLayer | Updating Meshes Flags
+Fra:215 Mem:60.47M (Peak 72.71M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | 420_Animation_Lab, ViewLayer | Updating Objects
+Fra:215 Mem:60.47M (Peak 72.71M) | Time:00:00.03 | Mem:0.04M, Peak:0.04M | 420_Animation_Lab, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:215 Mem:60.49M (Peak 72.71M) | Time:00:00.03 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Particle Systems
+Fra:215 Mem:60.49M (Peak 72.71M) | Time:00:00.03 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:215 Mem:60.49M (Peak 72.71M) | Time:00:00.03 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Meshes
+Fra:215 Mem:60.49M (Peak 72.71M) | Time:00:00.03 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:215 Mem:60.49M (Peak 72.71M) | Time:00:00.03 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Mesh | Computing attributes
+Fra:215 Mem:60.61M (Peak 72.71M) | Time:00:00.03 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:215 Mem:60.60M (Peak 72.71M) | Time:00:00.03 | Mem:0.16M, Peak:0.16M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building
+Fra:215 Mem:60.60M (Peak 72.71M) | Time:00:00.03 | Mem:0.16M, Peak:0.16M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building BVH
+Fra:215 Mem:60.60M (Peak 72.71M) | Time:00:00.03 | Mem:0.61M, Peak:0.61M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:215 Mem:60.60M (Peak 72.71M) | Time:00:00.03 | Mem:1.10M, Peak:1.55M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:215 Mem:60.60M (Peak 72.71M) | Time:00:00.03 | Mem:1.10M, Peak:1.55M | 420_Animation_Lab, ViewLayer | Updating Mesh | Computing normals
+Fra:215 Mem:61.01M (Peak 72.71M) | Time:00:00.03 | Mem:1.10M, Peak:1.55M | 420_Animation_Lab, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:215 Mem:61.01M (Peak 72.71M) | Time:00:00.03 | Mem:1.51M, Peak:1.55M | 420_Animation_Lab, ViewLayer | Updating Objects Flags
+Fra:215 Mem:61.01M (Peak 72.71M) | Time:00:00.03 | Mem:1.51M, Peak:1.55M | 420_Animation_Lab, ViewLayer | Updating Primitive Offsets
+Fra:215 Mem:61.01M (Peak 72.71M) | Time:00:00.03 | Mem:1.51M, Peak:1.55M | 420_Animation_Lab, ViewLayer | Updating Images
+Fra:215 Mem:61.01M (Peak 72.71M) | Time:00:00.03 | Mem:1.51M, Peak:1.55M | 420_Animation_Lab, ViewLayer | Updating Images | Loading 420_surfaces.png
+Fra:215 Mem:62.02M (Peak 72.71M) | Time:00:00.04 | Mem:2.51M, Peak:2.51M | 420_Animation_Lab, ViewLayer | Updating Camera Volume
+Fra:215 Mem:62.02M (Peak 72.71M) | Time:00:00.04 | Mem:2.51M, Peak:2.51M | 420_Animation_Lab, ViewLayer | Updating Lookup Tables
+Fra:215 Mem:62.02M (Peak 72.71M) | Time:00:00.04 | Mem:2.59M, Peak:2.59M | 420_Animation_Lab, ViewLayer | Updating Lights
+Fra:215 Mem:62.02M (Peak 72.71M) | Time:00:00.04 | Mem:2.59M, Peak:2.59M | 420_Animation_Lab, ViewLayer | Updating Lights | Computing tree
+Fra:215 Mem:62.02M (Peak 72.71M) | Time:00:00.04 | Mem:2.59M, Peak:2.59M | 420_Animation_Lab, ViewLayer | Updating Integrator
+Fra:215 Mem:62.02M (Peak 72.71M) | Time:00:00.04 | Mem:2.59M, Peak:2.59M | 420_Animation_Lab, ViewLayer | Updating Film
+Fra:215 Mem:62.02M (Peak 72.71M) | Time:00:00.04 | Mem:2.51M, Peak:2.59M | 420_Animation_Lab, ViewLayer | Updating Lookup Tables
+Fra:215 Mem:62.02M (Peak 72.71M) | Time:00:00.04 | Mem:2.60M, Peak:2.60M | 420_Animation_Lab, ViewLayer | Updating Baking
+Fra:215 Mem:62.02M (Peak 72.71M) | Time:00:00.04 | Mem:2.60M, Peak:2.60M | 420_Animation_Lab, ViewLayer | Updating Device | Writing constant memory
+Fra:215 Mem:62.03M (Peak 72.71M) | Time:00:00.04 | Mem:2.60M, Peak:2.60M | 420_Animation_Lab, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:215 Mem:62.03M (Peak 72.71M) | Time:00:00.04 | Mem:2.60M, Peak:2.60M | 420_Animation_Lab, ViewLayer | Sample 0/24
+Fra:215 Mem:108.60M (Peak 108.60M) | Time:00:00.14 | Remaining:00:02.35 | Mem:48.99M, Peak:48.99M | 420_Animation_Lab, ViewLayer | Sample 1/24
+Fra:215 Mem:128.14M (Peak 157.44M) | Time:00:05.36 | Mem:48.99M, Peak:48.99M | 420_Animation_Lab, ViewLayer | Sample 24/24
+Fra:215 Mem:128.14M (Peak 157.44M) | Time:00:05.36 | Mem:48.99M, Peak:48.99M | 420_Animation_Lab, ViewLayer | Finished
+Saved: 'E:\AI_Playground\420\qa\chillum_smoke_exhale.png'
+Time: 00:05.44 (Saving: 00:00.07)
+
+Fra:150 Mem:71.58M (Peak 71.58M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | human_male-0
+Fra:150 Mem:71.58M (Peak 71.58M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | Area.001
+Fra:150 Mem:71.60M (Peak 71.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | preview_joint
+Fra:150 Mem:71.63M (Peak 71.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_-10
+Fra:150 Mem:71.65M (Peak 71.65M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_-8
+Fra:150 Mem:71.82M (Peak 71.82M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_-7
+Fra:150 Mem:71.91M (Peak 71.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_-5
+Fra:150 Mem:72.04M (Peak 72.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_-3
+Fra:150 Mem:72.10M (Peak 72.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_-1
+Fra:150 Mem:72.14M (Peak 72.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_2
+Fra:150 Mem:72.16M (Peak 72.16M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_3
+Fra:150 Mem:72.16M (Peak 72.16M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_5
+Fra:150 Mem:72.21M (Peak 72.21M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_7
+Fra:150 Mem:72.24M (Peak 72.24M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_9
+Fra:150 Mem:72.31M (Peak 72.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_10
+Fra:150 Mem:72.34M (Peak 72.34M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_12
+Fra:150 Mem:72.35M (Peak 72.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_14
+Fra:150 Mem:72.36M (Peak 72.36M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_16
+Fra:150 Mem:72.39M (Peak 72.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_17
+Fra:150 Mem:72.39M (Peak 72.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_21
+Fra:150 Mem:72.28M (Peak 72.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_22
+Fra:150 Mem:72.28M (Peak 72.39M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_24
+Fra:150 Mem:72.54M (Peak 72.54M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_25
+Fra:150 Mem:72.55M (Peak 72.55M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_26
+Fra:150 Mem:72.56M (Peak 72.56M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_27
+Fra:150 Mem:72.56M (Peak 72.56M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_28
+Fra:150 Mem:72.58M (Peak 72.58M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_30
+Fra:150 Mem:72.59M (Peak 72.59M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_31
+Fra:150 Mem:72.66M (Peak 72.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_33
+Fra:150 Mem:72.67M (Peak 72.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_34
+Fra:150 Mem:72.68M (Peak 72.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_35
+Fra:150 Mem:72.68M (Peak 72.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_24
+Fra:150 Mem:72.68M (Peak 72.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_38
+Fra:150 Mem:72.69M (Peak 72.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_39
+Fra:150 Mem:72.70M (Peak 72.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_40
+Fra:150 Mem:72.70M (Peak 72.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_41
+Fra:150 Mem:72.72M (Peak 72.72M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_43
+Fra:150 Mem:72.73M (Peak 72.73M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_1
+Fra:150 Mem:72.74M (Peak 72.74M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_2
+Fra:150 Mem:72.75M (Peak 72.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_4
+Fra:150 Mem:72.76M (Peak 72.76M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_6
+Fra:150 Mem:72.77M (Peak 72.77M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_23
+Fra:150 Mem:72.78M (Peak 72.78M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_7
+Fra:150 Mem:72.79M (Peak 72.79M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_8
+Fra:150 Mem:72.79M (Peak 72.79M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_9
+Fra:150 Mem:72.81M (Peak 72.81M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_10
+Fra:150 Mem:72.81M (Peak 72.81M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_13
+Fra:150 Mem:72.81M (Peak 72.81M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_14
+Fra:150 Mem:72.82M (Peak 72.82M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_15
+Fra:150 Mem:72.83M (Peak 72.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_16
+Fra:150 Mem:72.85M (Peak 72.85M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_17
+Fra:150 Mem:72.85M (Peak 72.85M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_20
+Fra:150 Mem:72.87M (Peak 72.87M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_21
+Fra:150 Mem:72.88M (Peak 72.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_22
+Fra:150 Mem:72.42M (Peak 72.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Initializing
+Fra:150 Mem:60.58M (Peak 72.88M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Waiting for render to start
+Fra:150 Mem:60.58M (Peak 72.88M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Scene
+Fra:150 Mem:60.58M (Peak 72.88M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Shaders
+Fra:150 Mem:60.58M (Peak 72.88M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:150 Mem:60.69M (Peak 72.88M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | 420_Animation_Lab, ViewLayer | Updating Procedurals
+Fra:150 Mem:60.69M (Peak 72.88M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | 420_Animation_Lab, ViewLayer | Updating Background
+Fra:150 Mem:60.69M (Peak 72.88M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | 420_Animation_Lab, ViewLayer | Updating Camera
+Fra:150 Mem:60.69M (Peak 72.88M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | 420_Animation_Lab, ViewLayer | Updating Meshes Flags
+Fra:150 Mem:60.69M (Peak 72.88M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | 420_Animation_Lab, ViewLayer | Updating Objects
+Fra:150 Mem:60.69M (Peak 72.88M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | 420_Animation_Lab, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:150 Mem:60.71M (Peak 72.88M) | Time:00:00.03 | Mem:0.05M, Peak:0.05M | 420_Animation_Lab, ViewLayer | Updating Particle Systems
+Fra:150 Mem:60.71M (Peak 72.88M) | Time:00:00.03 | Mem:0.05M, Peak:0.05M | 420_Animation_Lab, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:150 Mem:60.71M (Peak 72.88M) | Time:00:00.03 | Mem:0.05M, Peak:0.05M | 420_Animation_Lab, ViewLayer | Updating Meshes
+Fra:150 Mem:60.71M (Peak 72.88M) | Time:00:00.03 | Mem:0.05M, Peak:0.05M | 420_Animation_Lab, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:150 Mem:60.71M (Peak 72.88M) | Time:00:00.03 | Mem:0.05M, Peak:0.05M | 420_Animation_Lab, ViewLayer | Updating Mesh | Computing attributes
+Fra:150 Mem:60.80M (Peak 72.88M) | Time:00:00.03 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:150 Mem:60.79M (Peak 72.88M) | Time:00:00.03 | Mem:0.13M, Peak:0.13M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building
+Fra:150 Mem:60.79M (Peak 72.88M) | Time:00:00.03 | Mem:0.13M, Peak:0.13M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building BVH
+Fra:150 Mem:60.79M (Peak 72.88M) | Time:00:00.03 | Mem:0.54M, Peak:0.54M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:150 Mem:60.79M (Peak 72.88M) | Time:00:00.03 | Mem:0.96M, Peak:1.38M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:150 Mem:60.79M (Peak 72.88M) | Time:00:00.03 | Mem:0.96M, Peak:1.38M | 420_Animation_Lab, ViewLayer | Updating Mesh | Computing normals
+Fra:150 Mem:61.16M (Peak 72.88M) | Time:00:00.03 | Mem:0.96M, Peak:1.38M | 420_Animation_Lab, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:150 Mem:61.16M (Peak 72.88M) | Time:00:00.03 | Mem:1.33M, Peak:1.38M | 420_Animation_Lab, ViewLayer | Updating Objects Flags
+Fra:150 Mem:61.16M (Peak 72.88M) | Time:00:00.03 | Mem:1.33M, Peak:1.38M | 420_Animation_Lab, ViewLayer | Updating Primitive Offsets
+Fra:150 Mem:61.16M (Peak 72.88M) | Time:00:00.03 | Mem:1.33M, Peak:1.38M | 420_Animation_Lab, ViewLayer | Updating Images
+Fra:150 Mem:61.16M (Peak 72.88M) | Time:00:00.03 | Mem:1.33M, Peak:1.38M | 420_Animation_Lab, ViewLayer | Updating Images | Loading 420_surfaces.png
+Fra:150 Mem:62.17M (Peak 72.88M) | Time:00:00.04 | Mem:2.33M, Peak:2.33M | 420_Animation_Lab, ViewLayer | Updating Camera Volume
+Fra:150 Mem:62.17M (Peak 72.88M) | Time:00:00.04 | Mem:2.33M, Peak:2.33M | 420_Animation_Lab, ViewLayer | Updating Lookup Tables
+Fra:150 Mem:62.17M (Peak 72.88M) | Time:00:00.04 | Mem:2.41M, Peak:2.41M | 420_Animation_Lab, ViewLayer | Updating Lights
+Fra:150 Mem:62.17M (Peak 72.88M) | Time:00:00.04 | Mem:2.41M, Peak:2.41M | 420_Animation_Lab, ViewLayer | Updating Lights | Computing tree
+Fra:150 Mem:62.17M (Peak 72.88M) | Time:00:00.04 | Mem:2.42M, Peak:2.42M | 420_Animation_Lab, ViewLayer | Updating Integrator
+Fra:150 Mem:62.17M (Peak 72.88M) | Time:00:00.04 | Mem:2.42M, Peak:2.42M | 420_Animation_Lab, ViewLayer | Updating Film
+Fra:150 Mem:62.18M (Peak 72.88M) | Time:00:00.04 | Mem:2.33M, Peak:2.42M | 420_Animation_Lab, ViewLayer | Updating Lookup Tables
+Fra:150 Mem:62.18M (Peak 72.88M) | Time:00:00.04 | Mem:2.42M, Peak:2.42M | 420_Animation_Lab, ViewLayer | Updating Baking
+Fra:150 Mem:62.18M (Peak 72.88M) | Time:00:00.04 | Mem:2.42M, Peak:2.42M | 420_Animation_Lab, ViewLayer | Updating Device | Writing constant memory
+Fra:150 Mem:62.18M (Peak 72.88M) | Time:00:00.04 | Mem:2.42M, Peak:2.42M | 420_Animation_Lab, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:150 Mem:62.18M (Peak 72.88M) | Time:00:00.04 | Mem:2.42M, Peak:2.42M | 420_Animation_Lab, ViewLayer | Sample 0/24
+Fra:150 Mem:108.76M (Peak 108.76M) | Time:00:00.12 | Remaining:00:01.65 | Mem:48.82M, Peak:48.82M | 420_Animation_Lab, ViewLayer | Sample 1/24
+Fra:150 Mem:128.29M (Peak 157.59M) | Time:00:04.93 | Mem:48.82M, Peak:48.82M | 420_Animation_Lab, ViewLayer | Sample 24/24
+Fra:150 Mem:128.29M (Peak 157.59M) | Time:00:04.93 | Mem:48.82M, Peak:48.82M | 420_Animation_Lab, ViewLayer | Finished
+Saved: 'E:\AI_Playground\420\qa\joint_smoke_hold.png'
+Time: 00:05.02 (Saving: 00:00.08)
+
+Fra:215 Mem:71.89M (Peak 71.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | human_male-0
+Fra:215 Mem:71.90M (Peak 71.90M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | Area.001
+Fra:215 Mem:71.91M (Peak 71.91M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | preview_joint
+Fra:215 Mem:72.02M (Peak 72.02M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_-10
+Fra:215 Mem:72.17M (Peak 72.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_-7
+Fra:215 Mem:72.17M (Peak 72.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_-4
+Fra:215 Mem:72.18M (Peak 72.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_-3
+Fra:215 Mem:72.18M (Peak 72.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_0
+Fra:215 Mem:72.18M (Peak 72.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_1
+Fra:215 Mem:72.18M (Peak 72.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_3
+Fra:215 Mem:72.19M (Peak 72.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_4
+Fra:215 Mem:72.19M (Peak 72.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_6
+Fra:215 Mem:72.19M (Peak 72.19M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_8
+Fra:215 Mem:72.20M (Peak 72.20M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_9
+Fra:215 Mem:72.21M (Peak 72.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_10
+Fra:215 Mem:72.21M (Peak 72.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_13
+Fra:215 Mem:72.21M (Peak 72.21M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_14
+Fra:215 Mem:72.21M (Peak 72.21M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_16
+Fra:215 Mem:72.22M (Peak 72.22M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_17
+Fra:215 Mem:72.22M (Peak 72.22M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_18
+Fra:215 Mem:72.22M (Peak 72.22M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_20
+Fra:215 Mem:72.23M (Peak 72.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_21
+Fra:215 Mem:72.24M (Peak 72.24M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_22
+Fra:215 Mem:72.27M (Peak 72.27M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_24
+Fra:215 Mem:72.45M (Peak 72.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_25
+Fra:215 Mem:72.47M (Peak 72.47M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_26
+Fra:215 Mem:72.48M (Peak 72.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_27
+Fra:215 Mem:72.49M (Peak 72.49M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_29
+Fra:215 Mem:72.50M (Peak 72.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_30
+Fra:215 Mem:72.51M (Peak 72.51M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_31
+Fra:215 Mem:72.55M (Peak 72.56M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_32
+Fra:215 Mem:72.58M (Peak 72.58M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_33
+Fra:215 Mem:72.66M (Peak 72.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_34
+Fra:215 Mem:72.66M (Peak 72.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_35
+Fra:215 Mem:72.66M (Peak 72.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_36
+Fra:215 Mem:72.67M (Peak 72.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_37
+Fra:215 Mem:72.67M (Peak 72.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_38
+Fra:215 Mem:72.67M (Peak 72.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_39
+Fra:215 Mem:72.68M (Peak 72.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_40
+Fra:215 Mem:72.68M (Peak 72.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_41
+Fra:215 Mem:72.69M (Peak 72.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_tip_42
+Fra:215 Mem:72.69M (Peak 72.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_0
+Fra:215 Mem:72.69M (Peak 72.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_1
+Fra:215 Mem:72.70M (Peak 72.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_24
+Fra:215 Mem:72.70M (Peak 72.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_3
+Fra:215 Mem:72.70M (Peak 72.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_23
+Fra:215 Mem:72.58M (Peak 72.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_5
+Fra:215 Mem:72.76M (Peak 72.76M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_6
+Fra:215 Mem:72.83M (Peak 72.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_8
+Fra:215 Mem:72.83M (Peak 72.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_10
+Fra:215 Mem:72.84M (Peak 72.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_11
+Fra:215 Mem:72.85M (Peak 72.85M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_12
+Fra:215 Mem:72.92M (Peak 72.92M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_14
+Fra:215 Mem:72.92M (Peak 72.92M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_16
+Fra:215 Mem:72.92M (Peak 72.92M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_22
+Fra:215 Mem:72.92M (Peak 72.92M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_19
+Fra:215 Mem:72.93M (Peak 72.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_20
+Fra:215 Mem:72.93M (Peak 72.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Synchronizing object | smoke_preview_joint_mouth_21
+Fra:215 Mem:72.43M (Peak 72.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Initializing
+Fra:215 Mem:60.58M (Peak 72.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Waiting for render to start
+Fra:215 Mem:60.58M (Peak 72.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Scene
+Fra:215 Mem:60.58M (Peak 72.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Updating Shaders
+Fra:215 Mem:60.58M (Peak 72.93M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | 420_Animation_Lab, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:215 Mem:60.70M (Peak 72.93M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | 420_Animation_Lab, ViewLayer | Updating Procedurals
+Fra:215 Mem:60.70M (Peak 72.93M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | 420_Animation_Lab, ViewLayer | Updating Background
+Fra:215 Mem:60.70M (Peak 72.93M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | 420_Animation_Lab, ViewLayer | Updating Camera
+Fra:215 Mem:60.70M (Peak 72.93M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | 420_Animation_Lab, ViewLayer | Updating Meshes Flags
+Fra:215 Mem:60.70M (Peak 72.93M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | 420_Animation_Lab, ViewLayer | Updating Objects
+Fra:215 Mem:60.70M (Peak 72.93M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | 420_Animation_Lab, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:215 Mem:60.72M (Peak 72.93M) | Time:00:00.02 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Particle Systems
+Fra:215 Mem:60.72M (Peak 72.93M) | Time:00:00.02 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:215 Mem:60.72M (Peak 72.93M) | Time:00:00.02 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Meshes
+Fra:215 Mem:60.72M (Peak 72.93M) | Time:00:00.02 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:215 Mem:60.72M (Peak 72.93M) | Time:00:00.02 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Mesh | Computing attributes
+Fra:215 Mem:60.81M (Peak 72.93M) | Time:00:00.02 | Mem:0.06M, Peak:0.06M | 420_Animation_Lab, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:215 Mem:60.80M (Peak 72.93M) | Time:00:00.02 | Mem:0.13M, Peak:0.13M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building
+Fra:215 Mem:60.80M (Peak 72.93M) | Time:00:00.02 | Mem:0.13M, Peak:0.13M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building BVH
+Fra:215 Mem:60.80M (Peak 72.93M) | Time:00:00.02 | Mem:0.55M, Peak:0.55M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:215 Mem:60.80M (Peak 72.93M) | Time:00:00.03 | Mem:1.01M, Peak:1.43M | 420_Animation_Lab, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:215 Mem:60.80M (Peak 72.93M) | Time:00:00.03 | Mem:1.01M, Peak:1.43M | 420_Animation_Lab, ViewLayer | Updating Mesh | Computing normals
+Fra:215 Mem:61.17M (Peak 72.93M) | Time:00:00.03 | Mem:1.01M, Peak:1.43M | 420_Animation_Lab, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:215 Mem:61.17M (Peak 72.93M) | Time:00:00.03 | Mem:1.38M, Peak:1.43M | 420_Animation_Lab, ViewLayer | Updating Objects Flags
+Fra:215 Mem:61.17M (Peak 72.93M) | Time:00:00.03 | Mem:1.38M, Peak:1.43M | 420_Animation_Lab, ViewLayer | Updating Primitive Offsets
+Fra:215 Mem:61.17M (Peak 72.93M) | Time:00:00.03 | Mem:1.38M, Peak:1.43M | 420_Animation_Lab, ViewLayer | Updating Images
+Fra:215 Mem:61.17M (Peak 72.93M) | Time:00:00.03 | Mem:1.38M, Peak:1.43M | 420_Animation_Lab, ViewLayer | Updating Images | Loading 420_surfaces.png
+Fra:215 Mem:62.18M (Peak 72.93M) | Time:00:00.04 | Mem:2.38M, Peak:2.38M | 420_Animation_Lab, ViewLayer | Updating Camera Volume
+Fra:215 Mem:62.18M (Peak 72.93M) | Time:00:00.04 | Mem:2.38M, Peak:2.38M | 420_Animation_Lab, ViewLayer | Updating Lookup Tables
+Fra:215 Mem:62.18M (Peak 72.93M) | Time:00:00.04 | Mem:2.46M, Peak:2.46M | 420_Animation_Lab, ViewLayer | Updating Lights
+Fra:215 Mem:62.18M (Peak 72.93M) | Time:00:00.04 | Mem:2.46M, Peak:2.46M | 420_Animation_Lab, ViewLayer | Updating Lights | Computing tree
+Fra:215 Mem:62.18M (Peak 72.93M) | Time:00:00.04 | Mem:2.46M, Peak:2.46M | 420_Animation_Lab, ViewLayer | Updating Integrator
+Fra:215 Mem:62.18M (Peak 72.93M) | Time:00:00.04 | Mem:2.46M, Peak:2.46M | 420_Animation_Lab, ViewLayer | Updating Film
+Fra:215 Mem:62.19M (Peak 72.93M) | Time:00:00.04 | Mem:2.38M, Peak:2.46M | 420_Animation_Lab, ViewLayer | Updating Lookup Tables
+Fra:215 Mem:62.19M (Peak 72.93M) | Time:00:00.04 | Mem:2.47M, Peak:2.47M | 420_Animation_Lab, ViewLayer | Updating Baking
+Fra:215 Mem:62.19M (Peak 72.93M) | Time:00:00.04 | Mem:2.47M, Peak:2.47M | 420_Animation_Lab, ViewLayer | Updating Device | Writing constant memory
+Fra:215 Mem:62.19M (Peak 72.93M) | Time:00:00.04 | Mem:2.47M, Peak:2.47M | 420_Animation_Lab, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:215 Mem:62.19M (Peak 72.93M) | Time:00:00.04 | Mem:2.47M, Peak:2.47M | 420_Animation_Lab, ViewLayer | Sample 0/24
+Fra:215 Mem:108.77M (Peak 108.77M) | Time:00:00.13 | Remaining:00:02.06 | Mem:48.87M, Peak:48.87M | 420_Animation_Lab, ViewLayer | Sample 1/24
+Fra:215 Mem:128.30M (Peak 157.60M) | Time:00:05.17 | Mem:48.87M, Peak:48.87M | 420_Animation_Lab, ViewLayer | Sample 24/24
+Fra:215 Mem:128.30M (Peak 157.60M) | Time:00:05.17 | Mem:48.87M, Peak:48.87M | 420_Animation_Lab, ViewLayer | Finished
+Saved: 'E:\AI_Playground\420\qa\joint_smoke_exhale.png'
+Time: 00:05.25 (Saving: 00:00.07)
+
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "smoking_smoke_preview.blend"
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+
+Blender quit

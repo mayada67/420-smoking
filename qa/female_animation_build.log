@@ -1,0 +1,296 @@
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:50:50)
+Terminate Serializer
+Terminate Serializer
+Terminate Serializer
+Terminate Serializer
+Terminate Serializer
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+loading E:\AI_Playground\420\build\420_Smoking\assets\420_smoking_male.skeleton
+Default bone length: 1.361818619292846
+Setting FPS to 25
+Created bone 0 Bip01
+Created bone 1 Bip01 Pelvis
+Created bone 2 Bip01 L Thigh
+Created bone 3 Bip01 L Calf
+Created bone 4 Bip01 L Foot
+Created bone 5 Bip01 L Toe0
+Created bone 6 Bip01 L Toe0Nub
+Created bone 7 Bip01 R Thigh
+Created bone 8 Bip01 R Calf
+Created bone 9 Bip01 R Foot
+Created bone 10 Bip01 R Toe0
+Created bone 11 Bip01 R Toe0Nub
+Created bone 12 Bip01 Spine
+Created bone 13 Bip01 Spine1
+Created bone 14 Bip01 Spine2
+Created bone 15 Bip01 L Clavicle
+Created bone 16 Bip01 L UpperArm
+Created bone 17 Bip01 L Forearm
+Created bone 18 Bip01 L Hand
+Created bone 19 Bip01 Prop1
+Created bone 20 Bip01 Neck
+Created bone 21 Bip01 Head
+Created bone 22 Bip01 HeadNub
+Created bone 23 Bip01 Jaw
+Created bone 24 Bip01 JawNub
+Created bone 25 Bip01 R Clavicle
+Created bone 26 Bip01 R UpperArm
+Created bone 27 Bip01 R Forearm
+Created bone 28 Bip01 R Hand
+Created bone 29 Bip01 Prop2
+Created action 420_smoke_chillum
+Created action 420_smoke_joint
+done.
+func: load_skeleton took 0.043
+Info: Import successful
+loading C:\Program Files (x86)\Steam\steamapps\common\Kenshi\data\character\meshes\female_skeleton\female_skeleton.skeleton
+Default bone length: 1.3658451663377957
+Created bone 0 Bip01
+Created bone 1 Bip01 Pelvis
+Created bone 2 Bip01 L Thigh
+Created bone 3 Bip01 L Calf
+Created bone 4 Bip01 L Foot
+Created bone 5 Bip01 L Toe0
+Created bone 6 Bip01 L Toe0Nub
+Created bone 7 Bip01 R Thigh
+Created bone 8 Bip01 R Calf
+Created bone 9 Bip01 R Foot
+Created bone 10 Bip01 R Toe0
+Created bone 11 Bip01 R Toe0Nub
+Created bone 12 Bip01 Spine
+Created bone 13 Bip01 Spine1
+Created bone 14 Bip01 Spine2
+Created bone 15 Bip01 L Clavicle
+Created bone 16 Bip01 L UpperArm
+Created bone 17 Bip01 L Forearm
+Created bone 18 Bip01 L Hand
+Created bone 19 Bip01 Prop1
+Created bone 20 Bip01 Neck
+Created bone 21 Bip01 Head
+Created bone 22 Bip01 HeadNub
+Created bone 23 Bip01 R Clavicle
+Created bone 24 Bip01 R UpperArm
+Created bone 25 Bip01 R Forearm
+Created bone 26 Bip01 R Hand
+Created bone 27 Bip01 Prop2
+Created bone 28 L Boob
+Created bone 29 R Boob
+done.
+func: load_skeleton took 0.187
+Info: Import successful
+saving...
+E:\AI_Playground\420\build\420_Smoking\assets\420_smoking_female.skeleton
+func: collect_animations took 0.059
+Export bone 0 Bip01
+Export bone 1 Bip01 Pelvis
+Export bone 2 Bip01 L Thigh
+Export bone 3 Bip01 L Calf
+Export bone 4 Bip01 L Foot
+Export bone 5 Bip01 L Toe0
+Export bone 6 Bip01 L Toe0Nub
+Export bone 7 Bip01 R Thigh
+Export bone 8 Bip01 R Calf
+Export bone 9 Bip01 R Foot
+Export bone 10 Bip01 R Toe0
+Export bone 11 Bip01 R Toe0Nub
+Export bone 12 Bip01 Spine
+Export bone 13 Bip01 Spine1
+Export bone 14 Bip01 Spine2
+Export bone 15 Bip01 L Clavicle
+Export bone 16 Bip01 L UpperArm
+Export bone 17 Bip01 L Forearm
+Export bone 18 Bip01 L Hand
+Export bone 19 Bip01 Prop1
+Export bone 20 Bip01 Neck
+Export bone 21 Bip01 Head
+Export bone 22 Bip01 HeadNub
+Export bone 23 Bip01 R Clavicle
+Export bone 24 Bip01 R UpperArm
+Export bone 25 Bip01 R Forearm
+Export bone 26 Bip01 R Hand
+Export bone 27 Bip01 Prop2
+Export bone 28 L Boob
+Export bone 29 R Boob
+Renumbering bone 0 Bip01
+Renumbering bone 1 Bip01 Pelvis
+Renumbering bone 2 Bip01 L Thigh
+Renumbering bone 3 Bip01 L Calf
+Renumbering bone 4 Bip01 L Foot
+Renumbering bone 5 Bip01 L Toe0
+Renumbering bone 6 Bip01 L Toe0Nub
+Renumbering bone 7 Bip01 R Thigh
+Renumbering bone 8 Bip01 R Calf
+Renumbering bone 9 Bip01 R Foot
+Renumbering bone 10 Bip01 R Toe0
+Renumbering bone 11 Bip01 R Toe0Nub
+Renumbering bone 12 Bip01 Spine
+Renumbering bone 13 Bip01 Spine1
+Renumbering bone 14 Bip01 Spine2
+Renumbering bone 15 Bip01 L Clavicle
+Renumbering bone 16 Bip01 L UpperArm
+Renumbering bone 17 Bip01 L Forearm
+Renumbering bone 18 Bip01 L Hand
+Renumbering bone 19 Bip01 Prop1
+Renumbering bone 20 Bip01 Neck
+Renumbering bone 21 Bip01 Head
+Renumbering bone 22 Bip01 HeadNub
+Renumbering bone 23 Bip01 R Clavicle
+Renumbering bone 24 Bip01 R UpperArm
+Renumbering bone 25 Bip01 R Forearm
+Renumbering bone 26 Bip01 R Hand
+Renumbering bone 27 Bip01 Prop2
+Renumbering bone 28 L Boob
+Renumbering bone 29 R Boob
+Export action 420_smoke_chillum, slot 420_smoking_male
+Export action 420_smoke_joint, slot 420_smoking_male
+done.
+func: save_skeleton took 0.064
+Info: Export successful
+loading E:\AI_Playground\420\build\420_Smoking\assets\420_reclined_male.skeleton
+Default bone length: 1.361818619292846
+Setting FPS to 25
+Created bone 0 Bip01
+Created bone 1 Bip01 Pelvis
+Created bone 2 Bip01 L Thigh
+Created bone 3 Bip01 L Calf
+Created bone 4 Bip01 L Foot
+Created bone 5 Bip01 L Toe0
+Created bone 6 Bip01 L Toe0Nub
+Created bone 7 Bip01 R Thigh
+Created bone 8 Bip01 R Calf
+Created bone 9 Bip01 R Foot
+Created bone 10 Bip01 R Toe0
+Created bone 11 Bip01 R Toe0Nub
+Created bone 12 Bip01 Spine
+Created bone 13 Bip01 Spine1
+Created bone 14 Bip01 Spine2
+Created bone 15 Bip01 L Clavicle
+Created bone 16 Bip01 L UpperArm
+Created bone 17 Bip01 L Forearm
+Created bone 18 Bip01 L Hand
+Created bone 19 Bip01 Prop1
+Created bone 20 Bip01 Neck
+Created bone 21 Bip01 Head
+Created bone 22 Bip01 HeadNub
+Created bone 23 Bip01 Jaw
+Created bone 24 Bip01 JawNub
+Created bone 25 Bip01 R Clavicle
+Created bone 26 Bip01 R UpperArm
+Created bone 27 Bip01 R Forearm
+Created bone 28 Bip01 R Hand
+Created bone 29 Bip01 Prop2
+Created action 420_recline_chillum
+Created action 420_recline_joint
+done.
+func: load_skeleton took 0.036
+Info: Import successful
+loading C:\Program Files (x86)\Steam\steamapps\common\Kenshi\data\character\meshes\female_skeleton\female_skeleton.skeleton
+Default bone length: 1.3658451663377957
+Created bone 0 Bip01
+Created bone 1 Bip01 Pelvis
+Created bone 2 Bip01 L Thigh
+Created bone 3 Bip01 L Calf
+Created bone 4 Bip01 L Foot
+Created bone 5 Bip01 L Toe0
+Created bone 6 Bip01 L Toe0Nub
+Created bone 7 Bip01 R Thigh
+Created bone 8 Bip01 R Calf
+Created bone 9 Bip01 R Foot
+Created bone 10 Bip01 R Toe0
+Created bone 11 Bip01 R Toe0Nub
+Created bone 12 Bip01 Spine
+Created bone 13 Bip01 Spine1
+Created bone 14 Bip01 Spine2
+Created bone 15 Bip01 L Clavicle
+Created bone 16 Bip01 L UpperArm
+Created bone 17 Bip01 L Forearm
+Created bone 18 Bip01 L Hand
+Created bone 19 Bip01 Prop1
+Created bone 20 Bip01 Neck
+Created bone 21 Bip01 Head
+Created bone 22 Bip01 HeadNub
+Created bone 23 Bip01 R Clavicle
+Created bone 24 Bip01 R UpperArm
+Created bone 25 Bip01 R Forearm
+Created bone 26 Bip01 R Hand
+Created bone 27 Bip01 Prop2
+Created bone 28 L Boob
+Created bone 29 R Boob
+done.
+func: load_skeleton took 0.171
+Info: Import successful
+saving...
+E:\AI_Playground\420\build\420_Smoking\assets\420_reclined_female.skeleton
+func: collect_animations took 0.060
+Export bone 0 Bip01
+Export bone 1 Bip01 Pelvis
+Export bone 2 Bip01 L Thigh
+Export bone 3 Bip01 L Calf
+Export bone 4 Bip01 L Foot
+Export bone 5 Bip01 L Toe0
+Export bone 6 Bip01 L Toe0Nub
+Export bone 7 Bip01 R Thigh
+Export bone 8 Bip01 R Calf
+Export bone 9 Bip01 R Foot
+Export bone 10 Bip01 R Toe0
+Export bone 11 Bip01 R Toe0Nub
+Export bone 12 Bip01 Spine
+Export bone 13 Bip01 Spine1
+Export bone 14 Bip01 Spine2
+Export bone 15 Bip01 L Clavicle
+Export bone 16 Bip01 L UpperArm
+Export bone 17 Bip01 L Forearm
+Export bone 18 Bip01 L Hand
+Export bone 19 Bip01 Prop1
+Export bone 20 Bip01 Neck
+Export bone 21 Bip01 Head
+Export bone 22 Bip01 HeadNub
+Export bone 23 Bip01 R Clavicle
+Export bone 24 Bip01 R UpperArm
+Export bone 25 Bip01 R Forearm
+Export bone 26 Bip01 R Hand
+Export bone 27 Bip01 Prop2
+Export bone 28 L Boob
+Export bone 29 R Boob
+Renumbering bone 0 Bip01
+Renumbering bone 1 Bip01 Pelvis
+Renumbering bone 2 Bip01 L Thigh
+Renumbering bone 3 Bip01 L Calf
+Renumbering bone 4 Bip01 L Foot
+Renumbering bone 5 Bip01 L Toe0
+Renumbering bone 6 Bip01 L Toe0Nub
+Renumbering bone 7 Bip01 R Thigh
+Renumbering bone 8 Bip01 R Calf
+Renumbering bone 9 Bip01 R Foot
+Renumbering bone 10 Bip01 R Toe0
+Renumbering bone 11 Bip01 R Toe0Nub
+Renumbering bone 12 Bip01 Spine
+Renumbering bone 13 Bip01 Spine1
+Renumbering bone 14 Bip01 Spine2
+Renumbering bone 15 Bip01 L Clavicle
+Renumbering bone 16 Bip01 L UpperArm
+Renumbering bone 17 Bip01 L Forearm
+Renumbering bone 18 Bip01 L Hand
+Renumbering bone 19 Bip01 Prop1
+Renumbering bone 20 Bip01 Neck
+Renumbering bone 21 Bip01 Head
+Renumbering bone 22 Bip01 HeadNub
+Renumbering bone 23 Bip01 R Clavicle
+Renumbering bone 24 Bip01 R UpperArm
+Renumbering bone 25 Bip01 R Forearm
+Renumbering bone 26 Bip01 R Hand
+Renumbering bone 27 Bip01 Prop2
+Renumbering bone 28 L Boob
+Renumbering bone 29 R Boob
+Export action 420_recline_chillum, slot 420_reclined_male
+Export action 420_recline_joint, slot 420_reclined_maleTerminate Serializer
+
+done.
+func: save_skeleton took 0.066
+Info: Export successful
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+
+Blender quit

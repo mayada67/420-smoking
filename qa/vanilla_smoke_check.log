@@ -1,0 +1,25 @@
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:50:50)
+Terminate Serializer
+Terminate Serializer
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+loading E:\AI_Playground\420\build\420_Smoking\assets\420_chillum_lit.mesh
+Info: Removed 3309 vertices
+Removed 42.0 faces
+Created mesh 420_chillum_lit-0
+done.
+func: load took 0.036
+Info: Import successful
+loading E:\AI_Playground\420\build\420_Smoking\assets\420_joint_lit.mesh
+Info: Removed 1109 vertices
+Removed 54.0 faces
+Created mesh 420_joint_lit-0
+done.
+func: load took 0.012
+Info: Import successful
+{'binary_readback': True, 'inventory_meshes_unchanged': True, 'mode': 'static alpha-tested tip wisps', 'in_game_visual_verified': False, 'chillum': {'display_prop_reference': 54, 'mesh_readback': True, 'body_and_wisp_uv_present': True}, 'joint': {'display_prop_reference': 55, 'mesh_readback': True, 'body_and_wisp_uv_present': True}, 'wisp_alpha_coverage': 0.042835235595703125}
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+
+Blender quit

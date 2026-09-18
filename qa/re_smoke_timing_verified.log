@@ -1,0 +1,17 @@
+0.000 RE_Kenshi: RE_Kenshi 0.3.5
+0.000 RE_Kenshi: --norestart
+0.000 RE_Kenshi: UEF registered successfully
+0.002 RE_Kenshi: Loading settings file...
+0.002 RE_Kenshi: Saving settings...
+0.003 KenshiLib: KenshiLib 0.5.1
+0.003 RE_Kenshi: Checking latest version...
+0.004 KenshiLib: RVAs loaded
+0.116 RE_Kenshi: VirtualAlloc2 found.
+0.117 RE_Kenshi: Shader cache load start
+0.132 RE_Kenshi: Shader cache loaded successfully, 185 cached shaders
+0.517 RE_Kenshi: Finished synchronous init stage
+0.517 RE_Kenshi: Waiting for mod setup.
+1.612 RE_Kenshi: Latest public release: v0.3.5
+1.612 RE_Kenshi: We are up to date.
+1.617 RE_Kenshi: Loading preload plugins...
+50.385 RE_Kenshi: First shader compile request

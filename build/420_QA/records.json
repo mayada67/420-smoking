@@ -1,0 +1,514 @@
+{
+  "1-420_QA.mod": {
+    "instance_count": 0,
+    "type_id": 1,
+    "type": "CHARACTER",
+    "name": "420 QA Tester",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "assigns bounties": false,
+        "dumb": false,
+        "is trader": false,
+        "named": true,
+        "shaved": false,
+        "unique": false,
+        "wears uniform": false
+      },
+      "float": {
+        "faction importance": 1.0,
+        "money item prob": 0.0
+      },
+      "int": {
+        "armour grade": 1,
+        "armour upgrade chance": 5,
+        "bounty amount": 0,
+        "bounty amount fuzz": 0,
+        "bounty chance": 0,
+        "combat stats": 1,
+        "female chance": 0,
+        "money item max": 0,
+        "money item min": 0,
+        "money max": 0,
+        "money min": 0,
+        "NPC class": 9,
+        "ranged stats": 0,
+        "slave": 0,
+        "stats randomise": 0,
+        "stealth stats": 0,
+        "strength": 0,
+        "unarmed stats": 0,
+        "wages": 2500
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {
+        "body": "",
+        "mesh": ""
+      }
+    },
+    "extra": {
+      "clothing": {
+        "550-gamedata.base": [
+          0,
+          100,
+          0
+        ],
+        "551-gamedata.base": [
+          0,
+          100,
+          0
+        ],
+        "564-gamedata.base": [
+          0,
+          100,
+          0
+        ],
+        "557-gamedata.base": [
+          0,
+          100,
+          0
+        ],
+        "2149-gamedata.base": [
+          0,
+          100,
+          0
+        ],
+        "556-gamedata.base": [
+          0,
+          100,
+          0
+        ],
+        "2308-clothes_v1.mod": [
+          1,
+          100,
+          0
+        ]
+      },
+      "dialogue package player": {
+        "5369-gamedata.base": [
+          0,
+          0,
+          0
+        ]
+      },
+      "personality": {
+        "17196-Dialogue.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "weapon level": {
+        "912-gamedata.base": [
+          0,
+          0,
+          0
+        ]
+      },
+      "weapons": {
+        "52295-rebirth.mod": [
+          1,
+          0,
+          100
+        ]
+      },
+      "stats": {
+        "4-420_QA.mod": [
+          0,
+          100,
+          0
+        ]
+      },
+      "race": {
+        "17-gamedata.quack": [
+          100,
+          0,
+          0
+        ]
+      },
+      "backpack": {
+        "5-420_QA.mod": [
+          1,
+          100,
+          0
+        ]
+      },
+      "inventory": {
+        "580-gamedata.base": [
+          200,
+          0,
+          0
+        ],
+        "42159-gamedata.base": [
+          200,
+          0,
+          0
+        ],
+        "579-gamedata.base": [
+          100,
+          0,
+          0
+        ],
+        "42164-gamedata.base": [
+          100,
+          0,
+          0
+        ],
+        "1965-gamedata.base": [
+          200,
+          0,
+          0
+        ],
+        "1230-gamedata.base": [
+          200,
+          0,
+          0
+        ],
+        "1-420_Smoking.mod": [
+          200,
+          0,
+          0
+        ],
+        "2-420_Smoking.mod": [
+          100,
+          0,
+          0
+        ],
+        "43959-rebirth.mod": [
+          20,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "4-420_QA.mod": {
+    "instance_count": 0,
+    "type_id": 25,
+    "type": "STATS",
+    "name": "420 QA All Skills 100",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {},
+      "float": {
+        "armour smith": 100.0,
+        "assassin": 100.0,
+        "athletics": 100.0,
+        "attack": 100.0,
+        "blunt": 100.0,
+        "bow": 100.0,
+        "bow smith": 100.0,
+        "cooking": 100.0,
+        "defence": 100.0,
+        "dexterity": 100.0,
+        "dodge": 100.0,
+        "engineer": 100.0,
+        "farming": 100.0,
+        "ff": 100.0,
+        "hackers": 100.0,
+        "heavy weapons": 100.0,
+        "katana": 100.0,
+        "labouring": 100.0,
+        "lockpicking": 100.0,
+        "medic": 100.0,
+        "perception": 100.0,
+        "poles": 100.0,
+        "robotics": 100.0,
+        "sabres": 100.0,
+        "science": 100.0,
+        "stealth": 100.0,
+        "strength": 100.0,
+        "swimming": 100.0,
+        "thievery": 100.0,
+        "toughness2": 100.0,
+        "turrets": 100.0,
+        "unarmed": 100.0,
+        "weapon smith": 100.0
+      },
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {},
+    "instances": {}
+  },
+  "5-420_QA.mod": {
+    "instance_count": 0,
+    "type_id": 46,
+    "type": "CONTAINER",
+    "name": "420 QA Supply Backpack",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "auto icon image": true,
+        "dont colorise": true,
+        "has collision": true
+      },
+      "float": {
+        "athletics mult": 1.0,
+        "combat speed mult": 1.0,
+        "encumbrance effect": 0.0,
+        "icon offset H": 0.10000000149011612,
+        "icon offset pitch": 0.0,
+        "icon offset roll": 0.0,
+        "icon offset V": -15.550000190734863,
+        "icon offset yaw": -90.0,
+        "icon zoom": 3.3499999046325684,
+        "overall scale": 1.0,
+        "stackable bonus mult": 1000.0,
+        "stealth mult": 1.0,
+        "weight kg": 0.0
+      },
+      "int": {
+        "combat skill bonus": 0,
+        "inventory footprint height": 4,
+        "inventory footprint width": 5,
+        "inventory sound": 0,
+        "slot": 12,
+        "stackable bonus minimum": 1000,
+        "storage size height": 20,
+        "storage size width": 20,
+        "value": 800
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "description": "Development supplies backpack: 20x20, large stacks, no weight or skill penalty."
+      },
+      "filename": {
+        "ground mesh": "",
+        "icon": "",
+        "mesh": ".\\data\\items\\armour\\meshes\\wooden_backpack_covered_m.mesh",
+        "mesh female": ".\\data\\items\\armour\\meshes\\wooden_backpack_covered_f.mesh",
+        "physics file": ""
+      }
+    },
+    "extra": {
+      "material": {
+        "5263-lanterns_otto.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "2-420_QA.mod": {
+    "instance_count": 0,
+    "type_id": 52,
+    "type": "SQUAD_TEMPLATE",
+    "name": "420 QA Squad",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "building ruined": false,
+        "buys illegal": false,
+        "buys stolen": false,
+        "dont multiply": true,
+        "is trader": false,
+        "malnourished": false,
+        "patrol approaches towns": true,
+        "public beds": false,
+        "public day": true,
+        "public night": false,
+        "regenerates": false,
+        "roaming military": false,
+        "sell home": false
+      },
+      "float": {
+        "animal age random": 0.10000000149011612,
+        "blood smell mult": 0.0,
+        "buy mult": 1.0,
+        "vendors refresh time": 24.0
+      },
+      "int": {
+        "bed usage cost": 100,
+        "building designation": 0,
+        "crossbow levels": 1,
+        "force speed": 3,
+        "gear artifacts base value": 0,
+        "initial door state": 0,
+        "item artifacts base value": 0,
+        "num random chars": 0,
+        "num random chars max": 0,
+        "robotics levels": 1,
+        "vendor money": 0,
+        "vendors fill total amount": 15
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "building name": "",
+        "layout exterior": "",
+        "layout interior": ""
+      },
+      "filename": {}
+    },
+    "extra": {
+      "leader": {
+        "1-420_QA.mod": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "3-420_QA.mod": {
+    "instance_count": 0,
+    "type_id": 64,
+    "type": "NEW_GAME_STARTOFF",
+    "name": "420 QA - ALL 100 - 1M CATS - HEFT",
+    "id": 0,
+    "datatype_id": -2147483646,
+    "datatype": "NEW",
+    "fields": {
+      "bool": {
+        "force start pos": false
+      },
+      "float": {},
+      "int": {
+        "money": 1000000,
+        "start pos X": 4000,
+        "start pos Z": 4000
+      },
+      "vec3f": {},
+      "vec4f": {},
+      "string": {
+        "description": "Smoking MOD test: all 33 skills 100, 1,000,000 Cats, supply backpack, building materials, iron plates, steel bars, electrical components, hemp, hashish, paper, joints and food. Starts in Heft. Buy an intact house for indoor testing. New game only.",
+        "difficulty": "Default",
+        "style": "RPG"
+      },
+      "filename": {}
+    },
+    "extra": {
+      "squad": {
+        "2-420_QA.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "town": {
+        "1078-gamedata.base": [
+          0,
+          0,
+          0
+        ]
+      },
+      "research": {
+        "5359-gamedata.base": [
+          0,
+          0,
+          0
+        ],
+        "30-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "30-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 21,
+    "type": "RESEARCH",
+    "name": "420 Smoking",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "enable buildings": {
+        "4092-TwoStorey.mod": [
+          0,
+          0,
+          0
+        ],
+        "1875-gamedata.base": [
+          0,
+          0,
+          0
+        ],
+        "1509-gamedata.base": [
+          0,
+          0,
+          0
+        ],
+        "1863-gamedata.base": [
+          0,
+          0,
+          0
+        ],
+        "5437-new_furniture_otto.mod": [
+          0,
+          0,
+          0
+        ],
+        "16845-nodes_otto1.mod": [
+          0,
+          0,
+          0
+        ],
+        "16848-nodes_otto1.mod": [
+          0,
+          0,
+          0
+        ],
+        "1921-gamedata.base": [
+          0,
+          0,
+          0
+        ],
+        "18968-small_changes_otto.mod": [
+          0,
+          0,
+          0
+        ],
+        "56900-farm.mod": [
+          0,
+          0,
+          0
+        ],
+        "56899-farm.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "enable item": {
+        "42334-changes_otto.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  }
+}

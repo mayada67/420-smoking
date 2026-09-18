@@ -1,0 +1,70 @@
+{
+  "chillum": {
+    "duration_seconds": 12,
+    "fps": 25,
+    "timing_seconds": {
+      "raise": [
+        1,
+        2
+      ],
+      "inhale": [
+        2,
+        4
+      ],
+      "lower": [
+        4,
+        5
+      ],
+      "hold": [
+        5,
+        8
+      ],
+      "exhale": [
+        8,
+        11
+      ],
+      "settle": [
+        11,
+        12
+      ]
+    },
+    "smoke_in_game_implemented": false,
+    "max_right_wrist_target_error": 1.2936817073025884e-05,
+    "finger_bones_present": false,
+    "in_game_verified": false
+  },
+  "joint": {
+    "duration_seconds": 12,
+    "fps": 25,
+    "timing_seconds": {
+      "raise": [
+        1,
+        2
+      ],
+      "inhale": [
+        2,
+        4
+      ],
+      "lower": [
+        4,
+        5
+      ],
+      "hold": [
+        5,
+        8
+      ],
+      "exhale": [
+        8,
+        11
+      ],
+      "settle": [
+        11,
+        12
+      ]
+    },
+    "smoke_in_game_implemented": false,
+    "max_right_wrist_target_error": 1.4760786716617686e-05,
+    "finger_bones_present": false,
+    "in_game_verified": false
+  }
+}

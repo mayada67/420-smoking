@@ -1,0 +1,60 @@
+0.000 RE_Kenshi: RE_Kenshi 0.3.5
+0.001 RE_Kenshi: UEF registered successfully
+0.010 RE_Kenshi: Loading settings file...
+0.010 RE_Kenshi: Saving settings...
+0.011 KenshiLib: KenshiLib 0.5.1
+0.011 RE_Kenshi: Checking latest version...
+0.019 KenshiLib: RVAs loaded
+0.162 RE_Kenshi: VirtualAlloc2 found.
+0.172 RE_Kenshi: Shader cache load start
+0.186 RE_Kenshi: Shader cache loaded successfully, 189 cached shaders
+0.461 RE_Kenshi: Latest public release: v0.3.5
+0.461 RE_Kenshi: We are up to date.
+0.665 RE_Kenshi: Finished synchronous init stage
+0.665 RE_Kenshi: Waiting for mod setup.
+3.125 RE_Kenshi: Loading preload plugins...
+20.757 RE_Kenshi: First shader compile request
+21.385 RE_Kenshi: Queueing Boot_Up_Game event
+22.483 RE_Kenshi: Load mod hook
+22.483 RE_Kenshi: Loading post-load plugins...
+22.485 RE_Kenshi: 420_Smoking_RE -> SmokingSmoke.dll
+22.860 RE_Kenshi: 420 Smoke: hooks installed; exhale window [8,11) seconds
+22.860 RE_Kenshi: 420_Races -> SmokingRaces.dll
+22.995 SmokingRaces: 420 Races: conditional registration hook installed
+22.995 RE_Kenshi: Registering LoadingListener
+22.995 RE_Kenshi: Loading mod overrides from "420_Smoking_RE"...
+22.995 RE_Kenshi: Loading mod overrides from "420_Races"...
+23.004 RE_Kenshi: Loading init bank Init.bnk 1
+23.120 RE_Kenshi: Force triggering Boot_Up_Game
+23.339 RE_Kenshi: Heightmap hooks queued...
+23.339 RE_Kenshi: Opening fast heightmap...
+23.349 RE_Kenshi: Fast heightmap mapped!
+43.654 RE_Kenshi: Main menu loaded.
+43.654 RE_Kenshi: Kenshi version: 1.0.65
+43.654 RE_Kenshi: Kenshi platform: Steam
+43.654 RE_Kenshi: Version supported.
+Error 43.654 RE_Kenshi: Could not initialize UI
+62.624 RE_Kenshi: Main menu loaded.
+62.624 RE_Kenshi: Kenshi version: 1.0.65
+62.624 RE_Kenshi: Kenshi platform: Steam
+62.624 RE_Kenshi: Version supported.
+Error 62.624 RE_Kenshi: Could not initialize UI
+69.035 RE_Kenshi: Main menu loaded.
+69.035 RE_Kenshi: Kenshi version: 1.0.65
+69.035 RE_Kenshi: Kenshi platform: Steam
+69.035 RE_Kenshi: Version supported.
+69.035 RE_Kenshi: Kenshi 1.0.65 - x64 (Newland)
+167.869 RE_Kenshi: In-game.
+169.741 SmokingSmoke: 420 Smoke: billboard renderer ready
+198.152 SmokingSmoke: 420 Smoke sample: 420_recline_chillum t=1.26642 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(67697, 1216.04, -71496.5) origin=Vector3(67695.3, 0, -71488.5) puffs=3 node=Vector3(-0.59375, 1204.64, -8.35156) scale=Vector3(1, 1, 1) directHead=Vector3(1.69728, 1216.04, -8.07669) smokeNode=Vector3(-67695.3, 0, 71488.5) visible=1 mask=536870911
+200.152 SmokingSmoke: 420 Smoke sample: 420_recline_chillum t=3.26762 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(67697, 1216.03, -71496.6) origin=Vector3(67695.3, 0, -71488.5) puffs=7 node=Vector3(-0.59375, 1204.64, -8.35156) scale=Vector3(1, 1, 1) directHead=Vector3(1.69478, 1216.03, -8.14052) smokeNode=Vector3(-67695.3, 0, 71488.5) visible=1 mask=536870911
+202.409 SmokingSmoke: 420 Smoke sample: 420_recline_chillum t=5.30051 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(67697, 1216.05, -71496.6) origin=Vector3(67695.3, 0, -71488.5) puffs=7 node=Vector3(-0.59375, 1204.64, -8.35156) scale=Vector3(1, 1, 1) directHead=Vector3(1.7756, 1216.05, -8.09838) smokeNode=Vector3(-67695.3, 0, 71488.5) visible=1 mask=536870911
+204.439 SmokingSmoke: 420 Smoke sample: 420_recline_chillum t=7.30835 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(67697, 1216.04, -71496.6) origin=Vector3(67695.3, 0, -71488.5) puffs=7 node=Vector3(-0.59375, 1204.64, -8.35156) scale=Vector3(1, 1, 1) directHead=Vector3(1.69261, 1216.04, -8.10438) smokeNode=Vector3(-67695.3, 0, 71488.5) visible=1 mask=536870911
+206.445 SmokingSmoke: 420 Smoke sample: 420_recline_chillum t=9.31034 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(67697, 1216.04, -71496.6) origin=Vector3(67695.3, 0, -71488.5) puffs=100 node=Vector3(-0.59375, 1204.64, -8.35156) scale=Vector3(1, 1, 1) directHead=Vector3(1.74603, 1216.04, -8.11694) smokeNode=Vector3(-67695.3, 0, 71488.5) visible=1 mask=536870911
+208.460 SmokingSmoke: 420 Smoke sample: 420_recline_chillum t=11.3287 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=1 head=Vector3(67697, 1216.05, -71496.6) origin=Vector3(67695.3, 0, -71488.5) puffs=113 node=Vector3(-0.59375, 1204.64, -8.35156) scale=Vector3(1, 1, 1) directHead=Vector3(1.74383, 1216.05, -8.12274) smokeNode=Vector3(-67695.3, 0, 71488.5) visible=1 mask=536870911
+215.114 SmokingSmoke: 420 Smoke sample: 420_recline_chillum t=0.0177167 enabled=1 weight=0.048721 wanted=0 stop=0 speed=1 masterSpeed=0.280774 head=Vector3(67693.8, 1221.64, -71497.9) origin=Vector3(67695.3, 0, -71488.5) puffs=0 node=Vector3(-0.523438, 1204.64, -7.58594) scale=Vector3(1, 1, 1) directHead=Vector3(-0.754488, 1221.64, -9.614) smokeNode=Vector3(-67695.3, 0, 71488.5) visible=1 mask=536870911
+217.136 SmokingSmoke: 420 Smoke sample: 420_recline_chillum t=8.39869 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=0.280774 head=Vector3(67697.1, 1216.04, -71495.8) origin=Vector3(67695.3, 0, -71488.5) puffs=11 node=Vector3(-0.523438, 1204.64, -7.58594) scale=Vector3(1, 1, 1) directHead=Vector3(1.79844, 1216.04, -7.34301) smokeNode=Vector3(-67695.3, 0, 71488.5) visible=1 mask=536870911
+219.134 SmokingSmoke: 420 Smoke sample: 420_recline_chillum t=6.42709 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=0.280774 head=Vector3(67696.9, 1216.04, -71495.8) origin=Vector3(67695.3, 0, -71488.5) puffs=29 node=Vector3(-0.523438, 1204.64, -7.58594) scale=Vector3(1, 1, 1) directHead=Vector3(1.65362, 1216.04, -7.35072) smokeNode=Vector3(-67695.3, 0, 71488.5) visible=1 mask=536870911
+221.151 SmokingSmoke: 420 Smoke sample: 420_recline_chillum t=4.50357 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=0.280774 head=Vector3(67697, 1216.04, -71495.8) origin=Vector3(67695.3, 0, -71488.5) puffs=51 node=Vector3(-0.523438, 1204.64, -7.58594) scale=Vector3(1, 1, 1) directHead=Vector3(1.78215, 1216.04, -7.33646) smokeNode=Vector3(-67695.3, 0, 71488.5) visible=1 mask=536870911
+223.155 SmokingSmoke: 420 Smoke sample: 420_recline_chillum t=2.52395 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=0.280774 head=Vector3(67697.1, 1216.04, -71495.8) origin=Vector3(67695.3, 0, -71488.5) puffs=51 node=Vector3(-0.523438, 1204.64, -7.58594) scale=Vector3(1, 1, 1) directHead=Vector3(1.82362, 1216.04, -7.34632) smokeNode=Vector3(-67695.3, 0, 71488.5) visible=1 mask=536870911
+225.156 SmokingSmoke: 420 Smoke sample: 420_recline_chillum t=0.527488 enabled=1 weight=1 wanted=0 stop=0 speed=1 masterSpeed=0.280774 head=Vector3(67697.1, 1216.04, -71495.8) origin=Vector3(67695.3, 0, -71488.5) puffs=51 node=Vector3(-0.523438, 1204.64, -7.58594) scale=Vector3(1, 1, 1) directHead=Vector3(1.8174, 1216.04, -7.38726) smokeNode=Vector3(-67695.3, 0, 71488.5) visible=1 mask=536870911

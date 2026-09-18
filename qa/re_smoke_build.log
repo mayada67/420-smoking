@@ -1,0 +1,33 @@
+SmokingSmoke.cpp
+E:\AI_Playground\420\build\KenshiLib_Examples_deps\KenshiLib\Include\mygui/common/baselayout/BaseLayout.h(261) : warning C4091: '__declspec(dllimport)' : ignored on left of 'wraps::BaseLayout' when no variable is declared
+   Creating library E:\AI_Playground\420\build\re_smoke_obj\SmokingSmoke.lib and object E:\AI_Playground\420\build\re_smoke_obj\SmokingSmoke.exp
+Generating code
+Finished generating code
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file E:\AI_Playground\420\build\420_Smoking_RE\SmokingSmoke.dll
+
+File Type: DLL
+
+  Section contains the following exports for SmokingSmoke.dll
+
+    00000000 characteristics
+    6AA8F519 time date stamp Tue Sep 15 16:34:49 2026
+        0.00 version
+           1 ordinal base
+           1 number of functions
+           1 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00003B60 ?startPlugin@@YAXXZ
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        4000 .rdata
+        1000 .reloc
+        7000 .text

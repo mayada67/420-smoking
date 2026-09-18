@@ -1,0 +1,32 @@
+{
+  "420_smoke_chillum": {
+    "max_bone_position_error": 1.0354752475370868e-05,
+    "frame_range": [
+      0.0,
+      200.0
+    ],
+    "sampled_frames": [
+      0,
+      40,
+      80,
+      120,
+      160,
+      200
+    ]
+  },
+  "420_smoke_joint": {
+    "max_bone_position_error": 1.0600916898448805e-05,
+    "frame_range": [
+      0.0,
+      200.0
+    ],
+    "sampled_frames": [
+      0,
+      40,
+      80,
+      120,
+      160,
+      200
+    ]
+  }
+}

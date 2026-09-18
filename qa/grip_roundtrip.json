@@ -1,0 +1,14 @@
+{
+  "chillum": {
+    "max_bone_position_error": 2.5761621184518818e-05,
+    "sampled_frames": 41,
+    "passed": true
+  },
+  "joint": {
+    "max_bone_position_error": 2.3705045240669684e-05,
+    "sampled_frames": 41,
+    "passed": true
+  },
+  "in_game_verified": false,
+  "sha256": "86235e7ee5acba25c9ab86d1003769ab10a4438f010abd80df562f0442c3b0ae"
+}

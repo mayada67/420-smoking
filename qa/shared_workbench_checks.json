@@ -1,0 +1,9 @@
+{
+  "binary_readback": true,
+  "shared_recipe_queue": true,
+  "legacy_bench_supported": true,
+  "paper_requires_only_hemp": true,
+  "joint_requires_hemp_and_paper": true,
+  "dedicated_paper_and_joint_storage": true,
+  "in_game_production_verified": false
+}

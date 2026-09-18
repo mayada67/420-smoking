@@ -1,0 +1,18 @@
+{
+  "chillum": {
+    "mesh": "420_chillum_lit.mesh",
+    "tip_local_z": 1.79,
+    "added_faces": 0,
+    "wisp_length": 0,
+    "max_half_width": 0,
+    "mode": "clean prop; rejected static smoke disabled"
+  },
+  "joint": {
+    "mesh": "420_joint_lit.mesh",
+    "tip_local_z": 1.23,
+    "added_faces": 0,
+    "wisp_length": 0,
+    "max_half_width": 0,
+    "mode": "clean prop; rejected static smoke disabled"
+  }
+}
