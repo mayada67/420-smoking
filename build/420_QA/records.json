@@ -412,7 +412,97 @@
         ]
       },
       "research": {
+        "5359-gamedata.base": [
+          0,
+          0,
+          0
+        ],
         "30-420_Smoking.mod": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "instances": {}
+  },
+  "30-420_Smoking.mod": {
+    "instance_count": 0,
+    "type_id": 21,
+    "type": "RESEARCH",
+    "name": "420 Smoking",
+    "id": 0,
+    "datatype_id": -2147483647,
+    "datatype": "CHANGED",
+    "fields": {
+      "bool": {},
+      "float": {},
+      "int": {},
+      "vec3f": {},
+      "vec4f": {},
+      "string": {},
+      "filename": {}
+    },
+    "extra": {
+      "enable buildings": {
+        "4092-TwoStorey.mod": [
+          0,
+          0,
+          0
+        ],
+        "1875-gamedata.base": [
+          0,
+          0,
+          0
+        ],
+        "1509-gamedata.base": [
+          0,
+          0,
+          0
+        ],
+        "1863-gamedata.base": [
+          0,
+          0,
+          0
+        ],
+        "5437-new_furniture_otto.mod": [
+          0,
+          0,
+          0
+        ],
+        "16845-nodes_otto1.mod": [
+          0,
+          0,
+          0
+        ],
+        "16848-nodes_otto1.mod": [
+          0,
+          0,
+          0
+        ],
+        "1921-gamedata.base": [
+          0,
+          0,
+          0
+        ],
+        "18968-small_changes_otto.mod": [
+          0,
+          0,
+          0
+        ],
+        "56900-farm.mod": [
+          0,
+          0,
+          0
+        ],
+        "56899-farm.mod": [
+          0,
+          0,
+          0
+        ]
+      },
+      "enable item": {
+        "42334-changes_otto.mod": [
           0,
           0,
           0

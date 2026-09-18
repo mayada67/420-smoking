@@ -25,14 +25,29 @@ start['fields']['int']['money']=1000000
 start['fields']['string']['description']='Smoking MOD test: all 33 skills 100, 1,000,000 Cats, supply backpack, building materials, iron plates, steel bars, electrical components, hemp, hashish, paper, joints and food. Starts in Heft. Buy an intact house for indoor testing. New game only.'
 start['fields']['bool']['force start pos']=False
 start['extra']['town']={'1078-gamedata.base':[0,0,0]}
-start['extra']['squad']={'2-420_QA.mod':[0,0,0]};start['extra']['research']={'30-420_Smoking.mod':[0,0,0]}
+start['extra']['squad']={'2-420_QA.mod':[0,0,0]}
+# An explicit start research list replaces the game's default starting tech.
+# Keep vanilla construction available alongside the smoking test facilities.
+default_research='5359-gamedata.base'
+start['extra']['research']={default_research:[0,0,0],'30-420_Smoking.mod':[0,0,0]}
+main=json.loads(Path('build/420_Smoking/records.json').read_text(encoding='utf-8'))
+# Existing QA saves already completed Smoking, but missed _Default Start.
+# Add the default unlocks to that completed tech in the QA-only overlay.
+# Do not alter the production mod's research costs or vanilla research records.
+repair=copy.deepcopy(main['30-420_Smoking.mod'])
+repair.update(id=0,instance_count=0,datatype_id=-2147483647,datatype='CHANGED')
+repair['fields']={category:{} for category in repair['fields']}
+repair['instances']={}
+repair['extra']=copy.deepcopy(d[default_research]['extra'])
+records['30-420_Smoking.mod']=repair
 out=Path('build/420_QA');out.mkdir(exist_ok=True)
 w=kenshi.ModFileWriter(out/'420_QA.mod',1,'420 project','Development test start only','gamedata.base,Newwworld.mod,Dialogue.mod,rebirth.mod,420_Smoking.mod','');w.records(records);w.handle.close()
 r=kenshi.ModFileReader(out/'420_QA.mod')
-assert len(r.records)==5
+assert len(r.records)==6
 assert set(r.records['4-420_QA.mod']['fields']['float'].values())=={100.0}
 assert r.records['3-420_QA.mod']['fields']['int']['money']==1000000
-main=json.loads(Path('build/420_Smoking/records.json').read_text(encoding='utf-8'))
+assert default_research in r.records['3-420_QA.mod']['extra']['research']
+assert json.loads(json.dumps(r.records['30-420_Smoking.mod']['extra']))==d[default_research]['extra']
 for rec in r.records.values():
  for refs in rec['extra'].values():
   for ref in refs: assert ref in records or ref in d or ref in main,ref
