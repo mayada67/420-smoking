@@ -2,6 +2,14 @@
 
 Adds chillum and joint smoking seats, worn beanbag seats, hemp paper and joint crafting, dedicated storage, and animated mouth/tip smoke. No stat buffs or debuffs.
 
+## September 18 update — Core 0.1.0-rc3
+
+- Corrected the seated character's facing direction on both original smoking chairs. The user confirmed the direction in game.
+- Increased the interaction radius from 0.5 to 1.5 for all four smoking seats to address intermittent immediate standing after manual seating. This is a mitigation; repeated in-game seating and position checks remain pending.
+- Retains the previous tip-smoke visibility improvement. Existing furniture IDs, materials and animations are unchanged by this update.
+
+Close Kenshi before replacing the two Core mod folders, then restart. The optional 420 Races add-on remains at 0.1.0-rc3; its version is independent of Core.
+
 ## Install
 
 Tested engine environment: Kenshi 1.0.65 with RE_Kenshi 0.3.5. Install RE_Kenshi separately using its own instructions.
@@ -20,9 +28,9 @@ Tested engine environment: Kenshi 1.0.65 with RE_Kenshi 0.3.5. Install RE_Kenshi
 
 ## Characters and compatibility
 
-Animation registrations cover vanilla humanoid races: Greenlander, Scorchlander, Shek, the three Hive castes, Skeletons, and their vanilla humanoid NPC variants. Male and female animation files are included. Animals and custom mod races are outside this scope. Skeleton smoking is a cosmetic interaction too.
+Animation registrations in Core cover vanilla humanoid races: Greenlander, Scorchlander, Shek, the three Hive castes, Skeletons, and their vanilla humanoid NPC variants. Male and female animation files are included. Custom mod races require the separate 420 Races add-on and a supported registration. Animals are outside this scope. Skeleton smoking is a cosmetic interaction too.
 
-This is a release candidate. The newly expanded race registrations and female animation exports have passed static bone/reference checks; visual fitting across every race and body slider combination has not been verified. Previously tested smoking behavior is recorded separately in the project. Many simultaneous smokers have not been performance-tested.
+This is a release candidate. Users have confirmed the tested beanbag fit, crafting/storage behavior, joint and female displays, and interruption/load behavior in prior sessions. Static bone/reference checks cover the registered animations, but visual fitting across every race and body slider combination has not been verified. The September 18 immediate-standing mitigation still needs in-game confirmation. Many simultaneous smokers have not been performance-tested.
 
 Existing mod filenames and record IDs are retained. Already completed research remains completed. Existing legacy workbenches remain usable. Back up saves before changing a mod setup. Disable test-start mods such as `420_QA` for normal play; they are not included here.
 

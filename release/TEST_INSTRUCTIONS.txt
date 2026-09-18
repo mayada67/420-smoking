@@ -3,7 +3,9 @@
 CORE: 420_Core.zip
 Extract and copy mods/420_Smoking and mods/420_Smoking_RE into Kenshi/mods.
 Install RE_Kenshi separately. Enable 420_Smoking, then 420_Smoking_RE.
-This bundle includes the renderer-error cleanup fix.
+Core 0.1.0-rc3 includes the chair-facing correction and an immediate-standing
+mitigation. Repeated seating and position checks for the latter remain pending.
+The renderer-error cleanup and tip-smoke visibility fixes are retained.
 
 OPTIONAL: 420_Patches.zip
 Copy mods/420_Races into Kenshi/mods and enable it after your race mods,
@@ -11,10 +13,12 @@ Copy mods/420_Races into Kenshi/mods and enable it after your race mods,
 One folder covers 59 configured humanoid race IDs. The plugin explicitly
 skips absent races; the MOD contains zero race records. Races.json can be
 extended without rebuilding the DLL. Read its README before editing.
-Release candidate: simulated-database tests passed, but the new runtime
-hook and visual fitting have not yet been verified in a running game.
+Races 0.1.0-rc3 includes the preload-timing fix. Startup tests confirmed zero
+registrations without supported race mods and two with the tested 2B mod.
+These tests do not establish visual fitting for every supported race.
 
 TEST CHECKLIST
+- Repeated manual seating: check immediate standing and seating position.
 - All four interactions: regular seat/beanbag and chillum/joint.
 - Hand-held props, mouth smoke, and posture for the races and sexes you use.
 - Movement interruption, game speed, pause, and save/load.

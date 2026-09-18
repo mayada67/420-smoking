@@ -1,0 +1,15 @@
+{
+  "core_version": "0.1.0-rc3",
+  "races_version": "0.1.0-rc3",
+  "archives_verified": true,
+  "races_rc3_preserved": true,
+  "published": false,
+  "immediate_standing_runtime_verified": false,
+  "sha256": {
+    "420_Core.zip": "62fc1e78f55830b96f668cd652c4fa0390e8706ead30c4097cd47a6b1ba86d14",
+    "420_Core_0.1.0-rc3.zip": "62fc1e78f55830b96f668cd652c4fa0390e8706ead30c4097cd47a6b1ba86d14",
+    "420_Patches.zip": "ebc57cddd0d194c257de88e50e47fc78b3d97ae8cb685f33fa2e25d255c9373d",
+    "420_Races.zip": "ebc57cddd0d194c257de88e50e47fc78b3d97ae8cb685f33fa2e25d255c9373d",
+    "420_Smoking_Pack.zip": "f2851e7d965b4d70d1a9632aa3b893aa91105aaa682b51a8c93e7bf00c32dcb0"
+  }
+}
